@@ -9,11 +9,12 @@ ascending	bookmarks	zh	升序
 book marks	common	zh	书签
 bookmark changed sucessfully	bookmarks	zh	书签更改成功
 bookmark created successfully.	bookmarks	zh	书签创建成功
+bookmark deleted successfully	bookmarks	zh	书签删除成功
 bookmark not editable	bookmarks	zh	书签不可编辑
 bookmark not readable	bookmarks	zh	书签不可读
 bookmarks	common	zh	书签
 bookmarks settings	admin	zh	书签配置
-category	bookmarks	zt	類別
+category	bookmarks	zh	类别
 change bookmark	bookmarks	zh	更改书签
 close this window to return	bookmarks	zh	关闭窗口并返回
 create bookmark	bookmarks	zh	创建书签
@@ -27,11 +28,13 @@ edit bookmark	bookmarks	zh	编辑书签
 edit this bookmark	bookmarks	zh	编辑该书签
 enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	zh	请指定要导入到收藏夹的Netscape书签文件:
 export bookmarks	preferences	zh	导出书签
+Export Bookmarks	bookmarks	zh	导出书签
 fewer	bookmarks	zh	少些
 filter by	bookmarks	zh	筛选条件：
 found a link you might like	bookmarks	zh	找到一个您可能感兴趣的链接
 from	bookmarks	zh	从
 from category %1	bookmarks	zh	从类别%1
+Global Categories	bookmarks	zh	全局类别
 highest	bookmarks	zh	最高
 i thought you would be interested in the following link(s):	bookmarks	zh	您也许会对以下链接感兴趣
 import bookmarks	bookmarks	zh	导入书签
@@ -51,12 +54,13 @@ netscape bookmark filename is required!	bookmarks	zh	缺少Netscape书签文件�
 new	bookmarks	zh	新建
 or	bookmarks	zh	或
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	zh	请填写<b>EMail地址</b>, <b><标题</b>和<b>信件内容</b>!
-please select the categories to export	bookmarks	zt	請選擇要匯出的類別
+please select the categories to export	bookmarks	zh	请选择要导出的类别
 query condition	bookmarks	zh	查询条件
 rating	bookmarks	zh	等级
 search for:	bookmarks	zh	查找:
-select the format you would like to export to	bookmarks	zt	請選擇您希望匯出的格式
 send bookmark	bookmarks	zh	发送书签
+select the format you would like to export to	bookmarks	zh	请选择您希望导出的格式
+Site Configuration	bookmarks	zh	全局配置
 sub category	bookmarks	zh	子类别
 to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	zh	地址%1无效。正确格式是 <strong>用户名@域名</strong> ，域名必须存在!
 to e-mail addresses	bookmarks	zh	发送到：
@@ -68,5 +72,6 @@ url is required.	bookmarks	zh	缺少地址
 view bookmark	bookmarks	zh	浏览书签
 view this bookmark	bookmarks	zh	浏览该书签
 warning	bookmarks	zh	警告
+you are viewing this site outside of phpgroupware	bookmarks	zh	您正在浏览eGroupWare以外的网站
 you are viewing this site outside of egroupware	bookmarks	zh	您正在浏览eGroupWare以外的网站
 you must select a category	bookmarks	zh	必须指定导入书签的类别

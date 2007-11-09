@@ -1,0 +1,78 @@
+%1 bookmarks have been deleted	bookmarks	gl	Elimináronse %1 marcapáxinas
+%1 bookmarks imported from %2 successfully.	bookmarks	gl	Importáronse correctamente %1 marcapáxinas de %2
+(comma separate multiple addresses)	bookmarks	gl	(varios enderezos separados por comas)
+<b>note:</b> this currently works with netscape bookmarks only	bookmarks	gl	<b>Nota:</b> Actualmente só funciona con marcapáxinas de Netscape
+all bookmarks	bookmarks	gl	Todos os marcapáxinas
+and	bookmarks	gl	E
+append this message to mailed bookmarks	bookmarks	gl	Engadir esta mensaxe aos marcapáxinas enviados
+ascending	bookmarks	gl	Ascendente
+book marks	common	gl	marcapáxinas
+bookmark changed sucessfully	bookmarks	gl	Marcador modificado con éxito
+bookmark created successfully.	bookmarks	gl	Marcador creado con éxito
+bookmark deleted successfully	bookmarks	gl	Marcador eliminado con éxito
+bookmark deleted successfully.	bookmarks	gl	marcador eliminado con éxito
+bookmark not editable	bookmarks	gl	Non é posible editar o marcador
+bookmark not readable	bookmarks	gl	Non é posible ler o marcador
+bookmarks	common	gl	marcapáxinas
+bookmarks settings	bookmarks	gl	Configuración dos marcapáxinas
+change bookmark	bookmarks	gl	Modificar marcador
+choose the categories to display	bookmarks		Escoller as categorías que se mostrarán
+close this window to return	bookmarks	gl	Pechar esta ventá para volver
+create bookmark	bookmarks	gl	Crear marcador
+create new bookmark	bookmarks	gl	Crear novo marcador
+date added	bookmarks	gl	Data engadida
+date changed	bookmarks	gl	Data modificada
+date last updated	bookmarks	gl	Data da última actualización
+date last visited	bookmarks	gl	Data da última visita
+descending	bookmarks	gl	Descendente
+edit bookmark	bookmarks	gl	Editar marcador
+edit this bookmark	bookmarks	gl	Editar este marcador
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	gl	Introduza o nome do ficheiro de marcapáxinas de Netscape<br>que queira importar.
+export bookmarks	common	gl	Exportar marcapáxinas
+fewer	bookmarks	gl	Menos
+filter by	bookmarks	gl	Filtrar por
+found a link you might like	bookmarks	gl	Localizouse unha ligazón que pode ser do seu interese
+from	bookmarks	gl	De
+from category %1	bookmarks	gl	Da categoría %º
+global categories	bookmarks	gl	Categorías globais
+highest	bookmarks	gl	A máis alta
+i thought you would be interested in the following link(s):	bookmarks	gl	Achei que estas ligazóns poden ser do seu interese:
+import bookmarks	common	gl	Importar marcapáxinas
+like	bookmarks	gl	como
+list view	bookmarks	gl	ver lista
+lowest	bookmarks	gl	A máis baixa
+mail this bookmark	bookmarks	gl	Enviar este marcador por correo
+mail-this-link message sent to %1.	bookmarks	gl	Mensaxe "Enviar esta ligazón" enviada para %1
+mass update:	bookmarks	gl	Actualización masiva:
+message from	bookmarks	gl	Mensaxe de
+more	bookmarks	gl	Máis
+name	bookmarks	gl	Nome
+name is required	bookmarks	gl	O nome é obrigatorio
+netscape bookmark file	bookmarks	gl	Ficheiro de marcapáxinas de Netscape
+netscape bookmark filename is required!	bookmarks	gl	O nome do ficheiro de marcapáxinas de Netscape é obrigatorio
+new	bookmark	gl	Novo
+new bookmark	bookmarks	gl	Novo marcador
+or	bookmarks	gl	ou
+please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	gl	Encha <b>Destinatario</b>, <b>Asunto</b> e <b>Mensaxe</b>
+please select the categories to export	bookmarks	gl	Seleccione as categorías que desexa exportar
+query condition	bookmarks	gl	Condición de consulta
+rating	bookmarks	gl	Clasificación
+search for:	bookmarks	gl	Buscar:
+select the format you would like to export to	bookmarks	gl	Seleccione o formato en que desexa exportar
+send bookmark	bookmarks	gl	Enviar marcador
+site configuration	bookmarks	gl	Configuración do sitio
+sub category	bookmarks	gl	Subcategoría
+this module displays bookmarks in a javascript based tree	bookmarks	gl	Este módulo mostra os marcapáxinas nunha árbore javascript
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	gl	O enderezo do destinatario %1 non é válido. O formato debe ser <strong>usuario@dominio</strong> e ten que haber dominio.
+to e-mail addresses	bookmarks	gl	Enderezos de correo electrónico dos destinatarios
+to which category should the imported folder hierarchy be attached	bookmarks	gl	A que categoría hai que anexar a xerarquía do cartafol importado
+total visits	bookmarks	gl	Visitas totais
+tree view	bookmarks	gl	Visualización de árbore
+unable to open temp file %1 for import.	bookmarks	gl	Non foi posible abrir o ficheiro temporal %1 para importar
+url is required.	bookmarks	gl	É preciso un URL
+view bookmark	bookmarks	gl	Ver marcador
+view this bookmark	bookmarks	gl	Ver este marcador
+warning	bookmarks	gl	Aviso
+you are viewing this site outside of egroupware	bookmarks	gl	Está a ver este sito desde fóra de eGroupWare
+you must select a category	bookmarks	gl	Debe seleccionar unha categoría
+you need to select a category!	bookmarks	gl	É necesario que seleccione unha categoría!

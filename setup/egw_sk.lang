@@ -53,7 +53,7 @@ netscape bookmark filename is required!	bookmarks	sk	Je potrebný názov súboru
 new	bookmark	sk	Nová
 new bookmark	bookmarks	sk	Nová záložka
 or	bookmarks	sk	alebo
-please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	sk	Prosím vyplňte <B>Adresu Komu</B>,<B>Predmet</B>,a <B>Spr8vu</B>!
+please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	sk	Prosím vyplňte <B>Adresu Komu</B>,<B>Predmet</B>,a <B>Správu</B>!
 please select the categories to export	bookmarks	sk	Prosím vyberte kategórie ktoré chcete exportovať
 query condition	bookmarks	sk	Výberové kritérium
 rating	bookmarks	sk	Hodnotenie
@@ -62,7 +62,7 @@ select the format you would like to export to	bookmarks	sk	Vyberte formát do kt
 send bookmark	bookmarks	sk	Poslať záložku
 sub category	bookmarks	sk	Podkategória
 this module displays bookmarks in a javascript based tree	bookmarks	sk	Tento modul zobrazuje záložky v javaskriptovom strome
-to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	sk	Adresa Kmou %1 je chybná. Formát musí byť <strong>user@domain</strong> a doména musí byť spomedzi existujúcich!
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	sk	Adresa Komu %1 je chybná. Formát musí byť <strong>user@domain</strong> a doména musí byť spomedzi existujúcich!
 to e-mail addresses	bookmarks	sk	Adresa Komu
 to which category should the imported folder hierarchy be attached	bookmarks	sk	Ku ktorej kategórii mám priradiť naimportovanú hierarchiu priečinkov
 total visits	bookmarks	sk	návštev celkovo
@@ -73,5 +73,5 @@ view bookmark	bookmarks	sk	Zobraziť záložku
 view this bookmark	bookmarks	sk	Zobraziť túto záložku
 warning	bookmarks	sk	Pozor
 you are viewing this site outside of egroupware	bookmarks	sk	Stránka, na ktorú sa pozeráte, je už mimo eGroupWare
-you must select a category	bookmarks	sk	Musíte vybrať kategóriu
-you need to select a category!	bookmarks	sk	Najprv musíte vybrať kategóriu!
+you must select a category	bookmarks	sk	Musíte vybrať nejakú kategóriu
+you need to select a category!	bookmarks	sk	Najprv musíte vybrať nejakú kategóriu!

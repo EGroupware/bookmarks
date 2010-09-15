@@ -76,3 +76,39 @@ function bookmarks_upgrade1_2()
 {
 	return $GLOBALS['setup_info']['bookmarks']['currentver'] = '1.8';
 }
+
+/**
+ * Downgrade from Trunk
+ * 
+ * @return string
+ */
+function bookmarks_upgrade1_7_001()
+{
+	$GLOBALS['egw_setup']->oProc->DropTable('egw_bookmarks_extra');
+	$GLOBALS['egw_setup']->oProc->DropColumn('egw_bookmarks',array(
+		'fd' => array(
+			'bm_id' => array('type' => 'auto','nullable' => False),
+			'bm_owner' => array('type' => 'int', 'precision' => 4,'nullable' => True),
+			'bm_access' => array('type' => 'varchar', 'precision' => 255,'nullable' => True),
+			'bm_url' => array('type' => 'varchar', 'precision' => 255,'nullable' => True),
+			'bm_name' => array('type' => 'varchar', 'precision' => 255,'nullable' => True),
+			'bm_desc' => array('type' => 'text', 'nullable' => True),
+			'bm_keywords' => array('type' => 'varchar', 'precision' => 255,'nullable' => True),
+			'bm_category' => array('type' => 'int', 'precision' => 4,'nullable' => True),
+			'bm_rating' => array('type' => 'int', 'precision' => 4,'nullable' => True),
+			'bm_info' => array('type' => 'varchar', 'precision' => 255,'nullable' => True),
+			'bm_visits' => array('type' => 'int', 'precision' => 4,'nullable' => True)
+		),
+		'pk' => array('bm_id'),
+		'fk' => array(),
+		'ix' => array(),
+		'uc' => array()
+	),'bm_favicon');
+	
+	return $GLOBALS['setup_info']['bookmarks']['currentver'] = '1.8';
+}
+function bookmarks_upgrade1_9_001()
+{
+	return bookmarks_upgrade1_7_001();
+}
+

@@ -174,6 +174,7 @@
 			}
 			//delete bookmark and go back to view we came from
 			if($content['delete']) {
+				$this->bo->delete($bm_id);
 				unset($this->location_info['returnto2']);
 				$this->init();
 				return;

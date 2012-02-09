@@ -116,6 +116,11 @@
 					echo "<html><body><script>opener.location.reload(); window.close();</script></body></html>\n";
 					common::egw_exit();
 				}
+				else
+				{
+					// Keep entered data
+					$bookmark = $content;
+				}
 			}
 			//if we come back from editing categories we restore form values
 			elseif ($this->location_info['returnto2'] == 'create')
@@ -183,7 +188,7 @@
 			if($content['delete']) {
 				$this->bo->delete($bm_id);
 				unset($this->location_info['returnto2']);
-				echo "<html><body><script>window.close();</script></body></html>\n";
+				echo "<html><body><script>opener.location.reload(); window.close();</script></body></html>\n";
 				$this->init();
 				common::egw_exit();
 			}
@@ -201,7 +206,7 @@
 				{
 					if($content['save']) {
 						unset($this->location_info['returnto2']);
-						echo "<html><body><script>window.close();</script></body></html>\n";
+						echo "<html><body><script>opener.location.reload(); window.close();</script></body></html>\n";
 						$this->init();
 						return;
 					}

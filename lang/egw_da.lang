@@ -14,6 +14,7 @@ bookmark not readable	bookmarks	da	bogmærke kan ikke læs
 bookmarks	common	da	Bogmærke
 bookmarks settings	bookmarks	da	bogmærke indstillinger
 change bookmark	bookmarks	da	Ændre bogmærke
+choose the categories to display	bookmarks	da	Vælg  kategorien som skal vises
 close this window to return	bookmarks	da	luk dette vindue for at vende tilbage
 create bookmark	bookmarks	da	Opret bogmærke
 create new bookmark	bookmarks	da	Opret nyt bogmærke
@@ -25,15 +26,16 @@ descending	bookmarks	da	Faldne
 edit bookmark	bookmarks	da	Redigér bogmærke
 edit this bookmark	bookmarks	da	Redigér dette bogmærke
 enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	da	Indtast navnet på Netscape bogmærke filen<br>som du vil importere ind i bogmærkerne nedenunder
-export bookmarks	bookmarks	da	Eksportere bogmærker
+export bookmarks	common	da	Eksportere bogmærker
 fewer	bookmarks	da	Færre
 filter by	bookmarks	da	Sorter efter
 found a link you might like	bookmarks	da	Har fundet et hyperlink som du må kan li'
 from	bookmarks	da	Fra
 from category %1	bookmarks	da	fra kategori %1
+global categories	bookmarks	da	Globale Kategorier
 highest	bookmarks	da	Højest
 i thought you would be interested in the following link(s):	bookmarks	da	Jeg tæte du måe var interesseret i føde hyperlink(s):
-import bookmarks	bookmarks	da	Importer bogmærker
+import bookmarks	common	da	Importer bogmærker
 like	bookmarks	da	som
 list view	bookmarks	da	Vis
 lowest	bookmarks	da	Laveste
@@ -56,6 +58,7 @@ search for:	bookmarks	da	Søg efter:
 select the format you would like to export to	bookmarks	da	Væ hvilket format du til eksportere til
 send bookmark	bookmarks	da	Send bogmærke
 sub category	bookmarks	da	Underkategori
+this module displays bookmarks in a javascript based tree	bookmarks	da	Dette modul viser bogmærker i et javascript baseret træ
 to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	da	E-mail adressen %1 er ugyldig. Formatet skal være <strong>bruger@domæ</strong> og domænet skal eksistere
 to e-mail addresses	bookmarks	da	Modtager e-mail adresse
 to which category should the imported folder hierarchy be attached	bookmarks	da	Til hvilken kategori skal det importerede mappehierarki vedhæftes

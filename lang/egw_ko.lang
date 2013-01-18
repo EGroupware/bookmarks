@@ -31,6 +31,7 @@ filter by	bookmarks	ko	걸러짐 :
 found a link you might like	bookmarks	ko	좋아하실 링크를 발견했습니다.
 from	bookmarks	ko	부터
 from category %1	bookmarks	ko	카테고리 %1 부터
+global categories	bookmarks	ko	전역 카테고리
 highest	bookmarks	ko	가장높은 (highest)
 i thought you would be interested in the following link(s):	bookmarks	ko	다음의 링크가 관심있으실 겁니다:
 import bookmarks	common	ko	북마크 가져오기

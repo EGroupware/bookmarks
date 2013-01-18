@@ -31,6 +31,7 @@ filter by	bookmarks	hr	Filter by
 found a link you might like	bookmarks	hr	Found a link you might like
 from	bookmarks	hr	From
 from category %1	bookmarks	hr	from category %1
+global categories	bookmarks	hr	Globalne kategorije
 highest	bookmarks	hr	Highest
 i thought you would be interested in the following link(s):	bookmarks	hr	I thought you would be interested in the following link(s):
 import bookmarks	common	hr	Import bookmarks
@@ -66,5 +67,4 @@ url is required.	bookmarks	hr	URL is required.
 view bookmark	bookmarks	hr	View bookmark
 view this bookmark	bookmarks	hr	View this bookmark
 warning	bookmarks	hr	Warning
-you are viewing this site outside of phpgroupware	bookmarks	hr	You are viewing this site outside of phpGroupWare
 you must select a category	bookmarks	hr	You must select a category

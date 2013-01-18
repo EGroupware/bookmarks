@@ -16,6 +16,7 @@ bookmark not readable	bookmarks	iw	הסימניה לא ניתנת לקריאה
 bookmarks	common	iw	סימניות
 bookmarks settings	bookmarks	iw	הגדרות סימניות
 change bookmark	bookmarks	iw	שנה סימניה
+choose the categories to display	bookmarks	iw	בחר קטגוריות להציג
 close this window to return	bookmarks	iw	סגור חלון זה כדי לחזור
 create bookmark	bookmarks	iw	צור סימניה
 create new bookmark	bookmarks	iw	צור סימניה חדשה
@@ -59,6 +60,7 @@ search for:	bookmarks	iw	חפש:
 select the format you would like to export to	bookmarks	iw	בחר את הפורמאט לייצוא
 send bookmark	bookmarks	iw	שלח סימניה
 sub category	bookmarks	iw	תת קטגוריה
+this module displays bookmarks in a javascript based tree	bookmarks	iw	java מודול זה מציג סימניות בעץ המבוסס סקריפט
 to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	iw	כתובת אל %1 אינה חוקית. הפורמאט חייב להיות <strong>user@domain</strong> והדומיין חייב להיות אמיתית!
 to e-mail addresses	bookmarks	iw	אל כתובת דואר אלקטרוני
 to which category should the imported folder hierarchy be attached	bookmarks	iw	לאיזה קטגוריה יש לצרף את היררכיית המחיצות המיובאות

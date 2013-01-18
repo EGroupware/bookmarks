@@ -16,6 +16,7 @@ bookmark not readable	bookmarks	sl	Zaznamek ni berljiv
 bookmarks	common	sl	Zaznamki
 bookmarks settings	bookmarks	sl	Nastavitve zaznamkov
 change bookmark	bookmarks	sl	Spremeni zaznamek
+choose the categories to display	bookmarks	sl	Izberite kategorijo za prikaz
 close this window to return	bookmarks	sl	zapri to okno za vrnitev
 create bookmark	bookmarks	sl	Ustvari zaznamek
 create new bookmark	bookmarks	sl	Ustvari nov zaznamek
@@ -60,6 +61,7 @@ search for:	bookmarks	sl	Pošči:
 select the format you would like to export to	bookmarks	sl	Izberite izvozni format
 send bookmark	bookmarks	sl	Pošlji zaznamek
 sub category	bookmarks	sl	Podkategorija
+this module displays bookmarks in a javascript based tree	bookmarks	sl	Ta modul prikaže zaznamke v drevesu
 to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	sl	Naslovnik %1 je nepravilen. Oblika mora biti <strong>uporabnik@domena</strong> in domena mora obstajati!
 to e-mail addresses	bookmarks	sl	Prejemnikov E-naslov
 to which category should the imported folder hierarchy be attached	bookmarks	sl	Na katero kategorijo naj bi bila pripeta hierarhija map

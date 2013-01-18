@@ -16,6 +16,7 @@ bookmark not readable	bookmarks	fr	Signet illisible
 bookmarks	common	fr	Signets
 bookmarks settings	bookmarks	fr	Réglages Signets
 change bookmark	bookmarks	fr	Modifier le signet
+choose the categories to display	bookmarks	fr	Sélectionnez les catégories à afficher
 close this window to return	bookmarks	fr	fermer cette fenêtre pour retourner
 create bookmark	bookmarks	fr	Créer un signet
 create new bookmark	bookmarks	fr	Créer un nouveau signet
@@ -60,6 +61,7 @@ search for:	bookmarks	fr	Rechercher:
 select the format you would like to export to	bookmarks	fr	Sélectionnez le format dans lequel vous désirez exporter
 send bookmark	bookmarks	fr	Envoyer le signet
 sub category	bookmarks	fr	Sous-catégorie
+this module displays bookmarks in a javascript based tree	bookmarks	fr	Ce module affiche les signets dans un arbre basé sur javascript
 to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	fr	L'adresse du destinataire %1 est invalide. Le format doit être <strong>utilisateur@domaine</strong> et le domaine doit exister!
 to e-mail addresses	bookmarks	fr	Adresses EMail des destinataires
 to which category should the imported folder hierarchy be attached	bookmarks	fr	A quelle catégorie la hiérarchie du dossier importé doit être attachée

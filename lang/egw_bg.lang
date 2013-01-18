@@ -31,6 +31,7 @@ filter by	bookmarks	bg	Филтриране по
 found a link you might like	bookmarks	bg	Препратка, която може да ти е интересна
 from	bookmarks	bg	От
 from category %1	bookmarks	bg	от категория %1
+global categories	bookmarks	bg	Глобални категории
 highest	bookmarks	bg	Най-висока
 i thought you would be interested in the following link(s):	bookmarks	bg	Реших, че следните препратки може да са ти интересни:
 import bookmarks	common	bg	Внасяне на отметки

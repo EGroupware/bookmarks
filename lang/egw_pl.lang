@@ -61,7 +61,7 @@ search for:	bookmarks	pl	Szukaj:
 select the format you would like to export to	bookmarks	pl	Wybierz format, który chciałbyś exportować
 send bookmark	bookmarks	pl	Wyślij zakładkę
 sub category	bookmarks	pl	Podkategoria
-this module displays bookmarks in a javascript based tree	bookmarks	pl	Ten moduł wyświetla zakładki w drzewku javascript
+this module displays bookmarks in a javascript based tree	bookmarks	pl	Ten moduł wyświetla zakładki jako drzewko w JavaScript.
 to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	pl	Adres odbiorcy %1 nieprawidłowy. Powinien być <strong>użytkownik@domena</strong> i musi być to poprawna domena.
 to e-mail addresses	bookmarks	pl	Na Adres E-mail
 to which category should the imported folder hierarchy be attached	bookmarks	pl	Do której kategorii hierarchia zaimportowanego folderu powinna być dołączona

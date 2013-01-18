@@ -16,6 +16,7 @@ bookmark not readable	bookmarks	pt	Marcador não legível
 bookmarks	common	pt	Marcadores
 bookmarks settings	bookmarks	pt	Definições de marcadores
 change bookmark	bookmarks	pt	Alterar marcador
+choose the categories to display	bookmarks	pt	Escolher as categorias a apresentar
 close this window to return	bookmarks	pt	Fechar esta janela e volta
 create bookmark	bookmarks	pt	Criar marcador
 create new bookmark	bookmarks	pt	Criar novo marcador
@@ -33,6 +34,7 @@ filter by	bookmarks	pt	Filtrar por
 found a link you might like	bookmarks	pt	Encontrei uma ligação que lhe pode interessar
 from	bookmarks	pt	De
 from category %1	bookmarks	pt	da categoria %1
+global categories	bookmarks	pt	Categorias gerais
 highest	bookmarks	pt	Mais alto
 i thought you would be interested in the following link(s):	bookmarks	pt	Talvez esteja interessado/a na(s) seguinte(s) ligação (ligações):
 import bookmarks	common	pt	Importar marcadores
@@ -59,6 +61,7 @@ search for:	bookmarks	pt	Pesquisar por:
 select the format you would like to export to	bookmarks	pt	Seleccione o formato para exportação
 send bookmark	bookmarks	pt	Enviar marcador
 sub category	bookmarks	pt	Subcategoria
+this module displays bookmarks in a javascript based tree	bookmarks	pt	Este módulo apresenta marcadores num menu em árvore baseado em javascript.
 to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	pt	O endereço %1 para o qual deseja enviar é inválido. O formato deve ser <strong>utilizador@domínio</strong> e o domínio tem de existir!
 to e-mail addresses	bookmarks	pt	Para (endereços de correio electrónico):
 to which category should the imported folder hierarchy be attached	bookmarks	pt	Categoria a que deve ser anexada a hierarquia de pastas importadas.

@@ -14,6 +14,7 @@ bookmark not readable	bookmarks	fa	چوب الف قابل خواندن نیست
 bookmarks	common	fa	چوب الفها
 bookmarks settings	bookmarks	fa	تنظیمات چوب الفها
 change bookmark	bookmarks	fa	تغییر چوب الفها
+choose the categories to display	bookmarks	fa	دسته های قابل نمایش را انتخاب کنید
 close this window to return	bookmarks	fa	این پنجره را برای بازگشت ببندید
 create bookmark	bookmarks	fa	ایجاد چوب الف
 create new bookmark	bookmarks	fa	ایجاد چوب الف جدید
@@ -30,6 +31,7 @@ filter by	bookmarks	fa	صافی بوسیله
 found a link you might like	bookmarks	fa	پیوندی که ممکن است خوشتان بیاید پیدا شد
 from	bookmarks	fa	از
 from category %1	bookmarks	fa	از دسته %1
+global categories	bookmarks	fa	دسته های عمومی
 highest	bookmarks	fa	بالاترین
 import bookmarks	common	fa	واردات چوب الفها
 like	bookmarks	fa	شبیه
@@ -54,11 +56,11 @@ search for:	bookmarks	fa	جستجوی برای:
 select the format you would like to export to	bookmarks	fa	قالبی که میخواهید به آن صادر کنید را انتخاب کنید
 send bookmark	bookmarks	fa	ارسال چوب الف
 sub category	bookmarks	fa	زیر دسته
+this module displays bookmarks in a javascript based tree	bookmarks	fa	این پیمانه چوب الفها را بصورت نمای درختی جاوااسکریپتی نمایش میدهد
 to e-mail addresses	bookmarks	fa	نشانی رایانامه «به»
 total visits	bookmarks	fa	مجموع بازدیدها
 tree view	bookmarks	fa	نمای درختی
 unable to open temp file %1 for import.	bookmarks	fa	ناتوان از باز کردن پرونده موقت %1 برای واردات
-url	bookmarks	fa	نشانی
 url is required.	bookmarks	fa	URL لازم است
 view bookmark	bookmarks	fa	دیدن چوب الف
 view this bookmark	bookmarks	fa	دیدن این چوب الف

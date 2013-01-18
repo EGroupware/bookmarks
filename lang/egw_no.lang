@@ -15,6 +15,7 @@ bookmark not readable	bookmarks	no	Bokmerket er ikke mulig å lese
 bookmarks	common	no	Bokmerker
 bookmarks settings	bookmarks	no	Bokmerkeinnstillinger
 change bookmark	bookmarks	no	Endre bokmerke
+choose the categories to display	bookmarks	no	Velg kategoriene som skal vises
 close this window to return	bookmarks	no	lukk dette vinduet for å returnere
 create bookmark	bookmarks	no	Opprett bokmerke
 create new bookmark	bookmarks	no	Opprett nytt bokmerke
@@ -32,6 +33,7 @@ filter by	bookmarks	no	Filtrer ved
 found a link you might like	bookmarks	no	Fant en lenke du kanskje vil like
 from	bookmarks	no	Fra
 from category %1	bookmarks	no	fra %1 kategorien
+global categories	bookmarks	no	Globale Kategorier
 highest	bookmarks	no	Høyeste
 i thought you would be interested in the following link(s):	bookmarks	no	Jeg tror du ville være interessert i denne lenken(e):
 import bookmarks	common	no	Importer bokmerker
@@ -58,6 +60,7 @@ search for:	bookmarks	no	Søk etter:
 select the format you would like to export to	bookmarks	no	Velg format du vil eksportere til
 send bookmark	bookmarks	no	Send bokmerke
 sub category	bookmarks	no	Underkategori
+this module displays bookmarks in a javascript based tree	bookmarks	no	Denne modulen viser bokmerkene i et javabasert tre
 to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	no	Til adresse %1 ugyldig. Formatet må være <strong>bruker@domene</strong> og domenet må finnes!
 to e-mail addresses	bookmarks	no	Til E-Post Adressene
 to which category should the imported folder hierarchy be attached	bookmarks	no	Til hvilken kategori skal de importerte katalogene bli knyttes til

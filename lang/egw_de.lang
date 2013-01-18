@@ -14,7 +14,7 @@ bookmark deleted successfully.	bookmarks	de	Lesezeichen erfolgreich gelöscht.
 bookmark not editable	bookmarks	de	Dieses Lesezeichen ist nicht editierbar
 bookmark not readable	bookmarks	de	Lesezeichen ist nicht lesbar
 bookmarks	common	de	Lesezeichen
-bookmarks settings	bookmarks	de	Lesezeichen-Einstellungen
+bookmarks settings	bookmarks	de	Lesezeichen - Einstellungen
 change bookmark	bookmarks	de	Lesezeichen ändern
 choose the categories to display	bookmarks	de	Wählen Sie eine Kategorie zum Anzeigen
 close this window to return	bookmarks	de	Zurück und diese Fenster schließen
@@ -22,12 +22,12 @@ create bookmark	bookmarks	de	Lesezeichen anlegen
 create new bookmark	bookmarks	de	Neues Lesezeichen anlegen
 date added	bookmarks	de	Datum
 date changed	bookmarks	de	Datum geändert
-date last updated	bookmarks	de	Datum der letzten &Uuml;berarbeitung
+date last updated	bookmarks	de	Datum der letzten Überarbeitung
 date last visited	bookmarks	de	Datum des letzten Besuches
 descending	bookmarks	de	Aufsteigend
 edit bookmark	bookmarks	de	Lesezeichen bearbeiten
 edit this bookmark	bookmarks	de	Dieses Lesezeichen bearbeiten
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	de	Geben Sie den Namen der Netscape-Lesezeichendatei an<br>die sie importieren wollen.
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	de	Geben Sie den Namen der Netscape-Lesezeichendatei an<br>die Sie importieren möchten.
 export bookmarks	common	de	Lesezeichen exportieren
 fewer	bookmarks	de	Weniger
 filter by	bookmarks	de	Filtern nach
@@ -36,7 +36,7 @@ from	bookmarks	de	von
 from category %1	bookmarks	de	von Kategorie %1
 global categories	bookmarks	de	Globale Kategorien
 highest	bookmarks	de	Höchste
-i thought you would be interested in the following link(s):	bookmarks	de	Ich denke Sie könnten an den folgenden Links interessiert sein:
+i thought you would be interested in the following link(s):	bookmarks	de	Diese Link(s) könnten für Sie von Interesse sein:
 import bookmarks	common	de	Lesezeichen importieren
 like	bookmarks	de	enthält
 list view	bookmarks	de	Listenansicht
@@ -58,7 +58,7 @@ please select the categories to export	bookmarks	de	Bitte wählen Sie die zu exp
 query condition	bookmarks	de	Abfrage
 rating	bookmarks	de	Bewertung
 search for:	bookmarks	de	Suchen nach:
-select the format you would like to export to	bookmarks	de	In welchem Format wollen sie exportieren
+select the format you would like to export to	bookmarks	de	In welchem Format möchten Sie exportieren
 send bookmark	bookmarks	de	Lesezeichen versenden
 sub category	bookmarks	de	Unterkategorie
 this module displays bookmarks in a javascript based tree	bookmarks	de	Dieses Modul zeigt Lesezeichen in einer javacriptbasierenden Baumstruktur an.
@@ -72,6 +72,6 @@ url is required.	bookmarks	de	Eine URL wird benötigt
 view bookmark	bookmarks	de	Lesezeichen anzeigen
 view this bookmark	bookmarks	de	Lesezeichen anzeigen
 warning	bookmarks	de	Warnung
-you are viewing this site outside of egroupware	bookmarks	de	Sie besuchen diese Seite von außerhalb der eGroupWare
+you are viewing this site outside of egroupware	bookmarks	de	Sie besuchen diese Seite von außerhalb der EGroupware
 you must select a category	bookmarks	de	Sie müssen eine Kategorie auswählen
 you need to select a category!	bookmarks	de	Sie müssen erst eine Kategorie auswählen!

@@ -53,7 +53,7 @@ netscape bookmark filename is required!	bookmarks	de	Dateinamen der Netscape-Les
 new	bookmarks	de	Neu
 new bookmark	bookmarks	de	Neues Lesezeichen
 or	bookmarks	de	oder
-please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	de	Bitte <b>An E-Mail-Adresse</b>, <b>Betreff</b> and <b>Nachricht</b> ausfüllen!
+please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	de	Bitte <b>An E-Mail-Adresse</b>, <b>Betreff</b> und <b>Nachricht</b> ausfüllen!
 please select the categories to export	bookmarks	de	Bitte wählen Sie die zu exportierenden Kategorien
 query condition	bookmarks	de	Abfrage
 rating	bookmarks	de	Bewertung
@@ -61,7 +61,7 @@ search for:	bookmarks	de	Suchen nach:
 select the format you would like to export to	bookmarks	de	In welchem Format möchten Sie exportieren
 send bookmark	bookmarks	de	Lesezeichen versenden
 sub category	bookmarks	de	Unterkategorie
-this module displays bookmarks in a javascript based tree	bookmarks	de	Dieses Modul zeigt Lesezeichen in einer javacriptbasierenden Baumstruktur an.
+this module displays bookmarks in a javascript based tree	bookmarks	de	Dieses Modul zeigt Lesezeichen in einer javascriptbasierenden Baumstruktur an.
 to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	de	An Adresse %1 ungültig. Das Format muss <strong>benutzer@domain</strong> sein und die Domain muss existieren.
 to e-mail addresses	bookmarks	de	An E-Mail-Adressen
 to which category should the imported folder hierarchy be attached	bookmarks	de	Zu welcher Kategorie sollen die importierten Ordern hinzugefügt werden

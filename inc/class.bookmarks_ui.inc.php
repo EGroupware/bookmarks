@@ -172,7 +172,7 @@
 			{
 				$bm_id = $this->location_info['bm_id'];
 			}
-			elseif ($content['bm_id']) 
+			elseif ($content['bm_id'])
 			{
 				$bm_id = $content['bm_id'];
 			}
@@ -288,7 +288,7 @@
 
 			if($content['add']) {
 				$GLOBALS['egw']->redirect_link('/index.php', array('menuaction' => 'bookmarks.bookmarks_ui.create'));
-			} elseif ($content['nm']['rows']) { 
+			} elseif ($content['nm']['rows']) {
 				if($content['nm']['rows']['edit']) {
 					$bm_id = key($content['nm']['rows']['edit']);
 					$GLOBALS['egw']->redirect_link('/index.php', array(
@@ -299,7 +299,7 @@
 					$bm_id = key($content['nm']['rows']['delete']);
 					$this->bo->delete($bm_id);
 				}
-			} 
+			}
 			if($content['action']) {
 				$content['nm']['nm_action'] = $conent['action'];
 			}
@@ -353,7 +353,7 @@
 
 		/**
 		* Callback for nm widget
-		* 
+		*
 		* @param &$query Search parameters
 		* @param &$rows Results
 		* @param &$readonlys Widgets to set readonly
@@ -381,7 +381,7 @@
 			if (!$query['custom_fields']) $rows['no_customfields'] = true;
 
 			$query['total'] = $this->bo->get_rows($query, $rows, $readonlys);
-			
+
 			return $query['total'];
 		}
 
@@ -496,7 +496,7 @@
 					// begin entry
 					$bm_tree[$cat['tree']. '/'. $id] = array();
 					$entry = &$bm_tree[$cat['tree']. '/'. $id]['label'];
-				
+
 					// Set leaf icon
 					// Doesn't work because tree requires images to be in a certain directory
 					//$bm_tree[$cat['tree']. '/'. $id]['image'] = $GLOBALS['egw']->common->image('bookmarks','mail');
@@ -638,7 +638,7 @@
 				unset($this->location_info['returnto2']);
 				$this->init();
 				return;
-			} 
+			}
 			elseif ($content['send'])	// Send button clicked
 			{
 				$validate = CreateObject('bookmarks.validator');
@@ -677,7 +677,7 @@
 				{
 					$send     =& CreateObject('phpgwapi.send');
 
-					$from = $GLOBALS['egw_info']['user']['fullname'] . ' <'.$GLOBALS['egw_info']['user']['email'].'>';
+					$from = $GLOBALS['egw_info']['user']['account_fullname'] . ' <'.$GLOBALS['egw_info']['user']['account_email'].'>';
 
 					// send the message
 					$send->msg('email',$to,$subject,$message ."\n". $this->bo->config['mail_footer'],'','','',$from);

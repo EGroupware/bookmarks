@@ -6,7 +6,8 @@
 	*                     http://www.renaghan.com/bookmarker                   *
 	* Ported to phpgroupware by Joseph Engo                                    *
 	* Ported to three-layered design by Michael Totschnig                      *
-	* Ported to eTemplate & additional eGW features added by Nathan Gray       *
+	* Ported to eTemplate & additional eGW features added by Nathan Gray
+	* Ported to eTemplate2 by Hadi Nategh								       *
 	* --------------------------------------------                             *
 	*  This program is free software; you can redistribute it and/or modify it *
 	*  under the terms of the GNU General Public License as published by the   *
@@ -15,7 +16,7 @@
 	\**************************************************************************/
 
 	/* $Id$ */
-
+use \etemplate_widget_tree as tree;
 	class bookmarks_ui
 	{
 		/**
@@ -26,7 +27,6 @@
 		 * @var bookmarks_bo::
 		 */
 		var $bo;
-		var $expandedcats;
 
 		public static $tabs = 'general|details|links|custom|history';
 
@@ -48,28 +48,14 @@
 
 		function __construct()
 		{
-			$this->templ = new etemplate();
+			$this->templ = new etemplate_new();
 			$this->bo = new bookmarks_bo();
-			$this->expandedcats = array();
 			$this->location_info = $this->bo->read_session_data();
 		}
 
 		function init()
 		{
-			// we maintain two levels of state:
-			// returnto the main interface (tree or list)
-			// returnto2 temporaray interface (create, edit, view, mail)
-			$returnto2 = $this->location_info['returnto2'];
-			$returnto = $this->location_info['returnto'];
-			if ($returnto2)
-			{
-				$this->$returnto2();
-			}
-			elseif ($returnto)
-			{
-				$this->$returnto();
-			}
-			elseif ($GLOBALS['egw_info']['user']['preferences']['bookmarks']['defaultview'] == 'tree')
+			if ($GLOBALS['egw_info']['user']['preferences']['bookmarks']['defaultview'] == 'tree')
 			{
 				$this->tree();
 			}
@@ -98,12 +84,9 @@
 		*/
 		function create($content = array())
 		{
-			//if we redirect to edit categories, we remember form values and try to come back to create
-			if ($content['edit_category'])
-			{
-				$this->bo->grab_form_values($this->location_info['returnto'],'create',$bookmark);
-				$GLOBALS['egw']->redirect($GLOBALS['egw']->link('/index.php','menuaction=preferences.preferences_categories_ui.index&cats_app=bookmarks&cats_level=True&global_cats=True'));
-			}
+			// Set the selected category from tree selected by user
+			if ($_GET['cat_id']) $bookmark['category'] = $_GET['cat_id'];
+			
 			//save bookmark
 			if ($content['save'])
 			{
@@ -112,10 +95,8 @@
 				if ($bm_id)
 				{
 					$this->location_info['bm_id'] = $bm_id;
-					unset($this->location_info['returnto2']);
 					$this->bo->save_session_data($this->location_info);
-					// Close popoup
-					echo "<html><body><script>opener.location.reload(); window.close();</script></body></html>\n";
+					egw_framework::refresh_opener('Bookmark successfully saved', 'bookmarks',$bm_id, 'add');
 					common::egw_exit();
 				}
 				else
@@ -124,29 +105,16 @@
 					$bookmark = $content;
 				}
 			}
-			//if we come back from editing categories we restore form values
-			elseif ($this->location_info['returnto2'] == 'create')
-			{
-				$bookmark['name']        = $this->location_info['bookmark']['name'];
-				$bookmark['url']         = $this->location_info['bookmark']['url'];
-				$bookmark['desc']        = $this->location_info['bookmark']['desc'];
-				$bookmark['keywords']    = $this->location_info['bookmark']['keywords'];
-				$bookmark['category']    = $this->location_info['bookmark']['category'];
-				$bookmark['rating']      = $this->location_info['bookmark']['rating'];
-				$bookmark['access']      = $this->location_info['bookmark']['access'];
-			}
+			
 			//if the user cancelled we go back to the view we came from
 			if ($content['cancel'])
 			{
-				unset($this->location_info['returnto2']);
-				$this->bo->save_session_data($this->location_info);
 				// Close popoup
-				echo "<html><body><script>window.close();</script></body></html>\n";
+				egw_framework::window_close();
 				common::egw_exit();
 			}
 			//store the view, we came from originally(list,tree), and the view we are in
 			$this->location_info['bookmark'] = False;
-			$this->location_info['returnto2'] = 'create';
 			$this->bo->save_session_data($this->location_info);
 
 			if(!$bookmark['url']) $bookmark['url'] = 'http://';
@@ -181,25 +149,16 @@
 			//if the user cancelled we close popup
 			if ($content['cancel'] || !isset($bm_id))
 			{
-				unset($this->location_info['returnto2']);
-				echo "<html><body><script>window.close();</script></body></html>\n";
 				$this->init();
+				egw_framework::close();
 				common::egw_exit();
 			}
 			//delete bookmark and close popup
 			if($content['delete']) {
 				$this->bo->delete($bm_id);
-				unset($this->location_info['returnto2']);
-				echo "<html><body><script>opener.location.reload(); window.close();</script></body></html>\n";
+				egw_framework::refresh_opener('Bookmark deleted', 'bookmarks',$bm_id,'delete');
 				$this->init();
 				common::egw_exit();
-			}
-			//if we redirect to edit categories, we remember form values and try to come back to edit
-			if ($content['edit_category'])
-			{
-				unset($content['edit_category']);
-				$this->bo->grab_form_values($this->location_info['returnto'],'edit',$content);
-				$GLOBALS['egw']->redirect($GLOBALS['egw']->link('/index.php','menuaction=preferences.preferences_categories_ui.index&cats_app=bookmarks&cats_level=True&global_cats=True'));
 			}
 			//save bookmark and go to list interface
 			if ($content['save'] || $content['apply'])
@@ -207,8 +166,7 @@
 				if ($this->bo->save($bm_id,$content))
 				{
 					if($content['save']) {
-						unset($this->location_info['returnto2']);
-						echo "<html><body><script>opener.location.reload(); window.close();</script></body></html>\n";
+						egw_framework::refresh_opener('Bookmark successfully saved', 'bookmarks',$bm_id,'update');
 						$this->init();
 						return;
 					}
@@ -221,20 +179,6 @@
 				return $this->view($content);
 			}
 
-			//if we come back from editing categories we restore form values
-			if ($this->location_info['bookmark'])
-			{
-				$bookmark['name']     = $this->location_info['bookmark']['name'];
-				$bookmark['url']      = $this->location_info['bookmark']['url'];
-				$bookmark['desc']     = $this->location_info['bookmark']['desc'];
-				$bookmark['keywords'] = $this->location_info['bookmark']['keywords'];
-				$bookmark['category'] = $this->location_info['bookmark']['category'];
-				$bookmark['rating']   = $this->location_info['bookmark']['rating'];
-			}
-
-			//store the view we are in
-			$this->location_info['bookmark'] = False;
-			$this->location_info['returnto2'] = 'edit';
 			$this->location_info['bm_id'] = $bm_id;
 			$this->bo->save_session_data($this->location_info);
 
@@ -284,8 +228,6 @@
 			}
 			$this->location_info['start'] = $start;
 			$this->location_info['bm_cat'] = $bm_cat;
-			$this->location_info['returnto'] = '_list';
-			unset($this->location_info['returnto2']);
 			$this->bo->save_session_data($this->location_info);
 
 			if($content['add']) {
@@ -317,9 +259,6 @@
 						}
 						$this->bo->msg = lang('%1 bookmarks have been deleted',$i);
 						break;
-					case 'mailto':
-						$this->mail(array('bm_id' => $content['nm']['selected']));
-						break;
 				}
 			}
 
@@ -332,6 +271,7 @@
 					'no_filter2'	=>	True,
 					'row_id'	=>	'bm_id',
 					'default_cols'	=>	'!legacy_actions',  // switch legacy actions column and row off by default
+					'favorites'       => true
 				);
 			}
 			$values['nm']['actions'] = $this->get_actions();
@@ -390,9 +330,11 @@
 		/**
 		* Get actions for nextmatch context menu
 		*
+		* @param type ='user' $type can get two type of actions such as tree or user
+		*
 		* @return array see nextmatch_widget::egw_actions()
 		*/
-		protected function get_actions()
+		protected function get_actions($type='user')
 		{
 			$actions = array(
 				'visit' => array(
@@ -424,6 +366,7 @@
 					'allowOnMultiple' => true,
 					'icon'	=> 'mail',
 					'group' => $group,
+					'onExecute' => 'javaScript:app.bookmarks.mail'
 				),
 				'delete' => array(
 					'caption' => 'Delete',
@@ -433,6 +376,21 @@
 					'disableClass' => 'rowNoDelete',
 				),
 			);
+
+			// Create actions with tree's options
+			if ($type == 'tree')
+			{
+				foreach($actions as $action => $val)
+				{
+					$actions[$action]['onExecute'] = 'javaScript:app.bookmarks.tree_action';
+					unset($actions[$action]['nm_action']);
+					if (in_array($action, array('visit','edit','delete','mailto')))
+					{
+						$actions[$action]['enableId'] = '\/bookmarks-';
+						unset($actions[$action]['disableClass']);
+					}
+				}
+			}
 			return $actions;
 		}
 
@@ -443,99 +401,87 @@
 		*/
 		function tree($content = array())
 		{
-
-			$this->location_info['returnto'] = 'tree';
-			unset($this->location_info['returnto2']);
-			$this->bo->save_session_data($this->location_info);
-
-			if ($_COOKIE['menutree'])
-			{
-				$this->expandedcats = array_keys($_COOKIE['menutree']);
-			}
-			else
-			{
-				$this->expandedcats = Array();
-			}
-
-			$categories = (array)$this->bo->categories->return_array( 'all', 0 , false, '', '', '', true );
-			$categories = (array)$this->bo->categories->return_sorted_array( 0 , false, '', 'ASC', 'cat_name', true );
-
-			//build cat tree
-			foreach ( $categories as $key => $cat ) {
-				$categories[$key]['tree'] = $cat['id'];
-				$parent = $cat['parent'];
-				while ( $parent != 0) {
-					$categories[$key]['tree'] = $parent. '/'. $categories[$key]['tree'];
-
-					// Don't know what this does, but it can cause tree issues (like when cat name = bookmark name)
-//					if($this->bo->categories->read($parent) && $this->bo->categories->check_perms(EGW_ACL_READ, $parent)) {
-//						$categories[$key]['tree'] = $parent. '/'. $categories[$key]['tree'];
-//					}
-					// Select a nonexisting key, in case the referenced cat doesn't exist.
-					$parcatkey = count($categories) + 1;
-					foreach ( $categories as $ikey => $icat ) {
-						if ( $icat['id'] == $parent ) {
-							$parcatkey = $ikey;
-							break;
-						}
-					}
-					$parent = $categories[$parcatkey]['parent'];
-				}
-			}
-
-			// buld bm tree
-			foreach ( $categories as $cat ) {
-				$bookmarks = array();
-				$query = array(
-					'cat_id'	=>	$cat['id']
-				);
-				$this->bo->get_rows($query, $bookmarks);
-				$bm_tree[$cat['tree']] = $cat['name'];
-
-				foreach ( (array)$bookmarks as $bm ) {
-					$id = $bm['id'];
-
-					// begin entry
-					$bm_tree[$cat['tree']. '/'. $id] = array();
-					$entry = &$bm_tree[$cat['tree']. '/'. $id]['label'];
-
-					// Set leaf icon
-					// Doesn't work because tree requires images to be in a certain directory
-					//$bm_tree[$cat['tree']. '/'. $id]['image'] = $GLOBALS['egw']->common->image('bookmarks','mail');
-
-					// mail
-					$entry .= '<a class="action" href ="'.
-						$GLOBALS['egw']->link( '/index.php', 'menuaction=bookmarks.bookmarks_ui.mail&bm_id='. $id ). '">'.
-						html::image( 'bookmarks', 'mail', lang( 'Mail this bookmark' ) ).
-						'</a>';
-
-					// edit
-					if ($this->bo->check_perms2( $bm['owner'], $bm['access'], EGW_ACL_EDIT) ) {
-						$entry .= '<a class="action" href ="'.
-							$GLOBALS['egw']->link( '/index.php', 'menuaction=bookmarks.bookmarks_ui.edit&bm_id='. $id ). '">'.
-							html::image( 'bookmarks', 'edit', lang( 'Edit this bookmark' ) ).
-							'</a>';
-					}
-
-					//view
-					$entry .= '<a class="action" href ="'.
-						$GLOBALS['egw']->link( '/index.php', 'menuaction=bookmarks.bookmarks_ui.view&bm_id='. $id ). '">'.
-						html::image( 'bookmarks', 'view', lang( 'View this bookmark' ) ).
-						'</a>';
-
-					//redirect
-					$entry .= '<a target="_new" href ="'.
-						$GLOBALS['egw']->link( '/index.php', 'menuaction=bookmarks.bookmarks_ui.redirect&bm_id='. $id ). '">'.
-						$bm['name']. '</a>';
-				}
-			}
-
-			$sel_options['tree'] = $bm_tree;
-			$values['msg'] = $this->app_messages();
+			$sel_options['tree'] = $this->get_tree();
+			// Add actions to tree context menu
+			$this->templ->setElementAttribute('tree', 'actions', $this->get_actions('tree'));
+			
+ 			$values['msg'] = $this->app_messages();
 
 			$GLOBALS['egw_info']['flags']['app_header'] = lang('Bookmarks - Tree');
 			$this->templ->read('bookmarks.tree');
 			$this->templ->exec('bookmarks.bookmarks_ui.tree', $values, $sel_options, $readonlys, $persist);
+		}
+
+		/**
+		 * autoloading function to get tree structure from server
+		 * and send it back to client-side
+		 */
+		static function ajax_tree_autoloading()
+		{
+			$bookmarks = new bookmarks_ui();
+			tree::send_quote_json($bookmarks->get_tree($_GET['id']));
+		}
+
+		/**
+		 * @param int  $_parent =null tree node id
+		 *
+		 * return array of first level tree of given cat_id including its bookmarks
+		 */
+		function get_tree ($_parent=null)
+		{
+			// Init sub categories array
+			$sub_cats = array();
+
+			//Init bookmark tree
+			$tree = array(tree::ID=> $_parent?$_parent:0,tree::CHILDREN => array(), tree::AUTOLOAD_CHILDREN => 1);
+
+			// Construct the bookmarks tree basic options
+			if ($_parent)
+			{
+				// Calculate the parent cat id
+				$_ids = explode("/",$_parent);
+				$cat_id = array_pop($_ids);
+
+				// Get sub categories of given parent
+				$sub_cats = (array)$this->bo->categories->return_array( 'all' , 0, false, '', 'ASC', 'cat_name', true, $cat_id );
+
+				$query = array(
+					'cat_id' =>	$cat_id
+				);
+				$bookmarks = array();
+				// query the database to get the parent's bookmarks
+				$this->bo->get_rows($query, $bookmarks);
+
+				foreach ($bookmarks as &$bm)
+				{
+					//Arbitrary data send to client-side tree widget
+					$bm_userData = array (
+						'url' => $bm['url']
+					);
+					$tree[tree::CHILDREN][] = array(tree::ID=>$_parent.'/bookmarks-'.$bm['id'], tree::LABEL => $bm['name'], 'userdata' => $bm_userData);
+				}
+				
+				// Check if there's sub cats to bind
+				if($sub_cats[0])
+				{
+					// Build the sub cats tree leaves
+					foreach ($sub_cats as $key => $data)
+					{
+						$tree[tree::CHILDREN][] = array(tree::ID=>$_parent.'/'.$data['id'],tree::AUTOLOAD_CHILDREN => 1, tree::CHILDREN =>array(), tree::LABEL => $data['id']);
+					}
+				}
+			}
+			else // First level nodes
+			{
+				$sub_cats = (array)$this->bo->categories->return_array( 'mains' , 0, false, '', 'ASC', 'cat_name', true );
+				// Build the sub cats tree leaves
+				foreach ($sub_cats as $key => $data)
+				{
+					$tree[tree::CHILDREN][$key] = array(tree::ID=>'/'.$data['id'],tree::AUTOLOAD_CHILDREN => 1, tree::CHILDREN =>array(), tree::LABEL => $data['id']);
+				}
+			}
+			// return bookmarks tree structure
+			return $tree;
 		}
 
 		/**
@@ -556,16 +502,12 @@
 			//if the user cancelled we go back to the view we came from
 			if ($content['cancel'])
 			{
-				unset($this->location_info['returnto2']);
-				$this->init();
 				return;
 			}
 			//delete bookmark and go back to view we came from
 			if ($content['delete'])
 			{
 				$this->bo->delete($bm_id);
-				unset($this->location_info['returnto2']);
-				$this->init();
 				return;
 			}
 			if ($content['edit'])
@@ -586,15 +528,8 @@
 			if (!$bookmark[EGW_ACL_READ])
 			{
 				$this->bo->error_msg = lang('Bookmark not readable');
-				unset($this->location_info['returnto2']);
-				$this->init();
 				return;
 			}
-
-			//store the view we are in
-			$this->location_info['returnto2'] = 'view';
-			$this->location_info['bm_id'] = $bm_id;
-			$this->bo->save_session_data($this->location_info);
 
 			// Set up eGW link widget
 			$bookmark['link_to'] = array(
@@ -628,132 +563,7 @@
 		}
 
 		/**
-		* Send one or more links via email
-		*
-		* @param content Array of information returned from eTemplate
-		*/
-		function mail($content = array())
-		{
-			//if the user cancelled we go back to the view we came from
-			if ($content['cancel'])
-			{
-				unset($this->location_info['returnto2']);
-				$this->init();
-				return;
-			}
-			elseif ($content['send'])	// Send button clicked
-			{
-				$validate = CreateObject('bookmarks.validator');
-				// Strip space and tab from anywhere in the To field
-				$to = $validate->strip_space($content['to']);
-
-				// Trim the subject
-				$subject = $GLOBALS['egw']->strip_html(trim($content['subject']));
-
-				$message = $GLOBALS['egw']->strip_html($content['message']);
-
-				// Do we have all necessary data?
-				if (empty($to) || empty($subject) || empty($message))
-				{
-					$this->bo->error_msg .= '<br>'.lang('Please fill out <B>To E-Mail Address</B>, <B>Subject</B>, and <B>Message</B>!');
-				}
-				else
-				{
-					// the To field may contain one or more email addresses
-					// separated by commas. Check each one for proper format.
-					$to_array = explode(",", $to);
-
-					while (list($key, $val) = each($to_array))
-					{
-						// Is email address in the proper format?
-						if (!$validate->is_email($val))
-						{
-							$this->bo->error_msg .= '<br>' .
-								lang('To address %1 invalid. Format must be <strong>user@domain</strong> and domain must exist!',$val).
-								'<br><small>'.$validate->ERROR.'</small>';
-							break;
-						}
-					}
-				}
-				if (!isset ($this->bo->error_msg))
-				{
-					$send     =& CreateObject('phpgwapi.send');
-
-					$from = $GLOBALS['egw_info']['user']['account_fullname'] . ' <'.$GLOBALS['egw_info']['user']['account_email'].'>';
-
-					// send the message
-					$send->msg('email',$to,$subject,$message ."\n". $this->bo->config['mail_footer'],'','','',$from);
-					$this->bo->msg .= '<br>'.lang('mail-this-link message sent to %1.',$to);
-				}
-			}
-
-			if (empty($subject))
-			{
-				$subject = lang('Found a link you might like');
-			}
-
-			if (empty($message))
-			{
-				if (is_array($content['bm_id']))
-				{
-					foreach($content['bm_id'] as $id)
-					{
-						$bookmark = $this->bo->read($id);
-						$links[] = array(
-							'name' => $bookmark['name'],
-							'url'  => $bookmark['url']
-						);
-					}
-				}
-				else
-				{
-					$bookmark = $this->bo->read($_GET['bm_id']);
-					$links[] = array(
-						'name' => $bookmark['name'],
-						'url'  => $bookmark['url']
-					);
-				}
-				$message = lang('I thought you would be interested in the following link(s):')."<br />\n";
-				while (list(,$link) = @each($links))
-				{
-					$message .= sprintf("%s - %s<br />\n",$link['name'],$link['url']);
-				}
-			}
-
-			if($GLOBALS['egw_info']['user']['apps']['felamimail']) {
-				$link = egw::link('/index.php',egw_link::add('felamimail',
-					$GLOBALS['egw_info']['flags']['currentapp'],
-					$GLOBALS['egw_info']['flags']['currentid'])+
-					array(
-						'preset[to]' => $to,
-						'preset[subject]' => $subject,
-						'preset[body]' => $message
-					)
-				);
-				$popup = egw_link::is_popup('felamimail','add');
-				list($w,$h) = explode('x',$popup);
-				$action = "egw_openWindowCentered2('$link','_blank',$w,$h,'yes','$app');";
-				egw_framework::set_onload($action);
-
-				unset($this->location_info['returnto2']);
-				$this->init();
-				return;
-			}
-
-			$data = $content + array(
-				'to' => $to,
-				'subject' => $subject,
-				'message' => $message
-			);
-			$data['msg'] = $this->app_messages();
-
-			$GLOBALS['egw_info']['flags']['app_header'] = lang('Bookmarks - Mail');
-			$this->templ->read('bookmarks.mail');
-			$this->templ->exec('bookmarks.bookmarks_ui.mail', $data);
-		}
-
-		/**
-		* Used when a user clicks a bookmark to record the visit
+		* Used when an user clicks a bookmark to record the visit
 		*/
 		function redirect()
 		{
@@ -774,8 +584,6 @@
 			//if the user cancelled we go back to the view we came from
 			if ($content['cancel'])
 			{
-				unset($this->location_info['returnto2']);
-				$this->init();
 				return;
 			} elseif ($content['export'])
 			{
@@ -824,8 +632,6 @@
 			//if the user cancelled we go back to the view we came from
 			if ($content['cancel'])
 			{
-				unset($this->location_info['returnto2']);
-				$this->init();
 				return;
 			} elseif ($content['import'])
 			{

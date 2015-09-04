@@ -52,9 +52,12 @@ class bookmarks_hooks
 
 		if ($location == 'sidebox_menu')
 		{
+			// Magic etemplate2 favorites menu (from nextmatch widget)
+			display_sidebox($appname, lang('Favorites'), egw_framework::favorite_list('bookmarks'));
+
 			$file = Array(
 				'Tree view'        => $GLOBALS['egw']->link('/index.php','menuaction=bookmarks.bookmarks_ui.tree'),
-				'List view'        => $GLOBALS['egw']->link('/index.php','menuaction=bookmarks.bookmarks_ui._list'),
+				'List view'        => $GLOBALS['egw']->link('/index.php','menuaction=bookmarks.bookmarks_ui._list&ajax=true'),
 				'New bookmark'     => "javascript:egw_openWindowCentered2('".egw::link('/index.php',array(
 						'menuaction' => 'bookmarks.bookmarks_ui.create'
 					),false)."','_blank',750,300,'yes');",

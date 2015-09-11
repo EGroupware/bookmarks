@@ -58,7 +58,7 @@ class bookmarks_hooks
 			$file = Array(
 				'Tree view'        => $GLOBALS['egw']->link('/index.php','menuaction=bookmarks.bookmarks_ui.tree'),
 				'List view'        => $GLOBALS['egw']->link('/index.php','menuaction=bookmarks.bookmarks_ui._list&ajax=true'),
-				'New bookmark'     => "javascript:egw_openWindowCentered2('".egw::link('/index.php',array(
+				'Add bookmark'     => "javascript:egw_openWindowCentered2('".egw::link('/index.php',array(
 						'menuaction' => 'bookmarks.bookmarks_ui.create'
 					),false)."','_blank',750,300,'yes');",
 				'Import Bookmarks' => $GLOBALS['egw']->link('/index.php','menuaction=bookmarks.bookmarks_ui.import'),

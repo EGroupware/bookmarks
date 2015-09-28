@@ -22,3 +22,13 @@
 			'config_name' => $name,
 		),__FILE__,__LINE__);
 	}
+
+$GLOBALS['egw_setup']->db->insert($GLOBALS['egw_setup']->cats_table,array(
+		'cat_owner'  => categories::GLOBAL_ACCOUNT,
+		'cat_access' => 'public',
+		'cat_appname'=> 'bookmarks',
+		'cat_name'   => 'Bookmarks',
+		'cat_description' => 'Added by setup.',
+		'cat_data'   => '',
+		'last_mod'   => time(),
+	),false,__LINE__,__FILE__);

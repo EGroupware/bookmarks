@@ -41,6 +41,7 @@ $setup_info['bookmarks']['hooks']['sidebox_menu'] = 'bookmarks_hooks::all_hooks'
 $setup_info['bookmarks']['hooks']['search_link'] = 'bookmarks_hooks::search_link';
 $setup_info['bookmarks']['hooks']['acl_rights'] = 'bookmarks_hooks::acl_rights';
 $setup_info['bookmarks']['hooks']['categories'] = 'bookmarks_hooks::categories';
+$setup_info['bookmarks']['hooks']['delete_category'] = 'bookmarks_hooks::delete_category';
 
 /* Dependencies for this app to work */
 $setup_info['bookmarks']['depends'][] = array(

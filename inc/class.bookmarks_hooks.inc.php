@@ -72,7 +72,7 @@ class bookmarks_hooks
 			$file = Array(
 				'Site Configuration' => egw::link('/index.php','menuaction=admin.uiconfig.index&appname=' . $appname),
 				'Global Categories' => egw::link('/index.php','menuaction=admin.admin_categories.index&appname=' . $appname),
-				'Custom fields' => egw::link('/index.php','menuaction=admin.customfields.edit&appname=' . $appname),
+				'Custom fields' => egw::link('/index.php','menuaction=admin.customfields.index&appname=' . $appname),
 			);
 			if ($location == 'admin')
 			{

@@ -350,7 +350,6 @@ use \etemplate_widget_tree as tree;
 				'visit' => array(
 					'caption' => 'Visit',
 					'icon' => 'no_favicon',
-					'default' => true,
 					'allowOnMultiple' => false,
 					'nm_action' => 'location',
 					'url' => 'menuaction=bookmarks.bookmarks_ui.redirect&bm_id=$id',
@@ -360,6 +359,7 @@ use \etemplate_widget_tree as tree;
 				'edit' => array(
 					'caption' => 'Open',
 					'allowOnMultiple' => false,
+					'default' => true,
 					'url' => 'menuaction=bookmarks.bookmarks_ui.edit&bm_id=$id',
 					'popup' => egw_link::get_registry('bookmarks', 'add_popup'),
 					'group' => $group,

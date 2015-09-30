@@ -175,4 +175,55 @@ class bookmarks_hooks
 	{
 		return true;
 	}
+
+	/**
+	 * Hook called when a category is deleted.  Since all bookmarks are a child
+	 * of a category, we need either move or delete them.
+	 *
+	 * @param type $data array(
+	 *		'cat_id'  => $cat_id,
+	 *		'cat_name' => self::id2name($cat_id),
+	 *		'drop_subs' => $drop_subs,
+	 *		'modify_subs' => $modify_subs,
+	 *		'location'    => 'delete_category'
+	 *	);
+	 */
+	public static function delete_category($data)
+	{
+		$cats = new categories('', 'bookmarks');
+
+		// If we can, we'll move to the parent
+		$new_cat = $cats->id2name($data['cat_id'],'parent') || $cats->id2name($data['cat_id'], 'main');
+
+		$drop_subs = ($data['drop_subs'] && !$data['modify_subs']);
+		if($drop_subs)
+		{
+			$cat_ids = $cats->return_all_children($data['cat_id']);
+		}
+		else
+		{
+			$cat_ids = array($data['cat_id']);
+		}
+		// Get bookmarks that use the category
+		@set_time_limit( 0 );
+		$bo = new bookmarks_bo();
+		$ids = $bo->so->search(array('bm_category' => $cat_ids),true);
+
+		if($ids && (!$new_cat || $new_cat == $data['cat_id']))
+		{
+			// Do not have a parent.  Try 'Bookmarks', added by setup
+			$new_cat = $cats->name2id('Bookmarks');
+			if(!$new_cat || $new_cat == $data['cat_id'])
+			{
+				// Deleted it? Well then, we just add it back in.
+				$new_cat = $cats->add(array('name' => 'Bookmarks'));
+			}
+		}
+		foreach($ids as $id)
+		{
+			$entry = $bo->read($id);
+			$entry['category'] = $new_cat;
+			$bo->save($entry['id'],$entry);
+		}
+	}
 }

@@ -197,6 +197,7 @@ app.classes.bookmarks = AppJS.extend(
 	mail: function(action, selected)
 	{
 		var settings = {
+			"preset[mimeType]":'html',
 			"preset[subject]": this.egw.lang('Found a link you might like'),
 			"preset[body]": this.egw.lang('I thought you would be interested in the following link(s):')+"<br />\n"
 		};

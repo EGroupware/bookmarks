@@ -149,7 +149,9 @@ app.classes.bookmarks = AppJS.extend(
 				this.egw.openPopup(this.egw.link('/index.php','menuaction=bookmarks.bookmarks_ui.create&cat_id='+id),'750','300','_blank');
 				break;
 			case 'mailto':
-				//TODO
+				var selected = [];
+				selected.push({id:_selected[0].id,source:'tree'});
+				this.mail(_action,selected);
 				break;
 			case 'delete':
 				//TODO
@@ -206,6 +208,13 @@ app.classes.bookmarks = AppJS.extend(
 		for(var i = 0; i < selected.length; i++)
 		{
 			var data = egw.dataGetUIDdata(selected[i].id);
+			if (typeof data == 'undefined' && typeof selected[i].source != 'undefined'&& selected[i].source=='tree')
+			{
+				var tree = this.et2.getWidgetById('tree');
+				var _url = tree.getUserData(selected[i].id,'url');
+				var _desc = tree.getLabel(selected[i].id);
+				data = {data:{url:_url,name:_desc,desc:''}};
+			}
 			if(data && data.data)
 			{
 				settings["preset[body]"] += data.data.name + ' - ' + data.data.url + "<br />\n";

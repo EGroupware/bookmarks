@@ -35,6 +35,7 @@ use \etemplate_widget_tree as tree;
 
 		var $public_functions = array
 		(
+			'init'=> True,
 			'edit' => True,
 			'create' => True,
 			'_list' => True,

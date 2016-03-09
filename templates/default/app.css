@@ -1,6 +1,6 @@
-.favicon, .favicon img {
-  max-width: 24px;
-  max-height: 24px;
+#bookmarks-list_nm table.egwGridView_grid img.favicon {
+	height: auto;
+	max-height: 32px;
 }
 
 #bookmarks-tree_add {

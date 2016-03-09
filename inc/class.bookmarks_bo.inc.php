@@ -101,10 +101,9 @@
 			foreach($rows as $key => &$row) {
 				$favicon = egw_link::vfs_path('bookmarks', $row['id'], 'favicon.png', true);
 
-				//if(egw_vfs::is_dir(egw_link::vfs_path('bookmarks',$row['id'])) && egw_vfs::stat($favicon))
 				if(@egw_vfs::stat($favicon))
 				{
-					$row['favicon'] = 'vfs:'.$favicon;
+					$row['favicon'] = egw::link(egw_vfs::download_url($favicon));
 				}
 
 				$readonlys["edit[{$row['id']}]"] = !$this->check_perms2($row['owner'], $row['access'], EGW_ACL_READ) &&
@@ -182,7 +181,7 @@
 			{
 				if ($this->so->exists($values['url']))
 				{
-					$this->error_msg .= sprintf('<br>URL <B>%s</B> already exists!', $values['url']);
+					$this->error_msg .= lang('URL "%1" already exists!', $values['url']);
 					return False;
 				}
 				$bm_id = $this->so->add($values);

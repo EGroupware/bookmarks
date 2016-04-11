@@ -108,9 +108,6 @@
 				<column/>
 			</columns>
 			<rows>
-				<row class="th" disabled="!@edit">
-					<description value="Create new links" span="all"/>
-				</row>
 				<row class="row" disabled="!@edit">
 					<link-to id="link_to" span="all"/>
 				</row>

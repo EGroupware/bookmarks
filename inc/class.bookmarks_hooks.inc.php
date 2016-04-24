@@ -74,7 +74,7 @@ class bookmarks_hooks
 		if ($GLOBALS['egw_info']['user']['apps']['admin'] && $location != 'preferences')
 		{
 			$file = Array(
-				'Site Configuration' => egw::link('/index.php','menuaction=admin.uiconfig.index&appname=' . $appname),
+				'Site Configuration' => egw::link('/index.php','menuaction=admin.admin_config.index&appname=' . $appname.'&ajax=true'),
 				'Global Categories' => egw::link('/index.php','menuaction=admin.admin_categories.index&appname=' . $appname),
 				'Custom fields' => egw::link('/index.php','menuaction=admin.customfields.index&appname=' . $appname),
 			);
@@ -129,10 +129,11 @@ class bookmarks_hooks
 				}
 				catch (Exception $e)
 				{
+					unset($e);
 					// permission error
 					continue;
 				}
-				if ($title = $definition->get_title())
+				if (($title = $definition->get_title()))
 				{
 					$options[$title] = $title;
 				}
@@ -161,6 +162,8 @@ class bookmarks_hooks
 	 */
 	public static function acl_rights($params)
 	{
+		unset($params);	// not used, but required by function signature
+
 		return array(
 			// ACL works differently in bookmarks, we change the label to ease confusion
 			acl::READ    => 'private',
@@ -177,6 +180,8 @@ class bookmarks_hooks
 	 */
 	public static function categories($data)
 	{
+		unset($data);	// not used, but required by function signature
+
 		return true;
 	}
 

@@ -122,7 +122,7 @@
 				$criteria = is_null($this->columns_to_search) ? $this->search2criteria($query['search'],$wildcard,$op) : $query['search'];
 			}
 			if($query['cat_id']) {
-				$query['col_filter']['category'] = $query['cat_id'];
+				$query['col_filter']['category'] = $GLOBALS['egw']->categories->return_all_children($query['cat_id']);
 			} else {
 				$query['col_filter']['category'] = (array)$GLOBALS['egw']->categories->return_array( 'all', 0 , false, '', '', '', true, null, -1, 'id' );
 			}

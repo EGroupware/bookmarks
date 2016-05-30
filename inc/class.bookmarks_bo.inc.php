@@ -1,5 +1,5 @@
 <?php
-	/**************************************************************************\
+	/**
 	* eGroupWare - Bookmarks                                                   *
 	* http://www.egroupware.org                                                *
 	* Based on Bookmarker Copyright (C) 1998  Padraic Renaghan                 *
@@ -13,10 +13,17 @@
 	*  option) any later version.                                              *
 	\**************************************************************************/
 
+use EGroupware\Api;
+use EGroupware\Api\Link;
+use EGroupware\Api\Framework;
+use EGroupware\Api\Egw;
+use EGroupware\Api\Acl;
+use EGroupware\Api\Vfs;
+
 	/* $Id$ */
 
 	require_once('class.ico.inc.php');
-	class bookmarks_bo extends bo_tracking
+	class bookmarks_bo extends Api\Storage\Tracking
 	{
 		var $so;
 		var $grants;
@@ -29,7 +36,7 @@
 		var $error_msg;
 		var $msg;
 
-		// History logging from bo_tracking
+		// History logging from Api\Storage\Tracking
 		public $app = 'bookmarks';
 		public $id_field = 'bm_id';
 		public $creator_field = 'bm_owner';
@@ -59,14 +66,14 @@
 			$this->so = new bookmarks_so();
 			$this->grants      = $GLOBALS['egw']->acl->get_grants('bookmarks');
 			$this->categories = $GLOBALS['egw']->categories;
-			$this->config = config::read('bookmarks');
+			$this->config = Api\Config::read('bookmarks');
 			$this->url_format_check = True;
-			$this->validate = CreateObject('bookmarks.validator');
+			$this->validate = new bookmarks_validator();
 
 			$this->translation = $GLOBALS['egw']->translation;
 			$this->charset = $this->translation->charset();
 
-			// History logging from bo_tracking
+			// History logging from Api\Storage\Tracking
 			parent::__construct();
 		}
 
@@ -99,16 +106,16 @@
 
 			// Add in permissions
 			foreach($rows as $key => &$row) {
-				$favicon = egw_link::vfs_path('bookmarks', $row['id'], 'favicon.png', true);
+				$favicon = Link::vfs_path('bookmarks', $row['id'], 'favicon.png', true);
 
 				if(@egw_vfs::stat($favicon))
 				{
-					$row['favicon'] = egw::link(egw_vfs::download_url($favicon));
+					$row['favicon'] = Egw::link(Vfs::download_url($favicon));
 				}
 
-				$readonlys["edit[{$row['id']}]"] = !$this->check_perms2($row['owner'], $row['access'], EGW_ACL_READ) &&
-					!$this->check_perms2($row['owner'], $row['access'], EGW_ACL_EDIT);
-				$readonlys["delete[{$row['id']}]"] = !$this->check_perms2($row['owner'], $row['access'], EGW_ACL_DELETE);
+				$readonlys["edit[{$row['id']}]"] = !$this->check_perms2($row['owner'], $row['access'], Acl::READ) &&
+					!$this->check_perms2($row['owner'], $row['access'], Acl::EDIT);
+				$readonlys["delete[{$row['id']}]"] = !$this->check_perms2($row['owner'], $row['access'], Acl::DELETE);
 			}
 
 			return $count;
@@ -118,14 +125,13 @@
 		{
 			$bookmark = $this->so->read($id);
 
-			$favicon = egw_link::vfs_path('bookmarks', $id, 'favicon.png', true);
-			if(egw_vfs::is_dir(egw_link::vfs_path('bookmarks',$id)) && egw_vfs::stat($favicon))
-			//if(egw_vfs::stat($favicon))
+			$favicon = Link::vfs_path('bookmarks', $id, 'favicon.png', true);
+			if(Vfs::is_dir(Link::vfs_path('bookmarks',$id)) && Vfs::stat($favicon))
 			{
 				$bookmark['favicon'] = 'vfs://'.$favicon;
 			}
 
-			foreach(array(EGW_ACL_READ,EGW_ACL_EDIT,EGW_ACL_DELETE) as $required)
+			foreach(array(Acl::READ,Acl::EDIT,Acl::DELETE) as $required)
 			{
 				$bookmark[$required] = $this->check_perms2($bookmark['owner'],$bookmark['access'],$required);
 			}
@@ -153,7 +159,7 @@
 		function check_perms2($owner,$access,$required)
 		{
 			return ($owner == $GLOBALS['egw_info']['user']['account_id']) ||
-				($access == 'public' && $required == EGW_ACL_READ) || ($this->grants[$owner] & $required);
+				($access == 'public' && $required == Acl::READ) || ($this->grants[$owner] & $required);
 		}
 
 		function check_perms($id, $required)
@@ -173,7 +179,8 @@
 			$values['owner'] = (int) $GLOBALS['egw_info']['user']['account_id'];
 			$values['added'] = time();
 			$values['visits'] = 0;
-			if(!$values['favicon']) {
+			if(!$values['favicon'])
+			{
 				// Import may provide favicon, so don't get it if it's there
 				$values['favicon'] = $this->get_favicon($values['url']);
 			}
@@ -200,7 +207,7 @@
 
 		function save($id, $values)
 		{
-			if ($this->validate($values) && $this->check_perms($id,EGW_ACL_EDIT))
+			if ($this->validate($values) && $this->check_perms($id,Acl::EDIT))
 			{
 				// Update favicon
 				$values['favicon'] = $this->get_favicon($values['url']);
@@ -227,7 +234,7 @@
 
 		function delete($id)
 		{
-			if ($this->check_perms($id,EGW_ACL_DELETE))
+			if ($this->check_perms($id,Acl::DELETE))
 			{
 				if ($this->so->delete($id))
 				{
@@ -277,12 +284,12 @@
 
 		function save_session_data($data)
 		{
-			$GLOBALS['egw']->session->appsession('session_data','bookmarks',$data);
+			Api\Cache::setSession('bookmarks', 'session_data', $data);
 		}
 
 		function read_session_data()
 		{
-			return $GLOBALS['egw']->session->appsession('session_data','bookmarks');
+			return Api\Cache::getSession('bookmarks', 'session_data');
 		}
 
 		/**
@@ -507,7 +514,7 @@
 			$this->type = $type;
 			$this->expanded = $expanded;
 
-			$t =& CreateObject('phpgwapi.Template',EGW_INCLUDE_ROOT . '/bookmarks/templates/export');
+			$t = new Framework\Template(EGW_INCLUDE_ROOT . '/bookmarks/templates/export');
 			$t->set_file('export','export_' . $this->type . '.tpl');
 			$t->set_block('export','catlist','categs');
 			if (is_array($catlist))
@@ -542,7 +549,7 @@
 					if (!is_null($subcat_content = $this->gencat($subcat['id'])))
 					{
 						if (is_null($t)){
-							$t = new Template(EGW_INCLUDE_ROOT . '/bookmarks/templates/export');
+							$t = new Framework\Template(EGW_INCLUDE_ROOT . '/bookmarks/templates/export');
 						}
 						$t->set_var('subcat',$subcat_content);
 						$t->fp('subcats','subcatlist',True);
@@ -557,7 +564,7 @@
 
 			// Else, if there are bookmarks or sub-categories, fill the template.
 			if (is_null($t)){
-				$t = new Template(EGW_INCLUDE_ROOT . '/bookmarks/templates/export');
+				$t = new Framework\Template(EGW_INCLUDE_ROOT . '/bookmarks/templates/export');
 			}
 			$t->set_file('categ','export_' . $this->type . '_catlist.tpl');
 			$t->set_block('categ','subcatlist','subcats');
@@ -655,7 +662,7 @@
 		private function fetch_favicon($url, $id)
 		{
 			if (ini_get('allow_url_fopen') != '1') return false;
-			if($url == $GLOBALS['egw']->common->image('bookmarks', 'no_favicon')) return false;
+			if($url == Api\Image::find('bookmarks', 'no_favicon')) return false;
 
 			if($url == false)
 			{
@@ -683,7 +690,7 @@
 
 				imagepng($r, $tmpname);
 			}
-			egw_link::attach_file('bookmarks',$id, array(
+			Link::attach_file('bookmarks',$id, array(
 				'name'		=> 'favicon.png',
 				'tmp_name'	=> $tmpname
 			));

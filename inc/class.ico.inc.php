@@ -1,9 +1,11 @@
 <?php
-    /**
+/**
      * class.ico.php
      *
      * $Id$
      **/
+
+use EGroupware\Api;
 
     /**
      * Class Ico

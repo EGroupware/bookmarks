@@ -9,6 +9,8 @@
 	*  option) any later version.                                              *
 	\**************************************************************************/
 
+use EGroupware\Api;
+
 	/* $Id$ */
 
 	foreach(array(
@@ -24,7 +26,7 @@
 	}
 
 $GLOBALS['egw_setup']->db->insert($GLOBALS['egw_setup']->cats_table,array(
-		'cat_owner'  => categories::GLOBAL_ACCOUNT,
+		'cat_owner'  => Api\Categories::GLOBAL_ACCOUNT,
 		'cat_access' => 'public',
 		'cat_appname'=> 'bookmarks',
 		'cat_name'   => 'Bookmarks',

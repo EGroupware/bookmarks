@@ -17,7 +17,7 @@
 
   //NOTE This class still needs to be documented and the stubbed methods fixed!
 
-	class validator
+	class bookmarks_validator
 	{
 	 var $error;
 

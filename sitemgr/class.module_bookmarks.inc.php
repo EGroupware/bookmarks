@@ -1,5 +1,5 @@
 <?php
-	/**************************************************************************\
+/**\
 	* eGroupWare SiteMgr - Web Content Management                              *
 	* http://www.egroupware.org                                                *
 	* --------------------------------------------                             *
@@ -9,6 +9,8 @@
 	*  option) any later version.                                              *
 	\**************************************************************************/
 
+use EGroupware\Api;
+
 	/* $Id: class.module_bookmarks.inc.php 18221 2005-05-02 09:48:28Z ralfbecker $ */
 
 class module_bookmarks extends Module
@@ -16,7 +18,7 @@ class module_bookmarks extends Module
 	var $template;
 	var $startlevel;
 	/**
-	 *  @var categories
+	 *  @var Api\Categories
 	 */
 	var $cat;
 	/**
@@ -32,13 +34,13 @@ class module_bookmarks extends Module
 		$this->arguments = array(
 			'category' => array(
 				'type' => 'select',
-				'label' => lang('Choose the categories to display'),
+				'label' => lang('Choose the Api\Categories to display'),
 				'options' => array(),
 				'multiple' => True,
 			),
 			'initial_cats' => array(
 				'type' => 'select',
-				'label' => lang('Choose the categories to expand in the initial view'),
+				'label' => lang('Choose the Api\Categories to expand in the initial view'),
 				'options' => array(),
 				'multiple' => True,
 			)
@@ -94,7 +96,7 @@ class module_bookmarks extends Module
 		}
 		else
 		{
-			// Expand configured categories if no user-cookie is set
+			// Expand configured Api\Categories if no user-cookie is set
 			if ($arguments['initial_cats'])
 			{
 				$expandedcats = $arguments['initial_cats'];

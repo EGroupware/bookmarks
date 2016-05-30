@@ -11,6 +11,8 @@
 	*  option) any later version.                                              *
 	\**************************************************************************/
 
+use EGroupware\Api;
+
 	/* $Id$ */
 
 	$GLOBALS['egw_info'] = array(
@@ -21,6 +23,6 @@
 		)
 	);
 	include('../header.inc.php');
-	auth::check_password_age('bookmarks','index');
+	Api\Auth::check_password_age('bookmarks','index');
 	ExecMethod('bookmarks.bookmarks_ui.init');
 ?>

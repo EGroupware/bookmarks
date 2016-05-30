@@ -15,7 +15,7 @@
 /* Basic information about this app */
 $setup_info['bookmarks']['name']      = 'bookmarks';
 $setup_info['bookmarks']['title']     = 'Bookmarks';
-$setup_info['bookmarks']['version']   = '14.2.001';
+$setup_info['bookmarks']['version']   = '16.1';
 $setup_info['bookmarks']['app_order'] = '12';
 $setup_info['bookmarks']['enable']    = 1;
 $setup_info['bookmarks']['index']     = 'bookmarks.bookmarks_ui.init&ajax=true';
@@ -45,6 +45,6 @@ $setup_info['bookmarks']['hooks']['delete_category'] = 'bookmarks_hooks::delete_
 
 /* Dependencies for this app to work */
 $setup_info['bookmarks']['depends'][] = array(
-	'appname'  => 'phpgwapi',
-	'versions' => Array('14.1')
+	'appname'  => 'api',
+	'versions' => Array('16.1')
 );

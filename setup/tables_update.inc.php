@@ -138,3 +138,8 @@ function bookmarks_upgrade14_2()
 {
 	return $GLOBALS['setup_info']['bookmarks']['currentver'] = '14.2.001';
 }
+
+function bookmarks_upgrade14_2_001()
+{
+	return $GLOBALS['setup_info']['bookmarks']['currentver'] = '16.1';
+}

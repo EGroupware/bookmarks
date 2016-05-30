@@ -16,6 +16,9 @@
  */
 
 use EGroupware\Api;
+use EGroupware\Api\Link;
+use EGroupware\Api\Framework;
+
 use EGroupware\Api\Etemplate\Widget\Tree as tree;
 
 class bookmarks_ui
@@ -99,14 +102,14 @@ class bookmarks_ui
 			{
 				$this->location_info['bm_id'] = $bm_id;
 				$this->bo->save_session_data($this->location_info);
-				egw_framework::refresh_opener('Bookmark successfully saved', 'bookmarks',$bm_id, 'add');
+				Framework::refresh_opener('Bookmark successfully saved', 'bookmarks',$bm_id, 'add');
 				if($button == 'apply')
 				{
 					return $this->edit(array('bm_id' => $bm_id));
 				}
 				else
 				{
-					egw_framework::window_close();
+					Framework::window_close();
 				}
 			}
 			else
@@ -120,7 +123,7 @@ class bookmarks_ui
 		if ($content['cancel'])
 		{
 			// Close popoup
-			egw_framework::window_close();
+			Framework::window_close();
 		}
 		//store the view, we came from originally(list,tree), and the view we are in
 		$this->location_info['bookmark'] = False;
@@ -172,22 +175,22 @@ class bookmarks_ui
 		if ($content['cancel'] || !isset($bm_id))
 		{
 			$this->init();
-			egw_framework::window_close();
+			Framework::window_close();
 		}
 		//delete bookmark and close popup
 		if($content['delete']) {
 			$this->bo->delete($bm_id);
-			egw_framework::refresh_opener('Bookmark deleted', 'bookmarks',$bm_id,'delete');
-			egw_framework::window_close();
+			Framework::refresh_opener('Bookmark deleted', 'bookmarks',$bm_id,'delete');
+			Framework::window_close();
 		}
 		//save bookmark and go to list interface
 		if ($content['save'] || $content['apply'])
 		{
 			if ($this->bo->save($bm_id,$content))
 			{
-				egw_framework::refresh_opener('Bookmark successfully saved', 'bookmarks',$bm_id,'update');
+				Framework::refresh_opener('Bookmark successfully saved', 'bookmarks',$bm_id,'update');
 				if($content['save']) {
-					egw_framework::window_close();
+					Framework::window_close();
 				}
 			}
 		}
@@ -260,12 +263,12 @@ class bookmarks_ui
 							$i++;
 						}
 					}
-					egw_framework::message(lang('%1 bookmarks have been deleted',$i));
+					Framework::message(lang('%1 bookmarks have been deleted',$i));
 					break;
 			}
 		}
 
-		$values['nm'] = $GLOBALS['egw']->session->appsession('_list', 'bookmarks');
+		$values['nm'] = Api\Cache::getSession('bookmarks', '_list');
 		if(!is_array($values['nm'])) {
 			$values['nm'] = array(
 				'get_rows'	=>	'bookmarks.bookmarks_ui.get_rows',
@@ -291,7 +294,7 @@ class bookmarks_ui
 
 		if($this->app_messages())
 		{
-			egw_framework::message($this->app_messages());
+			Framework::message($this->app_messages());
 		}
 
 		$GLOBALS['egw_info']['flags']['app_header'] = lang('Bookmarks');
@@ -309,7 +312,7 @@ class bookmarks_ui
 	public function get_rows(&$query, &$rows, &$readonlys) {
 
 		// Store current filters in the session
-		$GLOBALS['egw']->session->appsession('_list', 'bookmarks', $query);
+		Api\Cache::setSession('bookmarks', '_list', $query);
 
 		// Selected columns
 		$columselection = $GLOBALS['egw_info']['user']['preferences']['bookmarks']['nextmatch-bookmarks.list.rows'];
@@ -357,14 +360,14 @@ class bookmarks_ui
 				'allowOnMultiple' => false,
 				'default' => true,
 				'url' => 'menuaction=bookmarks.bookmarks_ui.edit&bm_id=$id',
-				'popup' => Api\Link::get_registry('bookmarks', 'add_popup'),
+				'popup' => Link::get_registry('bookmarks', 'add_popup'),
 				'group' => $group,
 				'disableClass' => 'rowNoEdit',
 			),
 			'add' => array(
 				'caption' => 'Add',
 				'url' => 'menuaction=bookmarks.bookmarks_ui.create',
-				'popup' => Api\Link::get_registry('bookmarks', 'add_popup'),
+				'popup' => Link::get_registry('bookmarks', 'add_popup'),
 				'group' => $group,
 			),
 			'mailto' => array(
@@ -547,7 +550,7 @@ class bookmarks_ui
 		);
 
 		// Set up custom fields
-		if(count(config::get_customfields('bookmarks',true)) == 0)
+		if(count(Api\Storage\Customfields::get('bookmarks',true)) == 0)
 		{
 			$readonlys['tabs']['custom'] = true;
 		}
@@ -597,7 +600,8 @@ class bookmarks_ui
 		if ($content['cancel'])
 		{
 			return;
-		} elseif ($content['export'])
+		}
+		elseif ($content['export'])
 		{
 			#  header("Content-type: text/plain");
 			header("Content-type: application/octet-stream");

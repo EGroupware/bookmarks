@@ -9,6 +9,11 @@
  * @version $Id$
  */
 
+use EGroupware\Api;
+use EGroupware\Api\Framework;
+use EGroupware\Api\Egw;
+use EGroupware\Api\Acl;
+
 /**
  * Class containing admin, preferences and sidebox-menus (used as hooks)
  */
@@ -53,18 +58,18 @@ class bookmarks_hooks
 		if ($location == 'sidebox_menu')
 		{
 			// Magic etemplate2 favorites menu (from nextmatch widget)
-			display_sidebox($appname, lang('Favorites'), egw_framework::favorite_list('bookmarks'));
+			display_sidebox($appname, lang('Favorites'), Framework\Favorites::list_favorites('bookmarks'));
 
 			$file = Array(
 				'Tree view'        => $GLOBALS['egw']->link('/index.php','menuaction=bookmarks.bookmarks_ui.tree&ajax=true'),
 				'List view'        => $GLOBALS['egw']->link('/index.php','menuaction=bookmarks.bookmarks_ui._list&ajax=true'),
-				'Add bookmark'     => "javascript:egw_openWindowCentered2('".egw::link('/index.php',array(
+				'Add bookmark'     => "javascript:egw_openWindowCentered2('".Egw::link('/index.php',array(
 						'menuaction' => 'bookmarks.bookmarks_ui.create'
 					),false)."','_blank',750,300,'yes');",
-				'Import Bookmarks' => "javascript:egw.openPopup('".egw::link('/index.php',array(
+				'Import Bookmarks' => "javascript:egw.openPopup('".Egw::link('/index.php',array(
 						'menuaction'=>'bookmarks.bookmarks_ui.import'
 					),false)."',500,150,'_blank',false,false,'yes');",
-				'Export Bookmarks' => "javascript:egw.openPopup('".egw::link('/index.php',array(
+				'Export Bookmarks' => "javascript:egw.openPopup('".Egw::link('/index.php',array(
 						'menuaction'=>'bookmarks.bookmarks_ui.export'
 					),false)."',500,150,'_blank',false,false,'yes');"
 			);
@@ -74,9 +79,9 @@ class bookmarks_hooks
 		if ($GLOBALS['egw_info']['user']['apps']['admin'] && $location != 'preferences')
 		{
 			$file = Array(
-				'Site Configuration' => egw::link('/index.php','menuaction=admin.admin_config.index&appname=' . $appname.'&ajax=true'),
-				'Global Categories' => egw::link('/index.php','menuaction=admin.admin_categories.index&appname=' . $appname),
-				'Custom fields' => egw::link('/index.php','menuaction=admin.customfields.index&appname=' . $appname),
+				'Site Configuration' => Egw::link('/index.php','menuaction=admin.admin_config.index&appname=' . $appname.'&ajax=true'),
+				'Global Categories' => Egw::link('/index.php','menuaction=admin.admin_categories.index&appname=' . $appname),
+				'Custom fields' => Egw::link('/index.php','menuaction=admin.customfields.index&appname=' . $appname),
 			);
 			if ($location == 'admin')
 			{
@@ -158,7 +163,7 @@ class bookmarks_hooks
 	/**
 	 * ACL rights and labels used by Calendar
 	 *
-	 * @param string|array string with location or array with parameters incl. "location", specially "owner" for selected acl owner
+	 * @param string|array string with location or array with parameters incl. "location", specially "owner" for selected Acl owner
 	 */
 	public static function acl_rights($params)
 	{
@@ -166,14 +171,14 @@ class bookmarks_hooks
 
 		return array(
 			// ACL works differently in bookmarks, we change the label to ease confusion
-			acl::READ    => 'private',
-			acl::EDIT    => 'edit',
-			acl::DELETE  => 'delete',
+			Acl::READ    => 'private',
+			Acl::EDIT    => 'edit',
+			Acl::DELETE  => 'delete',
 		);
 	}
 
 	/**
-	 * Hook to tell framework we use standard categories method
+	 * Hook to tell framework we use standard Api\Categories method
 	 *
 	 * @param string|array $data hook-data or location
 	 * @return boolean
@@ -199,7 +204,7 @@ class bookmarks_hooks
 	 */
 	public static function delete_category($data)
 	{
-		$cats = new categories('', 'bookmarks');
+		$cats = new Api\Categories('', 'bookmarks');
 
 		// If we can, we'll move to the parent
 		$new_cat = $cats->id2name($data['cat_id'],'parent') || $cats->id2name($data['cat_id'], 'main');

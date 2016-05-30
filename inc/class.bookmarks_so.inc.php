@@ -1,5 +1,5 @@
 <?php
-	/**************************************************************************\
+/**\
 	* eGroupWare - Bookmarks                                                   *
 	* http://www.egroupware.org                                                *
 	* Based on Bookmarker Copyright (C) 1998  Padraic Renaghan                 *
@@ -14,11 +14,14 @@
 	*  option) any later version.                                              *
 	\**************************************************************************/
 
+use EGroupware\Api;
+use EGroupware\Api\Egw;
+use EGroupware\Api\Acl;
+
 	/* $Id$ */
 
-use EGroupware\Api;
 
-class bookmarks_so extends so_sql_cf
+class bookmarks_so extends Api\Storage
 {
 	// Data we care about, but it doesn't have a DB column.  Overrides parent.
 	public $non_db_cols = array('added', 'updated', 'visited', 'bm_id');
@@ -53,7 +56,7 @@ class bookmarks_so extends so_sql_cf
 
 		foreach(array('name','url','desc','keywords') as $name)
 		{
-			$data['stripped_'.$name] = egw::strip_html($data[$name]);
+			$data['stripped_'.$name] = Egw::strip_html($data[$name]);
 		}
 		list($data['added'], $data['visited'], $data['updated']) = explode(',', $data['info']);
 		$data['bm_id'] = $data['id'];
@@ -218,7 +221,7 @@ class bookmarks_so extends so_sql_cf
 		$grants = array();
 		foreach($GLOBALS['egw']->acl->get_grants('bookmarks') as $id => $perms)
 		{
-			if ($perms & EGW_ACL_READ)
+			if ($perms & Acl::READ)
 			{
 				$grants[] = $id;
 			}

@@ -4,6 +4,7 @@
 (comma separate multiple addresses)	bookmarks	sk	(čiarkou oddelených viacero adries)
 (selecting a category includes all sub-categories)	bookmarks	sk	(Označenie kategórie zahŕňa všetky podkategórie)
 actions	bookmarks	sk	Akcie
+add bookmark	bookmarks	sk	Pridať záložku
 added	bookmarks	sk	Pridané
 all bookmarks	bookmarks	sk	Všetky záložky
 and	bookmarks	sk	A
@@ -85,7 +86,6 @@ netscape bookmark file	bookmarks	sk	Súbor so záložkami Netscape
 netscape bookmark filename is required!	bookmarks	sk	Je potrebný názov súboru záložiek Netscape
 netscape/mozilla	bookmarks	sk	Netscape/Mozilla
 new	bookmarks	sk	Nová
-new bookmark	bookmarks	sk	Nová záložka
 note: you can use bookmark files exported as html	bookmarks	sk	Poznámka: Môžete použiť súbory záložiek exportované ako HTML
 old fixed definition	bookmarks	sk	Stará pevná definícia
 or	bookmarks	sk	alebo

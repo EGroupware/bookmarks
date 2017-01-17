@@ -80,8 +80,8 @@ class bookmarks_hooks
 		{
 			$file = Array(
 				'Site Configuration' => Egw::link('/index.php','menuaction=admin.admin_config.index&appname=' . $appname.'&ajax=true'),
-				'Global Categories' => Egw::link('/index.php','menuaction=admin.admin_categories.index&appname=' . $appname),
-				'Custom fields' => Egw::link('/index.php','menuaction=admin.customfields.index&appname=' . $appname),
+				'Global Categories' => Egw::link('/index.php','menuaction=admin.admin_categories.index&appname=' . $appname.'&ajax=true'),
+				'Custom fields' => Egw::link('/index.php','menuaction=admin.admin_customfields.index&appname=' . $appname.'&ajax=true'),
 			);
 			if ($location == 'admin')
 			{

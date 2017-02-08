@@ -1,17 +1,15 @@
 <?php
-/**\
-	* eGroupWare SiteMgr - Web Content Management                              *
-	* http://www.egroupware.org                                                *
-	* --------------------------------------------                             *
-	*  This program is free software; you can redistribute it and/or modify it *
-	*  under the terms of the GNU General Public License as published by the   *
-	*  Free Software Foundation; either version 2 of the License, or (at your  *
-	*  option) any later version.                                              *
-	\**************************************************************************/
+/**
+* EGroupware SiteMgr - Web Content Management                              *
+* http://www.egroupware.org                                                *
+* --------------------------------------------                             *
+*  This program is free software; you can redistribute it and/or modify it *
+*  under the terms of the GNU General Public License as published by the   *
+*  Free Software Foundation; either version 2 of the License, or (at your  *
+*  option) any later version.                                              *
+\**************************************************************************/
 
 use EGroupware\Api;
-
-	/* $Id: class.module_bookmarks.inc.php 18221 2005-05-02 09:48:28Z ralfbecker $ */
 
 class module_bookmarks extends Module
 {
@@ -26,7 +24,7 @@ class module_bookmarks extends Module
 	 */
 	var $bo;
 
-	function module_bookmarks()
+	function __construct()
 	{
 		$this->title = lang('Bookmarks');
 		$this->description = lang('This module displays bookmarks in a javascript based tree');
@@ -34,13 +32,13 @@ class module_bookmarks extends Module
 		$this->arguments = array(
 			'category' => array(
 				'type' => 'select',
-				'label' => lang('Choose the Api\Categories to display'),
+				'label' => lang('Choose the categories to display'),
 				'options' => array(),
 				'multiple' => True,
 			),
 			'initial_cats' => array(
 				'type' => 'select',
-				'label' => lang('Choose the Api\Categories to expand in the initial view'),
+				'label' => lang('Choose the categories to expand in the initial view'),
 				'options' => array(),
 				'multiple' => True,
 			)
@@ -49,7 +47,7 @@ class module_bookmarks extends Module
 
 	function get_user_interface()
 	{
-		$this->cat = createobject('phpgwapi.categories','','bookmarks');
+		$this->cat = new Api\Categories('','bookmarks');
 		$cats = $this->cat->return_array('all',0,False,'','cat_name','',True);
 		$cat_ids = array();
 		while (list(,$category) = @each($cats))
@@ -106,7 +104,8 @@ class module_bookmarks extends Module
 				$expandedcats = array();
 			}
 		}
-		$this->bo = createobject('bookmarks.bookmarks_bo');
+		$this->bo = new bookmarks_bo();
+
 		return $this->bo->export($arguments['category'],'xbel',$expandedcats);
 	}
 }

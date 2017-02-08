@@ -23,6 +23,7 @@ use EGroupware\Api\Vfs;
 	/* $Id$ */
 
 	require_once('class.ico.inc.php');
+
 	class bookmarks_bo extends Api\Storage\Tracking
 	{
 		var $so;
@@ -61,7 +62,7 @@ use EGroupware\Api\Vfs;
 			'custom'	=>	'custom fields',
 		);
 
-		function bookmarks_bo()
+		function __construct()
 		{
 			$this->so = new bookmarks_so();
 			$this->grants      = $GLOBALS['egw']->acl->get_grants('bookmarks');

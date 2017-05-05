@@ -106,10 +106,10 @@ use EGroupware\Api\Vfs;
 			$count = $this->so->get_rows($query, $rows, $readonlys);
 
 			// Add in permissions
-			foreach($rows as $key => &$row) {
+			foreach($rows as &$row) {
 				$favicon = Link::vfs_path('bookmarks', $row['id'], 'favicon.png', true);
 
-				if(@egw_vfs::stat($favicon))
+				if(@Vfs::stat($favicon))
 				{
 					$row['favicon'] = Egw::link(Vfs::download_url($favicon));
 				}

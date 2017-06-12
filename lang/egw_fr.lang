@@ -85,7 +85,6 @@ netscape bookmark file	bookmarks	fr	Fichier de Signets Netscape
 netscape bookmark filename is required!	bookmarks	fr	Le nom du fichier de signets Netscape est requis!
 netscape/mozilla	bookmarks	fr	Netscape / Mozilla
 new	bookmarks	fr	Nouveau
-new bookmark	bookmarks	fr	nouveau signet
 note: you can use bookmark files exported as html	bookmarks	fr	Note : vous pouvez utiliser les exports de signet comme HTML
 old fixed definition	bookmarks	fr	L'ancienne définition fixe
 or	bookmarks	fr	ou
@@ -100,6 +99,7 @@ select an action...	bookmarks	fr	Sélectionner une action...
 select the format you would like to export to	bookmarks	fr	Sélectionnez le format dans lequel vous désirez exporter
 send bookmark	bookmarks	fr	Envoyer le signet
 sub category	bookmarks	fr	Sous-catégorie
+this is the view bookmarks uses when you enter the application.	bookmarks	fr	Ceci est la vue Signets utilisée à l'entrée dans l'application
 this module displays bookmarks in a javascript based tree	bookmarks	fr	Ce module affiche les signets dans un arbre basé sur javascript
 to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	fr	L'adresse du destinataire %1 est invalide. Le format doit être <strong>utilisateur@domaine</strong> et le domaine doit exister!
 to e-mail addresses	bookmarks	fr	Adresses EMail des destinataires

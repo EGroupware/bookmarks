@@ -6,7 +6,6 @@
  * @license http://opensource.org/licenses/gpl-license.php GPL - GNU General Public License
  * @package admin
  * @subpackage setup
- * @version $Id$
  */
 
 function bookmarks_upgrade0_8_1()
@@ -142,4 +141,9 @@ function bookmarks_upgrade14_2()
 function bookmarks_upgrade14_2_001()
 {
 	return $GLOBALS['setup_info']['bookmarks']['currentver'] = '16.1';
+}
+
+function bookmarks_upgrade16_1()
+{
+	return $GLOBALS['setup_info']['bookmarks']['currentver'] = '17.1';
 }

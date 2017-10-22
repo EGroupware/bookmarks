@@ -9,13 +9,12 @@
  * @license http://opensource.org/licenses/gpl-license.php GPL - GNU General Public License
  * @package admin
  * @subpackage setup
- * @version $Id$
  */
 
 /* Basic information about this app */
 $setup_info['bookmarks']['name']      = 'bookmarks';
 $setup_info['bookmarks']['title']     = 'Bookmarks';
-$setup_info['bookmarks']['version']   = '16.1';
+$setup_info['bookmarks']['version']   = '17.1';
 $setup_info['bookmarks']['app_order'] = '12';
 $setup_info['bookmarks']['enable']    = 1;
 $setup_info['bookmarks']['index']     = 'bookmarks.bookmarks_ui.init&ajax=true';
@@ -25,8 +24,8 @@ $setup_info['bookmarks']['license']  = 'GPL';
 $setup_info['bookmarks']['description'] =
 	'Manage your bookmarks with EGroupware.';
 $setup_info['bookmarks']['maintainer'] = array(
-	'name' => 'eGroupWare Developers',
-	'email' => 'egroupware-developers@lists.sourceforge.net'
+	'name' => 'EGroupware GmbH',
+	'email' => 'info@egroupware.org'
 );
 
 /* The tables this app creates */
@@ -46,5 +45,5 @@ $setup_info['bookmarks']['hooks']['delete_category'] = 'bookmarks_hooks::delete_
 /* Dependencies for this app to work */
 $setup_info['bookmarks']['depends'][] = array(
 	'appname'  => 'api',
-	'versions' => Array('16.1')
+	'versions' => Array('17.1')
 );

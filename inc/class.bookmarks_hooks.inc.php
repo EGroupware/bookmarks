@@ -221,7 +221,7 @@ class bookmarks_hooks
 		// Get bookmarks that use the category
 		@set_time_limit( 0 );
 		$bo = new bookmarks_bo();
-		$ids = $bo->so->search(array('bm_category' => $cat_ids),true);
+		$ids = (array)$bo->so->search(array('bm_category' => $cat_ids),true);
 
 		if($ids && (!$new_cat || $new_cat == $data['cat_id']))
 		{

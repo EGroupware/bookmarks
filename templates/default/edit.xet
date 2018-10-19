@@ -14,7 +14,7 @@
 						<description value="URL"/>
 						<image align="right" src="@favicon" class="favicon"/>
 					</hbox>
-					<description id="url" href="bookmarks.bookmarks_ui.redirect&amp;bm_id={$cont[id]}" extra_link_target="_blank"/>
+					<description id="url" href="bookmarks.bookmarks_ui.redirect&amp;bm_id=$cont[id]" extra_link_target="_blank"/>
 				</row>
 				<row disabled="!@edit" class="dialogHeader">
 					<hbox options="0,0">

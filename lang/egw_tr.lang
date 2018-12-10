@@ -1,77 +1,77 @@
 %1 bookmarks have been deleted	bookmarks	tr	%1 favori silindi
-%1 bookmarks imported from %2 successfully.	bookmarks	tr	%2'den %1 favori başarıyla ithal edildi.
-(comma separate multiple addresses)	bookmarks	tr	(virgülle ayrılmış çoklu adres)
+%1 bookmarks imported from %2 successfully.	bookmarks	tr	%2'den %1 favori baÅŸarÄ±yla ithal edildi.
+(comma separate multiple addresses)	bookmarks	tr	(virgÃ¼lle ayrÄ±lmÄ±ÅŸ Ã§oklu adres)
 actions	bookmarks	tr	Eylemler
 added	bookmarks	tr	Eklendi
-all bookmarks	bookmarks	tr	Bütün favoriler
+all bookmarks	bookmarks	tr	BÃ¼tÃ¼n favoriler
 and	bookmarks	tr	Ve
-append this message to mailed bookmarks	bookmarks	tr	Bu mesajı maillenmiş favorilere ekle
+append this message to mailed bookmarks	bookmarks	tr	Bu mesajÄ± maillenmiÅŸ favorilere ekle
 ascending	bookmarks	tr	Artan
 book marks	common	tr	Favoriler
-bookmark changed sucessfully	bookmarks	tr	Favori başarı ile değiştirildi
-bookmark created successfully.	bookmarks	tr	Favori başarı ile oluşturuldu
-bookmark deleted successfully	bookmarks	tr	Favori başarı ile silindi
-bookmark not editable	bookmarks	tr	Favori düzenlenebilir değil
-bookmark not readable	bookmarks	tr	Favori okunabilir değil
+bookmark changed sucessfully	bookmarks	tr	Favori baÅŸarÄ± ile deÄŸiÅŸtirildi
+bookmark created successfully.	bookmarks	tr	Favori baÅŸarÄ± ile oluÅŸturuldu
+bookmark deleted successfully	bookmarks	tr	Favori baÅŸarÄ± ile silindi
+bookmark not editable	bookmarks	tr	Favori dÃ¼zenlenebilir deÄŸil
+bookmark not readable	bookmarks	tr	Favori okunabilir deÄŸil
 bookmarks	common	tr	Favoriler
-bookmarks settings	bookmarks	tr	Favori Ayarları
-change bookmark	bookmarks	tr	Favori Değiştir
-close this window to return	bookmarks	tr	Geri dönmek için bu pencereyi kapatınız
-create bookmark	bookmarks	tr	Favori oluştur
-create new bookmark	bookmarks	tr	Yeni favori oluştur
-custom fields	bookmarks	tr	Özel Alanlar
+bookmarks settings	bookmarks	tr	Favori AyarlarÄ±
+change bookmark	bookmarks	tr	Favori DeÄŸiÅŸtir
+close this window to return	bookmarks	tr	Geri dÃ¶nmek iÃ§in bu pencereyi kapatÄ±nÄ±z
+create bookmark	bookmarks	tr	Favori oluÅŸtur
+create new bookmark	bookmarks	tr	Yeni favori oluÅŸtur
+custom fields	bookmarks	tr	Ã–zel Alanlar
 date added	bookmarks	tr	Eklenme tarihi
-date changed	bookmarks	tr	Değiştirilme tarihi
-date last updated	bookmarks	tr	Son güncelleme tarihi
+date changed	bookmarks	tr	DeÄŸiÅŸtirilme tarihi
+date last updated	bookmarks	tr	Son gÃ¼ncelleme tarihi
 date last visited	bookmarks	tr	Son ziyaret tarihi
 descending	bookmarks	tr	Azalan
-edit bookmark	bookmarks	tr	Favori düzenle
-edit this bookmark	bookmarks	tr	Favoriyi düzenle
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	tr	Ithal etmek istediğiniz Netscape<br> favori dosyasının adını giriniz.
-export	bookmarks	tr	İhraç Et
-export bookmarks	common	tr	Favorileri İhraç Et
+edit bookmark	bookmarks	tr	Favori dÃ¼zenle
+edit this bookmark	bookmarks	tr	Favoriyi dÃ¼zenle
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	tr	Ithal etmek istediÄŸiniz Netscape<br> favori dosyasÄ±nÄ±n adÄ±nÄ± giriniz.
+export	bookmarks	tr	Ä°hraÃ§ Et
+export bookmarks	common	tr	Favorileri Ä°hraÃ§ Et
 fewer	bookmarks	tr	Daha Az
-filter by	bookmarks	tr	Süzgeç Tipi
-found a link you might like	bookmarks	tr	Sevebileceğiniz bir link bulundu
+filter by	bookmarks	tr	SÃ¼zgeÃ§ Tipi
+found a link you might like	bookmarks	tr	SevebileceÄŸiniz bir link bulundu
 from	bookmarks	tr	Nereden
 from category %1	bookmarks	tr	%1 kategorisinden
 global categories	bookmarks	tr	Genel kategoriler
-highest	bookmarks	tr	En yüksek
-i thought you would be interested in the following link(s):	bookmarks	tr	Aşağıdaki linklerle ilgilenebileceğinizi düşündüm:
-import bookmarks	common	tr	Favorileri İhraç Et
+highest	bookmarks	tr	En yÃ¼ksek
+i thought you would be interested in the following link(s):	bookmarks	tr	AÅŸaÄŸÄ±daki linklerle ilgilenebileceÄŸinizi dÃ¼ÅŸÃ¼ndÃ¼m:
+import bookmarks	common	tr	Favorileri Ä°hraÃ§ Et
 like	bookmarks	tr	benzer
-list view	bookmarks	tr	liste görünümü
-lowest	bookmarks	tr	En düşük
+list view	bookmarks	tr	liste gÃ¶rÃ¼nÃ¼mÃ¼
+lowest	bookmarks	tr	En dÃ¼ÅŸÃ¼k
 mail this bookmark	bookmarks	tr	Bu favoriyi maille
-mail-this-link message sent to %1.	bookmarks	tr	Mesaj %1'e gönderildi.
-mass update:	bookmarks	tr	Yığın güncelleme:
+mail-this-link message sent to %1.	bookmarks	tr	Mesaj %1'e gÃ¶nderildi.
+mass update:	bookmarks	tr	YÄ±ÄŸÄ±n gÃ¼ncelleme:
 message from	bookmarks	tr	Mesaj sahibi:
 more	bookmarks	tr	Daha fazla
-name	bookmarks	tr	İsim
-name is required	bookmarks	tr	İsim gereklidir
-netscape bookmark file	bookmarks	tr	Netscape favori dosyası
-netscape bookmark filename is required!	bookmarks	tr	Netscape favori dosyası gereklidir!
+name	bookmarks	tr	Ä°sim
+name is required	bookmarks	tr	Ä°sim gereklidir
+netscape bookmark file	bookmarks	tr	Netscape favori dosyasÄ±
+netscape bookmark filename is required!	bookmarks	tr	Netscape favori dosyasÄ± gereklidir!
 new	bookmarks	tr	Yeni
 new bookmark	bookmarks	tr	Yeni Favori
 or	bookmarks	tr	ya da
-please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	tr	Lütfen <b>Alıcı E-mail Adresi</b>, <b>Konu</b> ve <b>Mesaj</b> alanlarını doldurunuz!
-please select the categories to export	bookmarks	tr	İhraç edilecek kategorileri seçiniz
+please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	tr	LÃ¼tfen <b>AlÄ±cÄ± E-mail Adresi</b>, <b>Konu</b> ve <b>Mesaj</b> alanlarÄ±nÄ± doldurunuz!
+please select the categories to export	bookmarks	tr	Ä°hraÃ§ edilecek kategorileri seÃ§iniz
 query condition	bookmarks	tr	Sorgu Durumu
 rating	bookmarks	tr	Derece
 search for:	bookmarks	tr	Arama yap:
-select the format you would like to export to	bookmarks	tr	İhraç etmek istediğiniz formatı seçiniz
-send bookmark	bookmarks	tr	Favori gönder
+select the format you would like to export to	bookmarks	tr	Ä°hraÃ§ etmek istediÄŸiniz formatÄ± seÃ§iniz
+send bookmark	bookmarks	tr	Favori gÃ¶nder
 sub category	bookmarks	tr	Alt kategori
-to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	tr	Alıcı adresi %1 geçerli bi adres değildir. Format <strong>user@domain</strong> şeklinde olmalıdır ve domain mutlaka bulunmalıdır!
-to e-mail addresses	bookmarks	tr	Alıcı Adresler
-to which category should the imported folder hierarchy be attached	bookmarks	tr	İthal edilen klasör hangi kategoriye iliştirilecek
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	tr	AlÄ±cÄ± adresi %1 geÃ§erli bi adres deÄŸildir. Format <strong>user@domain</strong> ÅŸeklinde olmalÄ±dÄ±r ve domain mutlaka bulunmalÄ±dÄ±r!
+to e-mail addresses	bookmarks	tr	AlÄ±cÄ± Adresler
+to which category should the imported folder hierarchy be attached	bookmarks	tr	Ä°thal edilen klasÃ¶r hangi kategoriye iliÅŸtirilecek
 total visits	bookmarks	tr	toplam ziyaret
-tree view	bookmarks	tr	Ağaç görünümü
-unable to open temp file %1 for import.	bookmarks	tr	Geçici dosya %1 ithal etmek için açılamıyor.
-updated	bookmarks	tr	Güncelle
+tree view	bookmarks	tr	AÄŸaÃ§ gÃ¶rÃ¼nÃ¼mÃ¼
+unable to open temp file %1 for import.	bookmarks	tr	GeÃ§ici dosya %1 ithal etmek iÃ§in aÃ§Ä±lamÄ±yor.
+updated	bookmarks	tr	GÃ¼ncelle
 url is required.	bookmarks	tr	URL gereklidir.
-view bookmark	bookmarks	tr	Favori görüntüle
-view this bookmark	bookmarks	tr	Bu favoriyi görüntüle
-warning	bookmarks	tr	Uyarı
-you are viewing this site outside of egroupware	bookmarks	tr	Bu siteyi eGroupWare dışında görüntülüyorsunuz
-you must select a category	bookmarks	tr	Bir kategori seçmelisiniz
+view bookmark	bookmarks	tr	Favori gÃ¶rÃ¼ntÃ¼le
+view this bookmark	bookmarks	tr	Bu favoriyi gÃ¶rÃ¼ntÃ¼le
+warning	bookmarks	tr	UyarÄ±
+you are viewing this site outside of egroupware	bookmarks	tr	Bu siteyi eGroupWare dÄ±ÅŸÄ±nda gÃ¶rÃ¼ntÃ¼lÃ¼yorsunuz
+you must select a category	bookmarks	tr	Bir kategori seÃ§melisiniz

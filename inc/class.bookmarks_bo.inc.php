@@ -145,7 +145,7 @@ use EGroupware\Api\Vfs;
 			if (is_array($this->grants))
 			{
 				reset($this->grants);
-				while (list($user) = each($this->grants))
+				foreach($this->grants as $user => $grant)
 				{
 					$public_user_list[] = $user;
 				}

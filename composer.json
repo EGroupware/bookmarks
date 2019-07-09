@@ -1,0 +1,16 @@
+{
+	"name": "egroupware/bookmarks",
+	"description": "EGroupware app to manage bookmarks",
+	"type": "egroupware-app",
+	"homepage": "https://www.egroupware.org/",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+        {
+            "name": "Nathan Gray",
+            "email": "ng@egroupware.org"
+        }
+    ],
+	"require": {
+		"egroupware/egroupware": "self.version"
+	}
+}

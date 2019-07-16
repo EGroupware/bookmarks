@@ -153,7 +153,7 @@ function bookmarks_upgrade16_1()
  *
  * @return string
  */
-function bookmarks_upgrade16_1()
+function bookmarks_upgrade17_1()
 {
 	return $GLOBALS['setup_info']['bookmarks']['currentver'] = '19.1';
 }

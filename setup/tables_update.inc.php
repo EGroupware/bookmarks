@@ -147,3 +147,13 @@ function bookmarks_upgrade16_1()
 {
 	return $GLOBALS['setup_info']['bookmarks']['currentver'] = '17.1';
 }
+
+/**
+ * Bump version to 19.1
+ *
+ * @return string
+ */
+function activesync_upgrade17_9_002()
+{
+	return $GLOBALS['setup_info']['bookmarks']['currentver'] = '19.1';
+}

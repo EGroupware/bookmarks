@@ -14,7 +14,7 @@
 /* Basic information about this app */
 $setup_info['bookmarks']['name']      = 'bookmarks';
 $setup_info['bookmarks']['title']     = 'Bookmarks';
-$setup_info['bookmarks']['version']   = '17.1';
+$setup_info['bookmarks']['version']   = '19.1';
 $setup_info['bookmarks']['app_order'] = '12';
 $setup_info['bookmarks']['enable']    = 1;
 $setup_info['bookmarks']['index']     = 'bookmarks.bookmarks_ui.init&ajax=true';
@@ -45,5 +45,5 @@ $setup_info['bookmarks']['hooks']['delete_category'] = 'bookmarks_hooks::delete_
 /* Dependencies for this app to work */
 $setup_info['bookmarks']['depends'][] = array(
 	'appname'  => 'api',
-	'versions' => Array('17.1')
+	'versions' => Array('19.1')
 );

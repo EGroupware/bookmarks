@@ -1,22 +1,37 @@
 %1 bookmarks have been deleted	bookmarks	bg	Бяха изтрити %1 отметки
 %1 bookmarks imported from %2 successfully.	bookmarks	bg	Успешно бяха внесени %1 отметки от %2.
+%s bookmarks selected for export	bookmarks	bg	%s отметки, избрани за експортиране.
 (comma separate multiple addresses)	bookmarks	bg	(адреси, разделени със запетая)
+(selecting a category includes all sub-categories)	bookmarks	bg	Изборът на категория включва всички подкатегории
 actions	bookmarks	bg	Действия
-added	bookmarks	bg	добавен
+add bookmark	bookmarks	bg	Добавяне на отметка
+added	bookmarks	bg	Добавен(а)
 all bookmarks	bookmarks	bg	Всички отметки
 and	bookmarks	bg	И
 append this message to mailed bookmarks	bookmarks	bg	Добавяне на това съобщение към изпращаните по пощата отметки
+apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	bg	Приложете действието върху цялата заявка, НЕ само на показаните отметки!
 ascending	bookmarks	bg	Възходящо
 book marks	common	bg	Отметки
+bookmark - %1	bookmarks	bg	Отметка - %1
 bookmark changed sucessfully	bookmarks	bg	Отметката е променена
 bookmark created successfully.	bookmarks	bg	Отметката е създадена.
+bookmark deleted successfully	bookmarks	bg	Отметката е изтрита успешно.
+bookmark deleted successfully.	bookmarks	bg	Отметката е изтрита успешно.
+bookmark file	bookmarks	bg	Файл с отметки
 bookmark not editable	bookmarks	bg	Отметката не може да се редактира
 bookmark not readable	bookmarks	bg	Отметката не може да се прочете
 bookmarks	common	bg	Отметки
+bookmarks - export	bookmarks	bg	Отметки - Експорт
+bookmarks - import	bookmarks	bg	Отметки - Импорт
+bookmarks - mail	bookmarks	bg	Отметки - Поща
+bookmarks - tree	bookmarks	bg	"Дърво" на отметките
 bookmarks settings	bookmarks	bg	Настройки на отметките
+categories to export	bookmarks	bg	Категории за експортиране
 change bookmark	bookmarks	bg	Промяна на отметката
 check all	bookmarks	bg	Маркира всички
-close this window to return	bookmarks	bg	затворете този прозорец, за да се върнете
+choose the categories to display	bookmarks	bg	Избери категориите за показване
+choose the categories to expand in the initial view	bookmarks	bg	Избери категориите за разширяване в първоначалния изглед
+close this window to return	bookmarks	bg	Затворете този прозорец, за да се върнете обратно
 create bookmark	bookmarks	bg	Създаване на отметка
 create new bookmark	bookmarks	bg	Създаване на нова отметка
 create new links	bookmarks	bg	Създаване на нови връзки
@@ -26,59 +41,83 @@ date added	bookmarks	bg	Датата е добавена
 date changed	bookmarks	bg	Датата е променена
 date last updated	bookmarks	bg	Дата на последно обновяване
 date last visited	bookmarks	bg	Дата на последно посещение
+default view for bookmarks	bookmarks	bg	Изглед по подразбиране за отметки
 descending	bookmarks	bg	Низходящо
 edit bookmark	bookmarks	bg	Редактиране на отметка
+edit bookmark - %1	bookmarks	bg	Редактиране на отметка - %1
 edit this bookmark	bookmarks	bg	Редактиране на тази отметка
 enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	bg	Въведете името на файла с отметки на Netscape, който искате да въде внесен.
 existing links	bookmarks	bg	Съществуващи връзки
 export	bookmarks	bg	експорт
 export bookmarks	common	bg	Изнасяне на отметки
-fewer	bookmarks	bg	по-малко
+export definition to use for nextmatch export	bookmarks	bg	Определение за експорт, което да се използва за nextmatch експорт
+export definitition to use for nextmatch export	bookmarks	bg	Определение за експорт, което да се използва за nextmatch експорт
+export format	bookmarks	bg	Формат за експортиране
+fewer	bookmarks	bg	По-малко
 filter by	bookmarks	bg	Филтриране по
 found a link you might like	bookmarks	bg	Препратка, която може да ти е интересна
 from	bookmarks	bg	От
-from category %1	bookmarks	bg	от категория %1
+from category %1	bookmarks	bg	От категория %1
 general	bookmarks	bg	Общи
 global categories	bookmarks	bg	Глобални категории
 highest	bookmarks	bg	Най-висока
 history	bookmarks	bg	История
 i thought you would be interested in the following link(s):	bookmarks	bg	Реших, че следните препратки може да са ти интересни:
+if you specify an export definition, it will be used when you export	bookmarks	bg	Ако посочите дефиниция за "експортиране", тя ще се използва, когато експортирате.
+if you specify an export definition, it will be used when you export*	bookmarks	bg	Ако посочите дефиниция за "експортиране", тя ще се използва, когато експортирате*
 import bookmarks	common	bg	Внасяне на отметки
+import under category	bookmarks	bg	Внасяне под категория
 last modified	bookmarks	bg	Последно модифициран
-like	bookmarks	bg	подобно на
+last visited	bookmarks	bg	Последно посетени
+like	bookmarks	bg	Подобно на
 links	bookmarks	bg	Връзки
 list view	bookmarks	bg	Списък
 lowest	bookmarks	bg	Най-ниска
+mail	bookmarks	bg	Поща
 mail this bookmark	bookmarks	bg	Изпращане та отметката по пощата
-mail-this-link message sent to %1.	bookmarks	bg	съобщение "изпращане на отметката" изпратено на %1.
+mail-this-link message sent to %1.	bookmarks	bg	Съобщение "изпращане на отметката" изпратено на %1.
 mass update:	bookmarks	bg	Групово обновяване:
 message from	bookmarks	bg	Съобщение от
-more	bookmarks	bg	повече
+more	bookmarks	bg	Повече
 name	bookmarks	bg	Име
 name is required	bookmarks	bg	Името е задължително
+netscape / firefox	bookmarks	bg	Netscape / Firefox
 netscape bookmark file	bookmarks	bg	Файл с отметки на Netscape
 netscape bookmark filename is required!	bookmarks	bg	Нужно е името на файл с отметки на Netscape!
+netscape/mozilla	bookmarks	bg	Netscape / Mozilla
 new	bookmarks	bg	Нова
+note: you can use bookmark files exported as html	bookmarks	bg	Забележка: Можете да използвате файлове с отметки, експортирани като HTML
+old fixed definition	bookmarks	bg	Стара фиксирана дефиниция
 or	bookmarks	bg	или
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	bg	Моля, попълнете <B>адрес на получателя</B>, <B>относно</B>, и <B>съдържанието на писмото</B>!
 please select the categories to export	bookmarks	bg	Моля изберете категориите за експортиране
 query condition	bookmarks	bg	Условие на търсенето
 rating	bookmarks	bg	Оценка
+rating of this site	bookmarks	bg	Оценка (рейтинг) на този сайт
 search for:	bookmarks	bg	Търсене за:
+select an action	bookmarks	bg	Изберете действие
+select an action...	bookmarks	bg	Изберете действие...
 select the format you would like to export to	bookmarks	bg	Изберете формата, в който искате да експортирате
 send bookmark	bookmarks	bg	Изпращане на отметка
 sub category	bookmarks	bg	Подкатегория
+sub-folders will create new categories	bookmarks	bg	Подпапките ще създадат нови категории
+this is the view bookmarks uses when you enter the application.	bookmarks	bg	Това е изгледът, който "Отметките" използват, когато влизате в приложението.
+this module displays bookmarks in a javascript based tree	bookmarks	bg	Този модул показва Дървото на отметките, базирано на JavaScript.
 to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	bg	Адресът на получателя, %1, не е валиден. Форматът трябва да е <strong>user@domain</strong> и domain-ът трябва да съществува!
-to e-mail addresses	bookmarks	bg	До адрес на епоща
+to e-mail addresses	bookmarks	bg	До адрес на поща
 to which category should the imported folder hierarchy be attached	bookmarks	bg	Към коя категория да прикачат внасяните директории?
-total visits	bookmarks	bg	общо посещения
+total visits	bookmarks	bg	Общо посещения
 tree view	bookmarks	bg	Дървовиден изглед
 unable to open temp file %1 for import.	bookmarks	bg	Не може да се отвори временният файл %1 за внасяне.
+unknown format	bookmarks	bg	Неизвестен формат
 updated	bookmarks	bg	Актуализиран
 url is required.	bookmarks	bg	Изисква се URL.
 view bookmark	bookmarks	bg	Преглед на отметка
 view this bookmark	bookmarks	bg	Преглед на тази отметка
+visit	bookmarks	bg	Прегледай
 warning	bookmarks	bg	Внимание
 whole query	bookmarks	bg	всички резултати
+xbel	bookmarks	bg	XBEL
 you are viewing this site outside of egroupware	bookmarks	bg	Този сайт е външен за EGroupware
 you must select a category	bookmarks	bg	Трябва да изберете категория
+you need to select a category!	bookmarks	bg	Необходимо е да изберете категория!

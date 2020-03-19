@@ -16,10 +16,9 @@
  */
 
 use EGroupware\Api;
-use EGroupware\Api\Link;
-use EGroupware\Api\Framework;
-
 use EGroupware\Api\Etemplate\Widget\Tree as tree;
+use EGroupware\Api\Framework;
+use EGroupware\Api\Link;
 
 class bookmarks_ui
 {
@@ -465,12 +464,18 @@ class bookmarks_ui
 
 			foreach ($bookmarks as &$bm)
 			{
+				// Limit tree to only direct children, get_rows() gives any bookmark in that category or any of its children
+				if ($bm['category'] !== $cat_id)
+				{
+					continue;
+				}
+
 				//Arbitrary data send to client-side tree widget
-				$bm_userData = array (
-					'name' =>'url',
-					'content' => $bm['url']
+				$bm_userData = array(
+						'name' => 'url',
+						'content' => $bm['url']
 				);
-				$tree[tree::CHILDREN][] = array(tree::ID=>$_parent.'/bookmarks-'.$bm['id'], tree::LABEL => $bm['name'], 'userdata' => array($bm_userData));
+				$tree[tree::CHILDREN][] = array(tree::ID => $_parent . '/bookmarks-' . $bm['id'], tree::LABEL => $bm['name'], 'userdata' => array($bm_userData));
 			}
 
 			// Check if there's sub cats to bind

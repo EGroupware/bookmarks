@@ -347,7 +347,7 @@ class bookmarks_ui
 		$actions = array(
 			'visit' => array(
 				'caption' => 'Visit',
-				'icon' => 'no_favicon',
+				'icon' => 'view',
 				'allowOnMultiple' => false,
 				'nm_action' => 'location',
 				'url' => 'menuaction=bookmarks.bookmarks_ui.redirect&bm_id=$id',
@@ -372,7 +372,7 @@ class bookmarks_ui
 			'mailto' => array(
 				'caption' => 'Mail',
 				'allowOnMultiple' => true,
-				'icon'	=> 'mail',
+				'icon'	=> 'mail/navbar',
 				'group' => $group,
 				'onExecute' => 'javaScript:app.bookmarks.mail'
 			),

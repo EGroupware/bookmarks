@@ -608,22 +608,21 @@ class bookmarks_ui
 		}
 		elseif ($content['export'])
 		{
-			#  header("Content-type: text/plain");
-			header("Content-type: application/octet-stream");
-
+			$cats = (array)($content['category']);
 			switch($content['format']) {
 				case 'ns':
-					header("Content-Disposition: attachment; filename=bookmarks.html");
-					echo $this->bo->export($content['category'],'ns');
+					Api\Header\Content::type("bookmarks.html","application/octet-stream");
+					echo $this->bo->export($cats,'ns');
 					break;
 				case 'xbel':
-					header("Content-Disposition: attachment; filename=bookmarks.xbel");
-					echo $this->bo->export($content['category'],'xbel');
+					Api\Header\Content::type("bookmarks.xbel","application/octet-stream");
+					echo $this->bo->export($cats,'xbel');
 					break;
 				default:
 					$this->bo->error_msg .= '<br />' . lang('Unknown format');
 					break;
 			}
+			Framework::window_close();
 		}
 		else
 		{

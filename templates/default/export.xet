@@ -15,9 +15,9 @@
 				<row valign="top" disabled="@bm_count" class="dialogHeader">
 					<description value="Categories to export"/>
 				</row>
-				<row >
+				<row>
 					<description value="(Selecting a category includes all sub-categories)"/>
-					<tree-cat id="category" options="1"/>
+					<tree-cat id="category" multiple="true"/>
 				</row>
 				<row>
 					<description value="Export format"/>
@@ -27,7 +27,7 @@
 				</row>
 				<row class="dialogFooterToolbar">
 					<hbox span="all">
-						<button label="Export" id="export"/>
+						<button label="Export" id="export" onclick="widget.getInstanceManager().postSubmit();"/>
 						<button label="Cancel" id="cancel" onclick="window.close();"/>
 					</hbox>
 				</row>

@@ -510,7 +510,7 @@ use EGroupware\Api\Vfs;
 			}
 		}
 
-		function export($catlist,$type,$expanded=array())
+		function export(Array $catlist,$type,$expanded=array())
 		{
 			$this->type = $type;
 			$this->expanded = $expanded;

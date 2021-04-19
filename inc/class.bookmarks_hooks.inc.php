@@ -66,6 +66,7 @@ class bookmarks_hooks
 				'Add bookmark'     => "javascript:egw_openWindowCentered2('".Egw::link('/index.php',array(
 						'menuaction' => 'bookmarks.bookmarks_ui.create'
 					),false)."','_blank',750,300,'yes');",
+				['text'=>'--'],
 				'Import Bookmarks' => "javascript:egw.openPopup('".Egw::link('/index.php',array(
 						'menuaction'=>'bookmarks.bookmarks_ui.import'
 					),false)."',500,150,'_blank',false,false,'yes');",

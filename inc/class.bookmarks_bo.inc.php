@@ -107,6 +107,9 @@ use EGroupware\Api\Vfs;
 
 			// Add in permissions
 			foreach($rows as &$row) {
+				// Pre-cache title to avoid another lookup in stat()
+				Link::set_cache('bookmarks',$row['id'],$row['name']);
+
 				$favicon = Link::vfs_path('bookmarks', $row['id'], 'favicon.png', true);
 
 				if(@Vfs::stat($favicon))

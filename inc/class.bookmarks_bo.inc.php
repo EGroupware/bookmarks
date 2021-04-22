@@ -219,7 +219,8 @@ use EGroupware\Api\Vfs;
 
 				// Log history
 				$this->track($values, $this->read($id));
-				if ($this->so->save($id,$values))
+				$values['bm_id'] = $id;
+				if ($this->so->save($values))
 				{
 					$this->msg .= lang('Bookmark changed sucessfully');
 					return True;
@@ -299,13 +300,14 @@ use EGroupware\Api\Vfs;
 		/**
 		 * Save changes to the history log
 		 *
-		 * Reimplemented to store all customfields in a single field, as the history-log has only 2-char field-ids
-		 *
+		 * @internal use only track($data,$old)
 		 * @param array $data current entry
-		 * @param array $old=null old/last state of the entry or null for a new entry
-		 * @param int number of log-entries made
+		 * @param array $old = null old/last state of the entry or null for a new entry
+		 * @param boolean $deleted = null can be set to true to let the tracking know the item got deleted or undelted
+		 * @param array $changed_fields = null changed fields from ealier call to $this->changed_fields($data,$old), to not compute it again
+		 * @return int number of log-entries made
 		 */
-		function save_history($data,$old)
+		function save_history(array $data, ?array $old = NULL, $deleted = NULL, ?array $changed_fields = NULL)
 		{
 			$data_custom = $old_custom = array();
 			foreach($this->so->customfields as $name => $custom)
@@ -442,7 +444,7 @@ use EGroupware\Api\Vfs;
 								$values['rating']   = $default_rating;
 
 								preg_match('/ADD_DATE="([^"]*)"/i',$line,$add_info);
-								preg_match('/LAST_VISIT="([^"]*)"/i',$line,$vist_info);
+								preg_match('/LAST_VISIT="([^"]*)"/i',$line,$visit_info);
 								preg_match('/LAST_MODIFIED="([^"]*)"/i',$line,$change_info);
 								preg_match('/ICON_URI="([^"]*)"/i',$line,$favicon_info);
 

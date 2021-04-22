@@ -39,7 +39,7 @@
 					<image align="center" label="$row_cont[name]" src="${row}[favicon]" href="$row_cont[url]" class="favicon"/>
 					<vbox>
 						<hbox>
-							<description value="${row_cont[stripped_name]}" href="bookmarks.bookmarks_ui.redirect&amp;bm_id=${row_cont[id]}" extra_link_target="_blank"/>
+							<description value="$row_cont[stripped_name]" href="bookmarks.bookmarks_ui.redirect&amp;bm_id=$row_cont[id]" extra_link_target="_blank"/>
 						</hbox>
 						<description id="${row}[desc]"/>
 					</vbox>
@@ -47,7 +47,7 @@
 						<menulist>
 							<menupopup type="select-cat" id="${row}[category]" readonly="true"/>
 						</menulist>
-						<image statustext="Rating of this site" src="bar-{$row_cont[rating]}"/>
+						<image statustext="Rating of this site" src="bar-$row_cont[rating]"/>
 					</vbox>
 					<description id="${row}[keywords]"/>
 					<customfields-list id="$row" class="customfields"/>

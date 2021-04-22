@@ -90,7 +90,7 @@ class bookmarks_so extends Api\Storage
 		return $this->data['id'];
 	}
 
-	function save($id, $values)
+	function save($values = NULL, $extra_where = NULL)
 	{
 		$values['updated'] = time();
 		if ($values['access'] != 'private')
@@ -100,8 +100,9 @@ class bookmarks_so extends Api\Storage
 		return parent::save($values) === 0;
 	}
 
-	function delete($id) {
-		return parent::delete(array('id'=>$id));
+	function delete($keys = NULL, $only_return_ids = false)
+	{
+		return parent::delete(is_array($keys) ? $keys : array('id'=>$keys),$only_return_ids);
 	}
 
 	function updatetimestamp($id,$timestamp = null)
@@ -117,8 +118,8 @@ class bookmarks_so extends Api\Storage
 	* Get bookmarks for nextmatch widget.
 	* Re-implemented to handle category filter
 	*/
-	public function get_rows(&$query, &$rows, &$readonlys) {
-
+	public function get_rows($query, &$rows, &$readonlys, $join = '', $need_full_no_count = false, $only_keys = false, $extra_cols = Array())
+	{
 		$criteria = array();
 		$op = 'AND';
 		if ($query['search'])

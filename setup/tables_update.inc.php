@@ -167,3 +167,13 @@ function bookmarks_upgrade19_1()
 {
 	return $GLOBALS['setup_info']['bookmarks']['currentver'] = '20.1';
 }
+
+/**
+ * Bump version to 21.1
+ *
+ * @return string
+ */
+function bookmarks_upgrade20_1()
+{
+	return $GLOBALS['setup_info']['bookmarks']['currentver'] = '21.1';
+}

@@ -326,7 +326,7 @@ use EGroupware\Api\Vfs;
 		*	This function gets a string name for a bookmark
 		*/
 		public function link_title($id) {
-			$bookmark = $this->read($id);
+			$bookmark = $this->so->read($id);
 			return $bookmark['name'];
 		}
 

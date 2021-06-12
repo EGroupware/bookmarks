@@ -1,4 +1,3 @@
-"use strict";
 /**
  * EGroupware - Bookmarks - Javascript UI
  *
@@ -8,35 +7,16 @@
  * @copyright 2015 EGroupware GmbH
  * @license http://opensource.org/licenses/gpl-license.php GPL - GNU General Public License
  */
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-Object.defineProperty(exports, "__esModule", { value: true });
 /*egw:uses
     /api/js/jsapi/egw_app.js
  */
-require("jquery");
-require("jqueryui");
-require("../jsapi/egw_global");
-require("../etemplate/et2_types");
-var egw_app_1 = require("../../api/js/jsapi/egw_app");
+import { EgwApp } from '../../api/js/jsapi/egw_app';
 /**
  * UI for bookmarks
  *
  * @augments AppJS
  */
-var BookmarksApp = /** @class */ (function (_super) {
-    __extends(BookmarksApp, _super);
+class BookmarksApp extends EgwApp {
     /**
      * path widget
      */
@@ -45,25 +25,23 @@ var BookmarksApp = /** @class */ (function (_super) {
      *
      * @memberOf app.bookmarks
      */
-    function BookmarksApp() {
-        var _this = 
+    constructor() {
         // call parent
-        _super.call(this) || this;
-        _this.appname = 'bookmarks';
+        super();
+        this.appname = 'bookmarks';
         /**
          * et2 widget container
          */
-        _this.et2 = null;
-        return _this;
+        this.et2 = null;
     }
     /**
      * Destructor
      */
-    BookmarksApp.prototype.destroy = function () {
+    destroy() {
         delete this.et2;
         // call parent
-        _super.prototype.destroy.apply(this, arguments);
-    };
+        super.destroy.apply(this, arguments);
+    }
     /**
      * This function is called when the etemplate2 object is loaded
      * and ready.  If you must store a reference to the et2 object,
@@ -71,9 +49,9 @@ var BookmarksApp = /** @class */ (function (_super) {
      *
      * @param et2 etemplate2 Newly ready object
      */
-    BookmarksApp.prototype.et2_ready = function (et2) {
+    et2_ready(et2) {
         // call parent
-        _super.prototype.et2_ready.apply(this, arguments);
+        super.et2_ready.apply(this, arguments);
         switch (et2.name) {
             case 'bookmarks.list':
                 this.setState({});
@@ -81,7 +59,7 @@ var BookmarksApp = /** @class */ (function (_super) {
             case 'bookmarks.tree':
                 break;
         }
-    };
+    }
     /**
      * Observer method receives update notifications from all applications
      *
@@ -101,7 +79,7 @@ var BookmarksApp = /** @class */ (function (_super) {
      * or null, if not triggered on server-side, which adds that info
      * @return {false|*} false to stop regular refresh, thought all observers are run
      */
-    BookmarksApp.prototype.observer = function (_msg, _app, _id, _type, _msg_type, _links) {
+    observer(_msg, _app, _id, _type, _msg_type, _links) {
         var tree = this.et2.getWidgetById('tree');
         if (tree) {
             var itemId = _id != 'undefined' ? _app + "::" + _id : 0;
@@ -112,14 +90,14 @@ var BookmarksApp = /** @class */ (function (_super) {
                     tree.refreshItem(tree.input.getParentId(itemId) || 0);
             }
         }
-    };
+    }
     /**
      * Redirect the selected bookmark's leaf
      *
      * @param {type} _id
      * @param {type} _widget
      */
-    BookmarksApp.prototype.tree_onclick = function (_id, _widget) {
+    tree_onclick(_id, _widget) {
         // Get the bookmark id
         var id = _id.split('/bookmarks-');
         if (id)
@@ -127,13 +105,13 @@ var BookmarksApp = /** @class */ (function (_super) {
         var url = _widget.getUserData(_id, 'url');
         if (url)
             this.egw.open_link(this.egw.link('/index.php', 'menuaction=bookmarks.bookmarks_ui.redirect&bm_id=' + id), '_blank');
-    };
+    }
     /**
      *
      * @param {type} _action
      * @param {type} _selected
      */
-    BookmarksApp.prototype.tree_action = function (_action, _selected) {
+    tree_action(_action, _selected) {
         var id = '';
         if (_selected[0].id.match(/\/bookmarks-/ig)) {
             // Get the bookmark id
@@ -162,7 +140,7 @@ var BookmarksApp = /** @class */ (function (_super) {
             case 'delete':
             //TODO
         }
-    };
+    }
     /**
      * Set a state previously returned by getState
      *
@@ -170,10 +148,10 @@ var BookmarksApp = /** @class */ (function (_super) {
      *
      * @param {object} state containing "name" attribute to be used as "favorite" GET parameter to a nextmatch
      */
-    BookmarksApp.prototype.setState = function (state, template) {
-        _super.prototype.observer.apply(this, arguments);
+    setState(state, template) {
+        super.observer.apply(this, arguments);
         return false;
-    };
+    }
     /**
      * Action handler to mail bookmarks
      *
@@ -184,7 +162,7 @@ var BookmarksApp = /** @class */ (function (_super) {
      * @param {egwAction} action
      * @param {egwActionObject[]} selected
      */
-    BookmarksApp.prototype.mail = function (action, selected) {
+    mail(action, selected) {
         var settings = {
             "preset[mimeType]": 'html',
             "preset[subject]": this.egw.lang('Found a link you might like'),
@@ -207,8 +185,7 @@ var BookmarksApp = /** @class */ (function (_super) {
             }
         }
         egw.open('', 'mail', 'add', settings);
-    };
-    return BookmarksApp;
-}(egw_app_1.EgwApp));
+    }
+}
 app.classes.bookmarks = BookmarksApp;
 //# sourceMappingURL=app.js.map

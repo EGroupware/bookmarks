@@ -46,7 +46,7 @@ descending	bookmarks	en	Descending
 edit bookmark	bookmarks	en	Edit bookmark
 edit bookmark - %1	bookmarks	en	Edit bookmark - %1
 edit this bookmark	bookmarks	en	Edit this bookmark
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	en	Enter the name of the Netscape bookmark file<br>that you want imported into bookmark below.
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	en	Enter the name of the HTML bookmark file<br>that you want imported into bookmark below.
 existing links	bookmarks	en	Existing links
 export	bookmarks	en	Export
 export bookmarks	common	en	Export bookmarks
@@ -81,10 +81,10 @@ message from	bookmarks	en	Message from
 more	bookmarks	en	More
 name	bookmarks	en	Name
 name is required	bookmarks	en	Name is required
-netscape / firefox	bookmarks	en	Netscape / Firefox
-netscape bookmark file	bookmarks	en	Netscape bookmark file
-netscape bookmark filename is required!	bookmarks	en	Netscape bookmark filen ame is required!
-netscape/mozilla	bookmarks	en	Netscape / Mozilla
+netscape / firefox	bookmarks	en	HTML
+netscape bookmark file	bookmarks	en	HTML bookmark file
+netscape bookmark filename is required!	bookmarks	en	HTML bookmark filename is required!
+netscape/mozilla	bookmarks	en	HTML
 new	bookmarks	en	New
 note: you can use bookmark files exported as html	bookmarks	en	Note: You can use bookmark files exported as HTML.
 old fixed definition	bookmarks	en	Old fixed definition

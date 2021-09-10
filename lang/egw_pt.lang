@@ -43,7 +43,7 @@ descending	bookmarks	pt	Ordem decrescente
 edit bookmark	bookmarks	pt	Editar marcador
 edit bookmark - %1	bookmarks	pt	Editar marcador - 1%
 edit this bookmark	bookmarks	pt	Editar este marcador
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	pt	Insira o nome do ficheiro do marcador da Netscape que deseja importar.
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	pt	Insira o nome do ficheiro do marcador da  	Visit que deseja importar.
 existing links	bookmarks	pt	Ligações existentes
 export	bookmarks	pt	Exportar
 export bookmarks	common	pt	Exportar marcadores
@@ -76,12 +76,11 @@ message from	bookmarks	pt	Mensagem de
 more	bookmarks	pt	Mais
 name	bookmarks	pt	Nome
 name is required	bookmarks	pt	É necessário inserir um nome
-netscape / firefox	bookmarks	pt	Netscape / Firefox
-netscape bookmark file	bookmarks	pt	Ficheiro de marcadores da Netscape
-netscape bookmark filename is required!	bookmarks	pt	É necessário inserir o nome do ficheiro de marcadores da Netscape!
-netscape/mozilla	bookmarks	pt	Netscape / Mozilla
+netscape / firefox	bookmarks	pt	HTML
+netscape bookmark file	bookmarks	pt	Ficheiro de marcadores da HTML
+netscape bookmark filename is required!	bookmarks	pt	É necessário inserir o nome do ficheiro de marcadores da HTML!
+netscape/mozilla	bookmarks	pt	HTML
 new	bookmarks	pt	Novo
-new bookmark	bookmarks	pt	Novo marcador
 note: you can use bookmark files exported as html	bookmarks	pt	Nota: Você pode usar arquivos de favoritos exportados como HTML.
 old fixed definition	bookmarks	pt	Definição fixa Velho
 or	bookmarks	pt	ou

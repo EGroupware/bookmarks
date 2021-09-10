@@ -32,7 +32,7 @@ date last visited	bookmarks	nl	Datum laatste keer bezocht
 descending	bookmarks	nl	Aflopend
 edit bookmark	bookmarks	nl	Wijzig favoriet
 edit this bookmark	bookmarks	nl	Deze favoriet wijzigen
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	nl	Geef de naam van het Netscape favorietenbestand dat u wilt importeren in uw favorieten hieronder.
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	nl	Geef de naam van het HTML favorietenbestand dat u wilt importeren in uw favorieten hieronder.
 existing links	bookmarks	nl	Bestaande links
 export	bookmarks	nl	exporteren
 export bookmarks	common	nl	Exporteer favorieten
@@ -64,10 +64,11 @@ message from	bookmarks	nl	Bericht van
 more	bookmarks	nl	Meer
 name	bookmarks	nl	Naam
 name is required	bookmarks	nl	Naam is noodzakelijk
-netscape bookmark file	bookmarks	nl	Netscape-favorietenbestand
-netscape bookmark filename is required!	bookmarks	nl	Netscape-favorietenbestand is noodzakelijk!
+netscape / firefox	bookmarks	nl	HTML
+netscape bookmark file	bookmarks	nl	HTML-favorietenbestand
+netscape bookmark filename is required!	bookmarks	nl	HTML-favorietenbestand is noodzakelijk!
+netscape/mozilla	bookmarks	nl	HTML
 new	bookmarks	nl	Nieuw
-new bookmark	bookmarks	nl	nieuwe favoriet
 or	bookmarks	nl	of
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	nl	Geef a.u.b. het <B>Aan E-Mailadres</B>, <B>Onderwerp</B>, en <B>Bericht</B>!
 please select the categories to export	bookmarks	nl	Selecteer a.u.b. de categorieën
@@ -90,6 +91,7 @@ view bookmark	bookmarks	nl	Favoriet weergeven
 view this bookmark	bookmarks	nl	Deze favoriet weergeven
 warning	bookmarks	nl	Waarschuwing
 whole query	bookmarks	nl	gehele query
+xbel	bookmarks	nl	XBEL
 you are viewing this site outside of egroupware	bookmarks	nl	U bekijkt deze website buiten EGroupware
 you must select a category	bookmarks	nl	U moet een categorie selecteren
 you need to select a category!	bookmarks	nl	Het is nodig dat u een categorie selecteert!

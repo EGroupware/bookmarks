@@ -44,7 +44,7 @@ descending	bookmarks	fi	Laskeva
 edit bookmark	bookmarks	fi	Muokkaa suosikkia
 edit bookmark - %1	bookmarks	fi	Muokkaa suosikkia %1
 edit this bookmark	bookmarks	fi	Muokkaa tätä suosikkia
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	fi	Valitse tuotava Netscapen suosikki-tiedosto.
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	fi	Valitse tuotava HTML suosikki-tiedosto.
 existing links	bookmarks	fi	Olemassaolevat linkit
 export	bookmarks	fi	Vienti
 export bookmarks	common	fi	Vie suosikit
@@ -79,12 +79,11 @@ message from	bookmarks	fi	Lähettäjä
 more	bookmarks	fi	Enemmän
 name	bookmarks	fi	Nimi
 name is required	bookmarks	fi	Nimi on annettava
-netscape / firefox	bookmarks	fi	Netscape / Firefox
-netscape bookmark file	bookmarks	fi	Netscapen suosikit-tiedosto
-netscape bookmark filename is required!	bookmarks	fi	Netscapen suosikit-tiedoston nimi on annettava!
-netscape/mozilla	bookmarks	fi	Netscape/Mozilla
+netscape / firefox	bookmarks	fi	HTML
+netscape bookmark file	bookmarks	fi	HTML suosikit-tiedosto
+netscape bookmark filename is required!	bookmarks	fi	HTML suosikit-tiedoston nimi on annettava!
+netscape/mozilla	bookmarks	fi	HTML
 new	bookmarks	fi	Uusi
-new bookmark	bookmarks	fi	Uusi suosikki
 old fixed definition	bookmarks	fi	Vanha, korjattu määritelmä
 or	bookmarks	fi	tai
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	fi	Täytä <B>Vastaanottaja</B>, <B>Aihe</B> ja <B>Viesti</B>!

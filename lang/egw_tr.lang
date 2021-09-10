@@ -49,10 +49,11 @@ message from	bookmarks	tr	Mesaj sahibi:
 more	bookmarks	tr	Daha fazla
 name	bookmarks	tr	İsim
 name is required	bookmarks	tr	İsim gereklidir
+netscape / firefox	bookmarks	tr	HTML
 netscape bookmark file	bookmarks	tr	Netscape favori dosyası
 netscape bookmark filename is required!	bookmarks	tr	Netscape favori dosyası gereklidir!
+netscape/mozilla	bookmarks	tr	HTML
 new	bookmarks	tr	Yeni
-new bookmark	bookmarks	tr	Yeni Favori
 or	bookmarks	tr	ya da
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	tr	Lütfen <b>Alıcı E-mail Adresi</b>, <b>Konu</b> ve <b>Mesaj</b> alanlarını doldurunuz!
 please select the categories to export	bookmarks	tr	İhraç edilecek kategorileri seçiniz
@@ -73,5 +74,6 @@ url is required.	bookmarks	tr	URL gereklidir.
 view bookmark	bookmarks	tr	Favori görüntüle
 view this bookmark	bookmarks	tr	Bu favoriyi görüntüle
 warning	bookmarks	tr	Uyarı
+xbel	bookmarks	tr	XBEL
 you are viewing this site outside of egroupware	bookmarks	tr	Bu siteyi eGroupWare dışında görüntülüyorsunuz
 you must select a category	bookmarks	tr	Bir kategori seçmelisiniz

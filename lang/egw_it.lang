@@ -4,6 +4,7 @@
 (comma separate multiple addresses)	bookmarks	it	(indirizzi multipli separati da virgole)
 (selecting a category includes all sub-categories)	bookmarks	it	La selezione di una categoria comprende le sottocategorie
 actions	bookmarks	it	Azioni
+add bookmark	bookmarks	it	Aggiungi segnalibro
 added	bookmarks	it	Aggiunto
 all bookmarks	bookmarks	it	Tutti i segnalibri
 and	bookmarks	it	E
@@ -45,7 +46,7 @@ descending	bookmarks	it	Discendente
 edit bookmark	bookmarks	it	Modifica segnalibro
 edit bookmark - %1	bookmarks	it	Modifica segnalibro - %1
 edit this bookmark	bookmarks	it	Modifica questo segnalibro
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	it	Inserisci il nome del file Netscape <br> che vuoi importare qui sotto.
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	it	Inserisci il nome del file HTML <br> che vuoi importare qui sotto.
 existing links	bookmarks	it	Collegamenti esistenti
 export	bookmarks	it	esporta
 export bookmarks	common	it	Esporta Segnalibri
@@ -80,12 +81,11 @@ message from	bookmarks	it	Messaggio da
 more	bookmarks	it	Altro
 name	bookmarks	it	Nome
 name is required	bookmarks	it	Il nome è richiesto
-netscape / firefox	bookmarks	it	Netscape / Firefox
-netscape bookmark file	bookmarks	it	File Segnalibri Netscape
-netscape bookmark filename is required!	bookmarks	it	NomeFile dei Segnalibri di Netscape è richiesto !
-netscape/mozilla	bookmarks	it	Netscape / Mozilla
+netscape / firefox	bookmarks	it	HTML
+netscape bookmark file	bookmarks	it	File Segnalibri HTML
+netscape bookmark filename is required!	bookmarks	it	NomeFile dei Segnalibri di HTML è richiesto !
+netscape/mozilla	bookmarks	it	HTML
 new	bookmarks	it	Nuovo
-new bookmark	bookmarks	it	nuovo segnalibro
 note: you can use bookmark files exported as html	bookmarks	it	N.B.: Puoi usare i file HTML esportati
 old fixed definition	bookmarks	it	Vecchia definizione fissa
 or	bookmarks	it	oppure
@@ -114,6 +114,7 @@ updated	bookmarks	it	Aggiornato
 url is required.	bookmarks	it	URL richiesto
 view bookmark	bookmarks	it	Visualizza segnalibro
 view this bookmark	bookmarks	it	Visualizza questo segnalibro
+visit	bookmarks	it	Visita
 warning	bookmarks	it	Avvertenza
 whole query	bookmarks	it	Intera query
 xbel	bookmarks	it	XBEL

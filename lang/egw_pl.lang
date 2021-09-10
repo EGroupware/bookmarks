@@ -32,7 +32,7 @@ date last visited	bookmarks	pl	Data ostatniej wizyty
 descending	bookmarks	pl	Malejąco
 edit bookmark	bookmarks	pl	Edycja zakładki
 edit this bookmark	bookmarks	pl	Edycja zakładki
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	pl	Podaj nazwę pliku zakładek Netscape.<br />który chcesz zaimportować do poniższego kontenera.
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	pl	Podaj nazwę pliku zakładek HTML.<br />który chcesz zaimportować do poniższego kontenera.
 existing links	bookmarks	pl	Istniejące linki
 export	bookmarks	pl	Eksport
 export bookmarks	common	pl	Eksportuj Zakładki
@@ -59,10 +59,11 @@ message from	bookmarks	pl	Wiadomość od
 more	bookmarks	pl	Więcej
 name	bookmarks	pl	Nazwa
 name is required	bookmarks	pl	Nazwa jest wymagana
-netscape bookmark file	bookmarks	pl	Plik Zakładki Netscape'a
-netscape bookmark filename is required!	bookmarks	pl	Nazwa pliku zakładki Netscape'a jest wymagana!
+netscape / firefox	bookmarks	pl	HTML
+netscape bookmark file	bookmarks	pl	Plik Zakładki HTML'a
+netscape bookmark filename is required!	bookmarks	pl	Nazwa pliku zakładki HTML'a jest wymagana!
+netscape/mozilla	bookmarks	pl	HTML
 new	bookmarks	pl	Nowa
-new bookmark	bookmarks	pl	Nowa zakładka
 or	bookmarks	pl	lub
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	pl	Proszę wypełnić: <b>adres odbiorcy</b>, <b>temat</b> oraz <b>treść wiadomości</b>!
 please select the categories to export	bookmarks	pl	Prosimy wybrać kategorie do eksportu
@@ -84,8 +85,10 @@ updated	bookmarks	pl	Uaktualniony
 url is required.	bookmarks	pl	Adres URL jest wymagany.
 view bookmark	bookmarks	pl	Pokaż zakładkę
 view this bookmark	bookmarks	pl	Pokaż tę zakładkę
+visit	bookmarks	pl	Odwiedź
 warning	bookmarks	pl	Ostrzeżenie
 whole query	bookmarks	pl	Całe zapytanie
+xbel	bookmarks	pl	XBEL
 you are viewing this site outside of egroupware	bookmarks	pl	Oglądasz tę stronę spoza systemu EGroupware
 you must select a category	bookmarks	pl	Musisz wybrać kategorię
 you need to select a category!	bookmarks	pl	Musisz wybrać kategorię!

@@ -55,8 +55,10 @@ message from	bookmarks	lv	Ziņa no
 more	bookmarks	lv	Vēl
 name	bookmarks	lv	Vārds
 name is required	bookmarks	lv	Tiek prasīts vārds
-netscape bookmark file	bookmarks	lv	Netscape grāmatzīmes fails
-netscape bookmark filename is required!	bookmarks	lv	Tiek prasīts Netscape grāmatzīmes faila nosaukums
+netscape / firefox	bookmarks	lv	HTML
+netscape bookmark file	bookmarks	lv	HTML grāmatzīmes fails
+netscape bookmark filename is required!	bookmarks	lv	Tiek prasīts HTML grāmatzīmes faila nosaukums
+netscape/mozilla	bookmarks	lv	HTML
 new	bookmarks	lv	Jauna
 or	bookmarks	lv	vai
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	lv	Lūdzu aizpildi <B>Kam: E-pasta adrese</B>, <B>Temats</B>, un <B>Vēstule</B>!
@@ -78,5 +80,6 @@ url is required.	bookmarks	lv	pieprasīts URL
 view bookmark	bookmarks	lv	Rādīt grāmatzīmes
 view this bookmark	bookmarks	lv	Radīt šo grāmatzīmi
 warning	bookmarks	lv	Brīdinājums
+xbel	bookmarks	lv	XBEL
 you are viewing this site outside of egroupware	bookmarks	lv	Tu skaties šo lapu ārpus EGroupware
 you must select a category	bookmarks	lv	Tev jāizvēlas kategorija

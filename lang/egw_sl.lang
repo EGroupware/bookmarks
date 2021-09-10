@@ -32,7 +32,7 @@ date last visited	bookmarks	sl	Datum zadnjega obiska
 descending	bookmarks	sl	Padajoče
 edit bookmark	bookmarks	sl	Uredi zaznamek
 edit this bookmark	bookmarks	sl	Uredi ta zaznamek
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	sl	Vnesite ime datoteke z zaznamki (v Netscape formatu),<br>iz katere želite uvoziti zaznamke.
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	sl	Vnesite ime datoteke z zaznamki (v HTML formatu),<br>iz katere želite uvoziti zaznamke.
 existing links	bookmarks	sl	Obstoječe povezave
 export	bookmarks	sl	Izvozi
 export bookmarks	common	sl	Izvozi zaznamke
@@ -59,10 +59,11 @@ message from	bookmarks	sl	Sporočilo od
 more	bookmarks	sl	Več
 name	bookmarks	sl	Ime
 name is required	bookmarks	sl	Ime je obvezno
-netscape bookmark file	bookmarks	sl	Netscape datoteka z zaznamki
-netscape bookmark filename is required!	bookmarks	sl	Zahtevana datoteka z zaznamki mora biti v Netscape formatu!
+netscape / firefox	bookmarks	sl	HTML
+netscape bookmark file	bookmarks	sl	HTML datoteka z zaznamki
+netscape bookmark filename is required!	bookmarks	sl	Zahtevana datoteka z zaznamki mora biti v HTML formatu!
+netscape/mozilla	bookmarks	sl	HTML
 new	bookmarks	sl	Novo
-new bookmark	bookmarks	sl	Nov zaznamek
 or	bookmarks	sl	ali
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	sl	Izpolnite <B>E-poštni naslov</B>, <B>Predmet</B>, in <B>Sporočilo</B>
 please select the categories to export	bookmarks	sl	Izberite kategorije za izvoz
@@ -85,8 +86,10 @@ updated	bookmarks	sl	Podosodobljeno
 url is required.	bookmarks	sl	URL naslov je obvezen.
 view bookmark	bookmarks	sl	Poglej zaznamek
 view this bookmark	bookmarks	sl	Poglej ta zaznamek
+visit	bookmarks	sl	Obiščite
 warning	bookmarks	sl	Opozorilo
 whole query	bookmarks	sl	Celotno povpraševanje
+xbel	bookmarks	sl	XBEL
 you are viewing this site outside of egroupware	bookmarks	sl	Ta stran je prikazana izven EGW
 you must select a category	bookmarks	sl	Kategorijo morate izbrati
 you need to select a category!	bookmarks	sl	Izbrati morate kategorijo!

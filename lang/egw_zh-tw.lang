@@ -59,10 +59,11 @@ message from	bookmarks	zh-tw	來自
 more	bookmarks	zh-tw	更多
 name	bookmarks	zh-tw	姓名
 name is required	bookmarks	zh-tw	姓名是必填欄位
+netscape / firefox	bookmarks	zh-tw	HTML
 netscape bookmark file	bookmarks	zh-tw	Netscape 網站連結檔案
 netscape bookmark filename is required!	bookmarks	zh-tw	必須填寫Netscape 網站連結檔案名稱！
+netscape/mozilla	bookmarks	zh-tw	HTML
 new	bookmarks	zh-tw	新增
-new bookmark	bookmarks	zh-tw	新增網站連結
 or	bookmarks	zh-tw	或
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	zh-tw	請填入<B>收件人 E-Mail </B>, <B>主題</B>與<B>訊息內容</B>！
 please select the categories to export	bookmarks	zh-tw	請選擇要匯出的類別
@@ -85,6 +86,7 @@ view bookmark	bookmarks	zh-tw	瀏覽網站連結
 view this bookmark	bookmarks	zh-tw	瀏覽這個網站連結
 warning	bookmarks	zh-tw	注意
 whole query	bookmarks	zh-tw	整個查詢
+xbel	bookmarks	zh-tw	XBEL
 you are viewing this site outside of egroupware	bookmarks	zh-tw	您正在瀏覽egroupWare以外的網站
 you must select a category	bookmarks	zh-tw	您必須選取一個類別
 you need to select a category!	bookmarks	zh-tw	您必須選取一個類別！

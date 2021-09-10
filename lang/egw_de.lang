@@ -46,7 +46,7 @@ descending	bookmarks	de	Aufsteigend
 edit bookmark	bookmarks	de	Lesezeichen bearbeiten
 edit bookmark - %1	bookmarks	de	Lesezeichen bearbeiten - %1
 edit this bookmark	bookmarks	de	Dieses Lesezeichen bearbeiten
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	de	Geben Sie den Namen der Netscape-Lesezeichendatei an<br>die Sie importieren möchten.
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	de	Geben Sie den Namen der HTML-Lesezeichendatei an<br>die Sie importieren möchten.
 existing links	bookmarks	de	Bestehende Verknüpfungen
 export	bookmarks	de	Export
 export bookmarks	common	de	Lesezeichen exportieren
@@ -81,10 +81,10 @@ message from	bookmarks	de	Nachricht von
 more	bookmarks	de	Mehr
 name	bookmarks	de	Name
 name is required	bookmarks	de	Name wird benötigt
-netscape / firefox	bookmarks	de	Netscape / Firefox
-netscape bookmark file	bookmarks	de	Netscape-Lesezeichendatei
-netscape bookmark filename is required!	bookmarks	de	Dateinamen der Netscape-Lesezeichen ist erforderlich!
-netscape/mozilla	bookmarks	de	Netscape / Mozilla
+netscape / firefox	bookmarks	de	HTML
+netscape bookmark file	bookmarks	de	HTML-Lesezeichendatei
+netscape bookmark filename is required!	bookmarks	de	Dateinamen der HTML-Lesezeichen ist erforderlich!
+netscape/mozilla	bookmarks	de	HTML
 new	bookmarks	de	Neu
 note: you can use bookmark files exported as html	bookmarks	de	Achtung: Sie können Lesezeichen nutzen, die als HTML-Datei exportiert wurden.
 old fixed definition	bookmarks	de	Ältere Definition, deren Werte nicht angepasst werden können.

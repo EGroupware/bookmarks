@@ -29,7 +29,7 @@ date last visited	bookmarks	da	Sidste besøgs dato
 descending	bookmarks	da	Faldne
 edit bookmark	bookmarks	da	Redigér bogmærke
 edit this bookmark	bookmarks	da	Redigér dette bogmærke
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	da	Indtast navnet på Netscape bogmærke filen<br>som du vil importere ind i bogmærkerne nedenunder
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	da	Indtast navnet på HTML bogmærke filen<br>som du vil importere ind i bogmærkerne nedenunder
 existing links	bookmarks	da	eksisterende links
 export	bookmarks	da	Exporter
 export bookmarks	common	da	Eksportere bogmærker
@@ -56,8 +56,10 @@ message from	bookmarks	da	Besked fra
 more	bookmarks	da	Flere
 name	bookmarks	da	Navn
 name is required	bookmarks	da	Navn er krævet
-netscape bookmark file	bookmarks	da	Netscape bogmærke fil
-netscape bookmark filename is required!	bookmarks	da	Netscape bogmærke fil er krævet!
+netscape / firefox	bookmarks	da	HTML
+netscape bookmark file	bookmarks	da	HTML bogmærke fil
+netscape bookmark filename is required!	bookmarks	da	HTMLs bogmærke fil er krævet!
+netscape/mozilla	bookmarks	da	HTML
 new	bookmarks	da	Ny
 or	bookmarks	da	eller
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	da	Indtast venligst <b>Modtager E-mail adresse</b>, <b>Emne</b>, og <b>Besked</b>!
@@ -79,6 +81,8 @@ updated	bookmarks	da	Opdateret
 url is required.	bookmarks	da	URL skal indtastes
 view bookmark	bookmarks	da	Se bogmærke
 view this bookmark	bookmarks	da	Se dette bogmærke
+visit	bookmarks	da	Besøg
 warning	bookmarks	da	Advarsel
+xbel	bookmarks	da	XBEL
 you are viewing this site outside of egroupware	bookmarks	da	Du ser denne side udenfor EGroupware
 you must select a category	bookmarks	da	Du skal væe en kategori

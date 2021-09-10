@@ -56,10 +56,11 @@ message from	bookmarks	fa	پیام از
 more	bookmarks	fa	بیشتر
 name	bookmarks	fa	نام
 name is required	bookmarks	fa	نام لازم است
-netscape bookmark file	bookmarks	fa	پرونده چوب الف Netscape
-netscape bookmark filename is required!	bookmarks	fa	نام پرونده چوب الف Netscape لازم است!
+netscape / firefox	bookmarks	fa	HTML
+netscape bookmark file	bookmarks	fa	پرونده چوب الف HTML
+netscape bookmark filename is required!	bookmarks	fa	نام پرونده چوب الف HTML لازم است!
+netscape/mozilla	bookmarks	fa	HTML
 new	bookmarks	fa	جدید
-new bookmark	bookmarks	fa	چوب الف جدید
 or	bookmarks	fa	یا
 please select the categories to export	bookmarks	fa	لطفا دسته ها را برای صادرات انتخاب کنید
 query condition	bookmarks	fa	شرط پرس و جو
@@ -78,5 +79,6 @@ url is required.	bookmarks	fa	URL لازم است
 view bookmark	bookmarks	fa	دیدن چوب الف
 view this bookmark	bookmarks	fa	دیدن این چوب الف
 warning	bookmarks	fa	هشدار
+xbel	bookmarks	fa	XBEL
 you are viewing this site outside of egroupware	bookmarks	fa	شما این سایت را خارج از گروه افزار میبینید
 you must select a category	bookmarks	fa	شما باید یک دسته انتخاب کنید

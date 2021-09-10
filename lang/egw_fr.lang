@@ -4,6 +4,7 @@
 (comma separate multiple addresses)	bookmarks	fr	(l'espace sépare les adresses multiples)
 (selecting a category includes all sub-categories)	bookmarks	fr	Sélectionner une catégorie et toutes les sous-catégories
 actions	bookmarks	fr	Actions
+add bookmark	bookmarks	fr	Ajouter un signet
 added	bookmarks	fr	Ajouté
 all bookmarks	bookmarks	fr	Tous les signets
 and	bookmarks	fr	Et
@@ -45,7 +46,7 @@ descending	bookmarks	fr	Décroissant
 edit bookmark	bookmarks	fr	Editer le signet
 edit bookmark - %1	bookmarks	fr	Modifier un signet - %1
 edit this bookmark	bookmarks	fr	Editer ce signet
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	fr	Entrez le nom du fichier des signets Netscape<br>que vous voulez importer dans le gestionnaire de signets ci-dessous.
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	fr	Entrez le nom du fichier des signets HTML<br>que vous voulez importer dans le gestionnaire de signets ci-dessous.
 existing links	bookmarks	fr	Liens existants
 export	bookmarks	fr	Exportation
 export bookmarks	common	fr	Exporter les Signets
@@ -80,10 +81,10 @@ message from	bookmarks	fr	Message de
 more	bookmarks	fr	Plus
 name	bookmarks	fr	Nom
 name is required	bookmarks	fr	Le nom est requis
-netscape / firefox	bookmarks	fr	Netscape / Firefox
-netscape bookmark file	bookmarks	fr	Fichier de Signets Netscape
-netscape bookmark filename is required!	bookmarks	fr	Le nom du fichier de signets Netscape est requis!
-netscape/mozilla	bookmarks	fr	Netscape / Mozilla
+netscape / firefox	bookmarks	fr	HTML
+netscape bookmark file	bookmarks	fr	Fichier de Signets HTML
+netscape bookmark filename is required!	bookmarks	fr	Le nom du fichier de signets HTML est requis!
+netscape/mozilla	bookmarks	fr	HTML
 new	bookmarks	fr	Nouveau
 note: you can use bookmark files exported as html	bookmarks	fr	Note : vous pouvez utiliser les exports de signet comme HTML
 old fixed definition	bookmarks	fr	L'ancienne définition fixe
@@ -99,6 +100,7 @@ select an action...	bookmarks	fr	Sélectionner une action...
 select the format you would like to export to	bookmarks	fr	Sélectionnez le format dans lequel vous désirez exporter
 send bookmark	bookmarks	fr	Envoyer le signet
 sub category	bookmarks	fr	Sous-catégorie
+sub-folders will create new categories	bookmarks	fr	Les sous-dossiers créeront de nouvelles catégories
 this is the view bookmarks uses when you enter the application.	bookmarks	fr	Ceci est la vue Signets utilisée à l'entrée dans l'application
 this module displays bookmarks in a javascript based tree	bookmarks	fr	Ce module affiche les signets dans un arbre basé sur javascript
 to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	fr	L'adresse du destinataire %1 est invalide. Le format doit être <strong>utilisateur@domaine</strong> et le domaine doit exister!
@@ -112,8 +114,10 @@ updated	bookmarks	fr	Mis à jour
 url is required.	bookmarks	fr	L'URL est requise.
 view bookmark	bookmarks	fr	Voir le signet
 view this bookmark	bookmarks	fr	Voir ce signet
+visit	bookmarks	fr	Visitez
 warning	bookmarks	fr	Attention
 whole query	bookmarks	fr	requête entière
+xbel	bookmarks	fr	XBEL
 you are viewing this site outside of egroupware	bookmarks	fr	Vous visualisez ce site en dehors d'EGroupware
 you must select a category	bookmarks	fr	Vous devez choisir une catégorie
 you need to select a category!	bookmarks	fr	Vous devez sélectionner une catégorie!

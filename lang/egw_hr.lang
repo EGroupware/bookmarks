@@ -28,7 +28,7 @@ date last visited	bookmarks	hr	Date last visited
 descending	bookmarks	hr	Descending
 edit bookmark	bookmarks	hr	Edit bookmark
 edit this bookmark	bookmarks	hr	Edit this bookmark
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	hr	Enter the name of the Netscape bookmark file<br>that you want imported into bookmarker below.
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	hr	Enter the name of the HTML bookmark file<br>that you want imported into bookmarker below.
 existing links	bookmarks	hr	Existing links
 export	bookmarks	hr	Export
 export bookmarks	common	hr	Export Bookmarks
@@ -54,8 +54,10 @@ message from	bookmarks	hr	Message from
 more	bookmarks	hr	More
 name	bookmarks	hr	Name
 name is required	bookmarks	hr	Name is required
-netscape bookmark file	bookmarks	hr	Netscape Bookmark File
-netscape bookmark filename is required!	bookmarks	hr	Netscape bookmark filename is required!
+netscape / firefox	bookmarks	hr	HTML
+netscape bookmark file	bookmarks	hr	HTML Bookmark File
+netscape bookmark filename is required!	bookmarks	hr	HTML bookmark filename is required!
+netscape/mozilla	bookmarks	hr	HTML
 new	bookmarks	hr	New
 or	bookmarks	hr	or
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	hr	Please fill out <B>To E-Mail Address</B>, <B>Subject</B>, and <B>Message</B>!
@@ -77,4 +79,5 @@ url is required.	bookmarks	hr	URL is required.
 view bookmark	bookmarks	hr	View bookmark
 view this bookmark	bookmarks	hr	View this bookmark
 warning	bookmarks	hr	Warning
+xbel	bookmarks	hr	XBEL
 you must select a category	bookmarks	hr	You must select a category

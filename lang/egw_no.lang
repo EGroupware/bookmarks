@@ -31,7 +31,7 @@ date last visited	bookmarks	no	Sist besøkte dato
 descending	bookmarks	no	Synkede
 edit bookmark	bookmarks	no	Endre bokmerket
 edit this bookmark	bookmarks	no	Endre dette bokmerket
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	no	Skriv inn navnet på Netscape favorittfilen<br>som du vil importere til bokmerkene under.
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	no	Skriv inn navnet på HTML favorittfilen<br>som du vil importere til bokmerkene under.
 existing links	bookmarks	no	Eksisterende lenker
 export	bookmarks	no	Eksporter
 export bookmarks	common	no	Eksporter bokmerker
@@ -58,10 +58,11 @@ message from	bookmarks	no	Melding fra
 more	bookmarks	no	Mer
 name	bookmarks	no	Navn
 name is required	bookmarks	no	Navn er påkrevd
-netscape bookmark file	bookmarks	no	Netscape Favoritt Fil
-netscape bookmark filename is required!	bookmarks	no	Netscape favoritt filnavn er påkrevd!
+netscape / firefox	bookmarks	no	HTML
+netscape bookmark file	bookmarks	no	HTML Favoritt Fil
+netscape bookmark filename is required!	bookmarks	no	HTML favoritt filnavn er påkrevd!
+netscape/mozilla	bookmarks	no	HTML
 new	bookmarks	no	Opprett
-new bookmark	bookmarks	no	Opprette bokmerke
 or	bookmarks	no	eller
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	no	Vennligst fyll inn <B>Til epost adresse</B>, <B>Emne</B>, og <B>Melding</B>!
 please select the categories to export	bookmarks	no	Vennligst velg kategorier å eksportere
@@ -83,5 +84,6 @@ url is required.	bookmarks	no	En URL er nødvendig.
 view bookmark	bookmarks	no	Vis bokmerke
 view this bookmark	bookmarks	no	Vis dette bokmerket
 warning	bookmarks	no	Advarsel
+xbel	bookmarks	no	XBEL
 you are viewing this site outside of egroupware	bookmarks	no	Du ser denne siden på utsiden av EGroupware
 you must select a category	bookmarks	no	Du må velge en kategori

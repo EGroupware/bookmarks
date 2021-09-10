@@ -40,7 +40,7 @@ descending	bookmarks	es-es	Descendente
 edit bookmark	bookmarks	es-es	Editar marcador
 edit bookmark - %1	bookmarks	es-es	Editar marcador - %1
 edit this bookmark	bookmarks	es-es	Editar este marcador
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	es-es	Introduzca el nombre del fichero de marcadores de Netscape<br>que quiera ver importado debajo.
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	es-es	Introduzca el nombre del fichero de marcadores de HTML<br>que quiera ver importado debajo.
 existing links	bookmarks	es-es	Enlaces existentes
 export	bookmarks	es-es	exportar
 export bookmarks	common	es-es	Exportar marcadores
@@ -75,10 +75,10 @@ message from	bookmarks	es-es	Mensaje de
 more	bookmarks	es-es	Más
 name	bookmarks	es-es	Nombre
 name is required	bookmarks	es-es	El nombre es obligatorio
-netscape / firefox	bookmarks	es-es	Netscape / Firefox
-netscape bookmark file	bookmarks	es-es	Fichero de marcadores de Netscape
-netscape bookmark filename is required!	bookmarks	es-es	El nombre del fichero de marcadores de Netscape es obligatorio
-netscape/mozilla	bookmarks	es-es	Netscape / Mozilla
+netscape / firefox	bookmarks	es-es	HTML
+netscape bookmark file	bookmarks	es-es	Fichero de marcadores de HTML
+netscape bookmark filename is required!	bookmarks	es-es	El nombre del fichero de marcadores de HTML es obligatorio
+netscape/mozilla	bookmarks	es-es	HTML
 new	bookmarks	es-es	Nuevo
 or	bookmarks	es-es	o
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	es-es	Por favor, rellene <b>Dirección destino</b>, <b>Asunto</b> y <b>Mensaje</b>

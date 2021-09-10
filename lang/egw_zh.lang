@@ -32,7 +32,7 @@ date last visited	bookmarks	zh	最近访问日期
 descending	bookmarks	zh	降序
 edit bookmark	bookmarks	zh	编辑书签
 edit this bookmark	bookmarks	zh	编辑该书签
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	zh	请输入您想要导入到以下书签的 Netscape 书签文件名。
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	zh	请输入您想要导入到以下书签的 HTML 书签文件名。
 existing links	bookmarks	zh	存在的链接
 export	bookmarks	zh	导出
 export bookmarks	common	zh	导出书签
@@ -59,10 +59,11 @@ message from	bookmarks	zh	消息来自
 more	bookmarks	zh	更多
 name	bookmarks	zh	名称
 name is required	bookmarks	zh	需要名称
-netscape bookmark file	bookmarks	zh	Netscape 书签文件
-netscape bookmark filename is required!	bookmarks	zh	需要 Netscape 书签文件名！
+netscape / firefox	bookmarks	zh	HTML
+netscape bookmark file	bookmarks	zh	HTML 书签文件
+netscape bookmark filename is required!	bookmarks	zh	需要 HTML 书签文件名！
+netscape/mozilla	bookmarks	zh	HTML
 new	bookmarks	zh	新建
-new bookmark	bookmarks	zh	新建书签
 or	bookmarks	zh	或
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	zh	请填写发送的<b>电子邮件地址</b>、<b>邮件主题</b>和<b>讯息内容</b>！
 please select the categories to export	bookmarks	zh	请选择要导出的类别
@@ -85,6 +86,7 @@ view bookmark	bookmarks	zh	查看书签
 view this bookmark	bookmarks	zh	查看这个书签
 warning	bookmarks	zh	警告
 whole query	bookmarks	zh	完整查询
+xbel	bookmarks	zh	XBEL
 you are viewing this site outside of egroupware	bookmarks	zh	您正在浏览的是 Oscar Trading 以外的站点
 you must select a category	bookmarks	zh	您必须选择一个类别
 you need to select a category!	bookmarks	zh	您必须选择一个类别！

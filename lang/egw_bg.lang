@@ -46,7 +46,7 @@ descending	bookmarks	bg	Низходящо
 edit bookmark	bookmarks	bg	Редактиране на отметка
 edit bookmark - %1	bookmarks	bg	Редактиране на отметка - %1
 edit this bookmark	bookmarks	bg	Редактиране на тази отметка
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	bg	Въведете името на файла с отметки на Netscape, който искате да въде внесен.
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	bg	Въведете името на файла с отметки на HTML, който искате да въде внесен.
 existing links	bookmarks	bg	Съществуващи връзки
 export	bookmarks	bg	експорт
 export bookmarks	common	bg	Изнасяне на отметки
@@ -81,10 +81,10 @@ message from	bookmarks	bg	Съобщение от
 more	bookmarks	bg	Повече
 name	bookmarks	bg	Име
 name is required	bookmarks	bg	Името е задължително
-netscape / firefox	bookmarks	bg	Netscape / Firefox
-netscape bookmark file	bookmarks	bg	Файл с отметки на Netscape
-netscape bookmark filename is required!	bookmarks	bg	Нужно е името на файл с отметки на Netscape!
-netscape/mozilla	bookmarks	bg	Netscape / Mozilla
+netscape / firefox	bookmarks	bg	HTML
+netscape bookmark file	bookmarks	bg	Файл с отметки на HTML
+netscape bookmark filename is required!	bookmarks	bg	Нужно е името на файл с отметки на HTML!
+netscape/mozilla	bookmarks	bg	HTML
 new	bookmarks	bg	Нова
 note: you can use bookmark files exported as html	bookmarks	bg	Забележка: Можете да използвате файлове с отметки, експортирани като HTML
 old fixed definition	bookmarks	bg	Стара фиксирана дефиниция

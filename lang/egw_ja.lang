@@ -7,4 +7,7 @@ export	bookmarks	ja	エクスポート
 from	bookmarks	ja	差出人
 global categories	bookmarks	ja	グローバルカテゴリ
 message from	bookmarks	ja	送信者
+netscape / firefox	bookmarks	ja	HTML
+netscape/mozilla	bookmarks	ja	HTML
 new	bookmarks	ja	新規作成
+xbel	bookmarks	ja	XBEL

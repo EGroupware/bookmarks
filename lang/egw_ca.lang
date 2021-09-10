@@ -32,7 +32,7 @@ date last visited	bookmarks	ca	Data de la darrera visita
 descending	bookmarks	ca	Descendent
 edit bookmark	bookmarks	ca	Editar adreça d'interès
 edit this bookmark	bookmarks	ca	Editar aquesta adreça d'interès
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	ca	entreu el nom de l'arxiu d'Adreces d'Interès de Netscape<br>que volgueu importar a continuació.
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	ca	entreu el nom de l'arxiu d'Adreces d'Interès de HTML<br>que volgueu importar a continuació.
 existing links	bookmarks	ca	Enllaços existents
 export	bookmarks	ca	Exportar
 export bookmarks	common	ca	Exportar adreça d'interès
@@ -59,10 +59,11 @@ message from	bookmarks	ca	Missatge de
 more	bookmarks	ca	Més
 name	bookmarks	ca	Nom
 name is required	bookmarks	ca	El nom és obligatori
-netscape bookmark file	bookmarks	ca	Arxiu d'Adreces d'Interès de Netscape
-netscape bookmark filename is required!	bookmarks	ca	El nom de l'arxiu d'Adreces d'Interès de Netscape és obligatori
+netscape / firefox	bookmarks	ca	HTML
+netscape bookmark file	bookmarks	ca	Arxiu d'Adreces d'Interès de HTML
+netscape bookmark filename is required!	bookmarks	ca	El nom de l'arxiu d'Adreces d'Interès de HTML és obligatori
+netscape/mozilla	bookmarks	ca	HTML
 new	bookmarks	ca	Nou
-new bookmark	bookmarks	ca	nova adreça d'interès
 or	bookmarks	ca	o
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	ca	Ompliu <b>Adreça de correu destí</b>, <b>Assumpte</b> i <b>Missatge</b>
 please select the categories to export	bookmarks	ca	Si us plau, seleccioneu les categories a exportar
@@ -85,6 +86,7 @@ view bookmark	bookmarks	ca	Veure adreça d'interès
 view this bookmark	bookmarks	ca	Veure aquesta adreça d'interès
 warning	bookmarks	ca	Avís
 whole query	bookmarks	ca	consulta sencera
+xbel	bookmarks	ca	XBEL
 you are viewing this site outside of egroupware	bookmarks	ca	Esteu veient aquest lloc des de fora d'EGroupware
 you must select a category	bookmarks	ca	Heu de seleccionar una categoria
 you need to select a category!	bookmarks	ca	Heu de seleccionar una categoria!

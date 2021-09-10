@@ -57,9 +57,10 @@ message from	bookmarks	eu	Mezua norena
 more	bookmarks	eu	Gehiago
 name	bookmarks	eu	Izena
 name is required	bookmarks	eu	Izena derrigorrezkoa da
-netscape bookmark file	bookmarks	eu	Nestcapeko esteka fitxategia
+netscape / firefox	bookmarks	eu	HTML
+netscape bookmark file	bookmarks	eu	HTML esteka fitxategia
+netscape/mozilla	bookmarks	eu	HTML
 new	bookmarks	eu	Berria
-new bookmark	bookmarks	eu	esteka berria
 or	bookmarks	eu	edo
 please select the categories to export	bookmarks	eu	Mesedez, esportatu beharreko kategoriak aukeratu
 query condition	bookmarks	eu	Kontsultarako baldintza
@@ -77,6 +78,7 @@ url is required.	bookmarks	eu	URL bat behar da
 view bookmark	bookmarks	eu	Esteka ikusi
 view this bookmark	bookmarks	eu	Esteka hau ikusi
 warning	bookmarks	eu	Abisua
+xbel	bookmarks	eu	XBEL
 you are viewing this site outside of egroupware	bookmarks	eu	EGroupwaretik kanpo ari zara leku hau ikusten
 you must select a category	bookmarks	eu	Kategoria bat aukeratu behar duzu
 you need to select a category!	bookmarks	eu	Kategoria bat aukeratu behar duzu!

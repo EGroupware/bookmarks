@@ -55,8 +55,10 @@ message from	bookmarks	ko	메세지 발송지
 more	bookmarks	ko	검색조건 추가
 name	bookmarks	ko	이름
 name is required	bookmarks	ko	이름이 필요합니다
+netscape / firefox	bookmarks	ko	HTML
 netscape bookmark file	bookmarks	ko	넷스케입 북마크 파일
 netscape bookmark filename is required!	bookmarks	ko	넷스케입 북마크 파일이름이 필요합니다!
+netscape/mozilla	bookmarks	ko	HTML
 new	bookmarks	ko	새로만들기
 or	bookmarks	ko	이거나(OR연산)
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	ko	<b>보낼 이메일 주소</b>,<B>제목</b>, 그리고 <B>메세지</b>를 작성해주세요!
@@ -78,5 +80,6 @@ url is required.	bookmarks	ko	URL이 필요합니다.
 view bookmark	bookmarks	ko	북마크 보기
 view this bookmark	bookmarks	ko	이 북마크 보기
 warning	bookmarks	ko	경고
+xbel	bookmarks	ko	XBEL
 you are viewing this site outside of egroupware	bookmarks	ko	귀하는 EGroupware 외부에서 이 사이트를 보고 있습니다
 you must select a category	bookmarks	ko	반드시 카테고리를 선택해야합니다

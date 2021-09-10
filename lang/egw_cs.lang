@@ -46,7 +46,7 @@ descending	bookmarks	cs	Sestupně
 edit bookmark	bookmarks	cs	Upravit záložku
 edit bookmark - %1	bookmarks	cs	Upravit záložku - %1
 edit this bookmark	bookmarks	cs	Editovat tuto záložku
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	cs	Vložte název souboru se záložkami Netscape,<br>který chcete importovat do níže uvedeného pořadače.
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	cs	Vložte název souboru se záložkami HTML,<br>který chcete importovat do níže uvedeného pořadače.
 existing links	bookmarks	cs	Stávající odkazy
 export	bookmarks	cs	export
 export bookmarks	common	cs	Expotovat záložky
@@ -81,10 +81,10 @@ message from	bookmarks	cs	Zpráva od
 more	bookmarks	cs	Více
 name	bookmarks	cs	Název
 name is required	bookmarks	cs	Název je vyžadován
-netscape / firefox	bookmarks	cs	Netscape / Firefox
-netscape bookmark file	bookmarks	cs	Soubor záložek Netscape
-netscape bookmark filename is required!	bookmarks	cs	Jméno Netscape souboru se záložkami je vyžadováno!
-netscape/mozilla	bookmarks	cs	Netscape / Mozilla
+netscape / firefox	bookmarks	cs	HTML
+netscape bookmark file	bookmarks	cs	Soubor záložek HTML
+netscape bookmark filename is required!	bookmarks	cs	Jméno HTML souboru se záložkami je vyžadováno!
+netscape/mozilla	bookmarks	cs	HTML
 new	bookmarks	cs	Nová
 note: you can use bookmark files exported as html	bookmarks	cs	Poznámka: Záložky mohou být exportovány jako soubory HTML.
 old fixed definition	bookmarks	cs	Původní pevná definice
@@ -114,6 +114,7 @@ updated	bookmarks	cs	Aktualizováno
 url is required.	bookmarks	cs	URL je vyžadováno
 view bookmark	bookmarks	cs	Zobrazit záložku
 view this bookmark	bookmarks	cs	Zobrazit tuto záložku
+visit	bookmarks	cs	Navštivte
 warning	bookmarks	cs	Varování
 whole query	bookmarks	cs	celý dotaz
 xbel	bookmarks	cs	XBEL

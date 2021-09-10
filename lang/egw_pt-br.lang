@@ -12,6 +12,7 @@ bookmark changed sucessfully	bookmarks	pt-br	Favorito alterado com sucesso
 bookmark created successfully.	bookmarks	pt-br	Favorito criado com sucesso
 bookmark deleted successfully	bookmarks	pt-br	Favorito removido com sucesso
 bookmark deleted successfully.	bookmarks	pt-br	Favorito removido com sucesso
+bookmark file	bookmarks	pt-br	Arquivo de Favoritos
 bookmark not editable	bookmarks	pt-br	Favoritos não editáveis
 bookmark not readable	bookmarks	pt-br	Favoritos não podem ser lidos
 bookmarks	common	pt-br	Favoritos
@@ -32,7 +33,7 @@ date last visited	bookmarks	pt-br	Data da última visita
 descending	bookmarks	pt-br	Descendente
 edit bookmark	bookmarks	pt-br	Editar Favoritos
 edit this bookmark	bookmarks	pt-br	Editar esse Favorito
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	pt-br	Entre com o nome do arquivo de Favoritos do Netscape<br> que você deseja importar para a sessão abaixo.
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	pt-br	Entre com o nome do arquivo de Favoritos do HTML<br> que você deseja importar para a sessão abaixo.
 existing links	bookmarks	pt-br	Links existentes
 export	bookmarks	pt-br	exportar
 export bookmarks	common	pt-br	Exportar Favoritos
@@ -53,6 +54,7 @@ like	bookmarks	pt-br	como
 links	bookmarks	pt-br	Links
 list view	bookmarks	pt-br	list viewar
 lowest	bookmarks	pt-br	Menor
+mail	bookmarks	pt-br	e-mail
 mail this bookmark	bookmarks	pt-br	Enviar por e-mail esse endereço
 mail-this-link message sent to %1.	bookmarks	pt-br	mensagem de envio de favorito enviada para %1
 mass update:	bookmarks	pt-br	Atualização Completa
@@ -60,10 +62,11 @@ message from	bookmarks	pt-br	Mensagem de
 more	bookmarks	pt-br	Mais
 name	bookmarks	pt-br	Nome
 name is required	bookmarks	pt-br	O campo nome é requerido
-netscape bookmark file	bookmarks	pt-br	Arquivo de Favoritos do Netscape
-netscape bookmark filename is required!	bookmarks	pt-br	Arquivo de Favoritos do Netscape é requerido!
+netscape / firefox	bookmarks	pt-br	HTML
+netscape bookmark file	bookmarks	pt-br	Arquivo de Favoritos do HTML
+netscape bookmark filename is required!	bookmarks	pt-br	Arquivo de Favoritos do HTML é requerido!
+netscape/mozilla	bookmarks	pt-br	HTML
 new	bookmarks	pt-br	Novo
-new bookmark	bookmarks	pt-br	Novo favorito
 old fixed definition	bookmarks	pt-br	Definição fixa Velho
 or	bookmarks	pt-br	ou
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	pt-br	Favor preencher <B> Destinatário da mensagem</B>, <B>Assunto</B>, e <B>Mensagem</B>!
@@ -85,8 +88,10 @@ updated	bookmarks	pt-br	Atualizado
 url is required.	bookmarks	pt-br	o URL é requerida.
 view bookmark	bookmarks	pt-br	Exibir Favorito
 view this bookmark	bookmarks	pt-br	Exibir este Favorito
+visit	bookmarks	pt-br	Visite
 warning	bookmarks	pt-br	Atenção
 whole query	bookmarks	pt-br	toda a consulta
+xbel	bookmarks	pt-br	XBEL
 you are viewing this site outside of egroupware	bookmarks	pt-br	Você está visualizando um site fora do EGroupware
 you must select a category	bookmarks	pt-br	Você deve selecionar uma categoria
 you need to select a category!	bookmarks	pt-br	Você deve selecionar uma categoria.

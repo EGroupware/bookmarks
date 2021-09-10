@@ -42,11 +42,11 @@ message from	bookmarks	id	Pesan dari
 more	bookmarks	id	Lagi
 name	bookmarks	id	Nama
 name is required	bookmarks	id	Nama diperlukan
-netscape / firefox	bookmarks	id	Netscape / Firefox
-netscape bookmark file	bookmarks	id	Berkas Tandabuku Netscape
-netscape bookmark filename is required!	bookmarks	id	Nama berkas tandabuku Netscape diperlukan
+netscape / firefox	bookmarks	id	HTML
+netscape bookmark file	bookmarks	id	Berkas Tandabuku HTML
+netscape bookmark filename is required!	bookmarks	id	Nama berkas tandabuku HTML diperlukan
+netscape/mozilla	bookmarks	id	HTML
 new	bookmarks	id	Baru
-new bookmark	bookmarks	id	tandabuku baru
 or	bookmarks	id	or
 query condition	bookmarks	id	Query Condition
 rating	bookmarks	id	Rating
@@ -61,3 +61,4 @@ updated	bookmarks	id	Updated
 view bookmark	bookmarks	id	Lihat tandabuku
 warning	bookmarks	id	Peringatan
 whole query	bookmarks	id	whole query
+xbel	bookmarks	id	XBEL

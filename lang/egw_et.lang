@@ -46,10 +46,11 @@ mass update:	bookmarks	et	Massiline uuendamine:
 more	bookmarks	et	Rohkem
 name	bookmarks	et	Nimi
 name is required	bookmarks	et	Nimi on nõutav
-netscape bookmark file	bookmarks	et	Netskape järjehoidja fail
-netscape bookmark filename is required!	bookmarks	et	Netskape järjehoidja failinimi on nõutav!
+netscape / firefox	bookmarks	et	HTML
+netscape bookmark file	bookmarks	et	HTML järjehoidja fail
+netscape bookmark filename is required!	bookmarks	et	HTML järjehoidja failinimi on nõutav!
+netscape/mozilla	bookmarks	et	HTML
 new	bookmarks	et	Uus
-new bookmark	bookmarks	et	uus järjehoidja
 or	bookmarks	et	või
 please select the categories to export	bookmarks	et	Palun vali kategooriad mida eksportida
 rating	bookmarks	et	Reiting
@@ -65,6 +66,7 @@ url is required.	bookmarks	et	URL on nõutav.
 view bookmark	bookmarks	et	Vaata järjehoidjat
 view this bookmark	bookmarks	et	Vaata seda järjehoidjat
 warning	bookmarks	et	Ettevaatust
+xbel	bookmarks	et	XBEL
 you are viewing this site outside of egroupware	bookmarks	et	Sa vaatad seda lehte väljaspool EGroupware
 you must select a category	bookmarks	et	Sa pead valima kategooria
 you need to select a category!	bookmarks	et	Vajalik on valida kategooria !

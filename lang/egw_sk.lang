@@ -46,7 +46,7 @@ descending	bookmarks	sk	Zostupne
 edit bookmark	bookmarks	sk	Upraviť záložku
 edit bookmark - %1	bookmarks	sk	Upraviť záložku - %1
 edit this bookmark	bookmarks	sk	Uprav túto záložku
-enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	sk	Zadajte názov súboru záložiek Netscape<br>ktorý chcete naimportovať do doleuvedeného záložkovača.
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	sk	Zadajte názov súboru záložiek HTML<br>ktorý chcete naimportovať do doleuvedeného záložkovača.
 existing links	bookmarks	sk	Existujúce odkazy
 export	bookmarks	sk	Export
 export bookmarks	common	sk	Exportovať záložky
@@ -81,10 +81,10 @@ message from	bookmarks	sk	Správa od
 more	bookmarks	sk	Viac
 name	bookmarks	sk	Meno
 name is required	bookmarks	sk	Je potrebné meno
-netscape / firefox	bookmarks	sk	Netscape / Firefox
-netscape bookmark file	bookmarks	sk	Súbor so záložkami Netscape
-netscape bookmark filename is required!	bookmarks	sk	Je potrebný názov súboru záložiek Netscape
-netscape/mozilla	bookmarks	sk	Netscape/Mozilla
+netscape / firefox	bookmarks	sk	HTML
+netscape bookmark file	bookmarks	sk	Súbor so záložkami HTML
+netscape bookmark filename is required!	bookmarks	sk	Je potrebný názov súboru záložiek HTML
+netscape/mozilla	bookmarks	sk	HTML
 new	bookmarks	sk	Nová
 note: you can use bookmark files exported as html	bookmarks	sk	Poznámka: Môžete použiť súbory záložiek exportované ako HTML
 old fixed definition	bookmarks	sk	Stará pevná definícia

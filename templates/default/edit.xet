@@ -146,7 +146,7 @@
 			</columns>
 			<rows>
 				<row valign="top">
-					<tabbox id="tabs" span="all" tab_height="250">
+					<tabbox id="tabs" span="all" tab_height="330">
 						<tabs>
 							<tab id="general" label="General"/>
 							<tab id="details" label="Details"/>

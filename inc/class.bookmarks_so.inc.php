@@ -234,4 +234,31 @@ class bookmarks_so extends Api\Storage
 
 		return parent::search($criteria,$only_keys,$order_by,$extra_cols,$wildcard,$empty,$op,$start,$filter,$join,$need_full_no_count);
 	}
+
+	/**
+	 * delete / move all bookmarks of a given user
+	 *
+	 * @param array $data
+	 * @param int $data['account_id'] owner to change
+	 * @param int $data['new_owner']  new owner or 0 for delete
+	 */
+	function deleteaccount($data)
+	{
+		$account_id = $data['account_id'];
+		$new_owner =  $data['new_owner'] ?? null;
+
+		if (!$new_owner)
+		{
+			Link::unlink(0, 'bookmarks', '', $account_id);
+			parent::delete(['bm_owner' => $account_id]);
+		}
+		else
+		{
+			$this->db->update($this->table_name, [
+				'bm_owner' => $new_owner,
+			], [
+				'bm_owner' => $account_id,
+			], __LINE__, __FILE__, 'bookmarks');
+		}
+	}
 }

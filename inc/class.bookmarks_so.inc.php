@@ -249,7 +249,7 @@ class bookmarks_so extends Api\Storage
 
 		if (!$new_owner)
 		{
-			Link::unlink(0, 'bookmarks', '', $account_id);
+			Api\Link::unlink(0, 'bookmarks', '', $account_id);
 			parent::delete(['bm_owner' => $account_id]);
 		}
 		else

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
-<!-- $Id$ -->
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2.0//EN" "https://www.egroupware.org/etemplate2.0.dtd">
 <overlay>
 	<template id="bookmarks.edit.general" template="" lang="" group="0" version="1.9.001">
 		<grid width="100%">
@@ -10,33 +9,33 @@
 			</columns>
 			<rows>
 				<row disabled="@edit" class="dialogHeader">
-					<hbox options="0,0">
-						<description value="URL"/>
-						<image align="right" src="@favicon" class="favicon"/>
-					</hbox>
-					<description id="url" href="bookmarks.bookmarks_ui.redirect&amp;bm_id=$cont[id]" extra_link_target="_blank"/>
+					<et2-hbox  cellpadding="0" cellspacing="0" >
+						<et2-description  value="URL"></et2-description>
+						<et2-image  align="right" src="@favicon" class="favicon"></et2-image>
+					</et2-hbox>
+					<et2-description  id="url" href="bookmarks.bookmarks_ui.redirect&amp;bm_id=$cont[id]" extraLinkTarget="_blank"></et2-description>
 				</row>
 				<row disabled="!@edit" class="dialogHeader">
-					<hbox options="0,0">
-						<description value="URL"/>
-						<image align="right" src="@favicon" class="favicon"/>
-					</hbox>
-					<textbox id="url" needed="1" maxlength="255" span="all" class="et2_fullWidth"/>
+					<et2-hbox  cellpadding="0" cellspacing="0" >
+						<et2-description  value="URL"></et2-description>
+						<et2-image  align="right" src="@favicon" class="favicon"></et2-image>
+					</et2-hbox>
+					<et2-textbox  id="url" maxlength="255" span="all" required="1"></et2-textbox>
 				</row>
 				<row>
-					<description value="Name"/>
-					<textbox id="name" needed="1" maxlength="255" span="all" class="et2_fullWidth"/>
+					<et2-description  value="Name"></et2-description>
+					<et2-textbox  id="name" maxlength="255" span="all" required="1"></et2-textbox>
 				</row>
 				<row valign="top">
-					<description value="Description"/>
-					<textbox multiline="true" id="desc" span="all" class="et2_fullWidth"/>
+					<et2-description  value="Description"></et2-description>
+					<et2-textarea  id="desc" span="all"></et2-textarea>
 				</row>
 				<row>
-					<description value="Keywords"/>
-					<textbox id="keywords" maxlength="255" span="all" class="et2_fullWidth"/>
+					<et2-description  value="Keywords"></et2-description>
+					<et2-textbox  id="keywords" maxlength="255" span="all"></et2-textbox>
 				</row>
 				<row valign="top">
-					<hbox cols="2" rows="3" options="0,0" span="all">
+					<et2-hbox  cols="2" rows="3" cellpadding="0" cellspacing="0" span="all">
 						<grid width="80%" padding="0">
 							<columns>
 								<column width="200px"/>
@@ -44,27 +43,23 @@
 							</columns>
 							<rows>
 								<row valign="top">
-									<hbox options="0,0">
-										<description value="Category"/>
-										<button align="right" id="edit_category" image="edit"/>
-									</hbox>
-									<menulist>
-										<menupopup type="select-cat" id="category"/>
-									</menulist>
+									<et2-hbox  cellpadding="0" cellspacing="0" >
+										<et2-description  value="Category"></et2-description>
+										<et2-button-icon  align="right" id="edit_category" image="edit"></et2-button-icon>
+									</et2-hbox>
+									<et2-select-cat  id="category"></et2-select-cat>
 								</row>
 								<row>
-									<description value="Rating"/>
-									<menulist>
-										<menupopup type="select-number" id="rating" options=",0,10"/>
-									</menulist>
+									<et2-description  value="Rating"></et2-description>
+									<et2-select-number  id="rating" min="0" max="10"></et2-select-number>
 								</row>
 								<row>
-									<description value="Private"/>
-									<checkbox id="access" options="private,public"/>
+									<et2-description  value="Private"></et2-description>
+									<et2-checkbox  id="access" selectedValue="private" unselectedValue="public" ></et2-checkbox>
 								</row>
 							</rows>
 						</grid>
-					</hbox>
+					</et2-hbox>
 				</row>
 			</rows>
 		</grid>
@@ -77,26 +72,24 @@
 			</columns>
 			<rows>
 				<row>
-					<description value="Owner"/>
-					<menulist>
-						<menupopup type="select-account" id="owner" readonly="true"/>
-					</menulist>
+					<et2-description  value="Owner"></et2-description>
+					<et2-select-account  id="owner" readonly="true"></et2-select-account>
 				</row>
 				<row>
-					<description value="Added"/>
-					<date-time id="added" readonly="true"/>
+					<et2-description  value="Added"></et2-description>
+					<et2-date-time  id="added" readonly="true"></et2-date-time>
 				</row>
 				<row>
-					<description value="Updated"/>
-					<date-time id="updated" readonly="true"/>
+					<et2-description  value="Updated"></et2-description>
+					<et2-date-time  id="updated" readonly="true"></et2-date-time>
 				</row>
 				<row>
-					<description value="Last visited"/>
-					<date-time id="visited" readonly="true"/>
+					<et2-description  value="Last visited"></et2-description>
+					<et2-date-time  id="visited" readonly="true"></et2-date-time>
 				</row>
 				<row>
-					<description value="Total visits"/>
-					<description align="right" id="visits"/>
+					<et2-description  value="Total visits"></et2-description>
+					<et2-description  align="right" id="visits"></et2-description>
 				</row>
 			</rows>
 		</grid>
@@ -109,16 +102,16 @@
 			</columns>
 			<rows>
 				<row class="row" disabled="!@edit">
-					<link-to id="link_to" span="all"/>
+					<et2-link-to  id="link_to" span="all"></et2-link-to>
 				</row>
 				<row disabled="!@edit">
-					<link-add id="link_to" span="all"/>
+					<et2-link-add  id="link_to" span="all"></et2-link-add>
 				</row>
 				<row class="th">
-					<description value="Existing links" span="all"/>
+					<et2-description  value="Existing links" span="all"></et2-description>
 				</row>
 				<row class="row_off" valign="top">
-					<link-list id="link_to" span="all"/>
+					<et2-link-list  id="link_to" span="all"></et2-link-list>
 				</row>
 			</rows>
 		</grid>
@@ -146,7 +139,7 @@
 			</columns>
 			<rows>
 				<row valign="top">
-					<tabbox id="tabs" span="all" tab_height="330">
+					<et2-tabbox  id="tabs" span="all" tabHeight="330">
 						<tabs>
 							<tab id="general" label="General"/>
 							<tab id="details" label="Details"/>
@@ -161,16 +154,16 @@
 							<template id="bookmarks.edit.custom"/>
 							<template id="bookmarks.edit.history"/>
 						</tabpanels>
-					</tabbox>
+					</et2-tabbox>
 				</row>
 				<row class="dialogFooterToolbar">
-					<hbox>
-						<button label="Edit" id="edit"/>
-						<button label="Save" id="save"/>
-						<button label="Apply" id="apply"/>
-						<button label="Cancel" id="cancel" onclick="window.close();"/>
-					</hbox>
-					<button align="right" label="Delete" id="delete" onclick="et2_dialog.confirm(widget,'Delete this entry','Delete')"/>
+					<et2-hbox>
+						<et2-button  label="Edit" id="edit"></et2-button>
+						<et2-button  label="Save" id="save"></et2-button>
+						<et2-button  label="Apply" id="apply"></et2-button>
+						<et2-button  label="Cancel" id="cancel" onclick="window.close();"></et2-button>
+					</et2-hbox>
+					<et2-button  align="right" label="Delete" id="delete" onclick="et2_dialog.confirm(widget,'Delete this entry','Delete')"></et2-button>
 				</row>
 			</rows>
 		</grid>

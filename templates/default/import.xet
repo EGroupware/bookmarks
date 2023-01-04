@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
-<!-- $Id$ -->
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2.0//EN" "https://www.egroupware.org/etemplate2.0.dtd">
 <overlay>
 	<template id="bookmarks.import" template="" lang="" group="0" version="1.7.001">
 		<grid>
@@ -10,34 +9,30 @@
 			</columns>
 			<rows>
 				<row class="dialogHeader">
-					<description value="Bookmark file"/>
+					<et2-description  value="Bookmark file"></et2-description>
 					<file id="file"/>
 				</row>
 				<row class="th">
-					<description value="Note: You can use bookmark files exported as HTML" span="all" class="help"/>
-					<menulist>
-						<menupopup id="type" options="Netscape / Firefox"/>
-					</menulist>
+					<et2-description  value="Note: You can use bookmark files exported as HTML" span="all" class="help"></et2-description>
+					<et2-select  id="type" emptyLabel="Netscape / Firefox"></et2-select>
 				</row>
 				<row>
-					<description value="Import under category"/>
-					<menulist>
-						<menupopup type="select-cat" id="category"/>
-					</menulist>
+					<et2-description  value="Import under category"></et2-description>
+					<et2-select-cat  id="category"></et2-select-cat>
 				</row>
 				<row class="th">
-					<description value="Sub-folders will create new categories" span="all" class="help"/>
-					<description/>
+					<et2-description  value="Sub-folders will create new categories" span="all" class="help"></et2-description>
+					<et2-description></et2-description>
 				</row>
 				<row>
-					<description/>
-					<description/>
+					<et2-description></et2-description>
+					<et2-description></et2-description>
 				</row>
 				<row class="dialogFooterToolbar">
-					<hbox span="all">
-						<button label="Import" id="import" span="all"/>
-						<button label="Cancel" id="cancel" onclick="window.close();"/>
-					</hbox>
+					<et2-hbox  span="all">
+						<et2-button  label="Import" id="import" span="all"></et2-button>
+						<et2-button  label="Cancel" id="cancel" onclick="window.close();"></et2-button>
+					</et2-hbox>
 				</row>
 			</rows>
 		</grid>

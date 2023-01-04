@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
-<!-- $Id$ -->
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2.0//EN" "https://www.egroupware.org/etemplate2.0.dtd">
 <overlay>
 	<template id="bookmarks.tree" template="" lang="" group="0" version="1.7.001">
 		<grid width="100%">
@@ -9,7 +8,7 @@
 			</columns>
 			<rows>
 				<row>
-					<buttononly label="Add" id="add" onclick="egw.open('','bookmarks','add');"/>
+					<et2-button  label="Add" id="add" onclick="egw.open('','bookmarks','add');" noSubmit="true"></et2-button>
 				</row>
 				<row>
 					<tree id="tree" autoloading="bookmarks_ui::ajax_tree_autoloading" onclick="app.bookmarks.tree_onclick"/>

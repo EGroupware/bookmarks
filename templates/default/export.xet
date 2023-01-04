@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
-<!-- $Id$ -->
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2.0//EN" "https://www.egroupware.org/etemplate2.0.dtd">
 <overlay>
 	<template id="bookmarks.export" template="" lang="" group="0" version="1.7.001">
 		<grid>
@@ -10,26 +9,24 @@
 			</columns>
 			<rows>
 				<row disabled="!@bm_count">
-					<description value="%s bookmarks selected for export" id="bm_count" span="all"/>
+					<et2-description  value="%s bookmarks selected for export" id="bm_count" span="all"></et2-description>
 				</row>
 				<row valign="top" disabled="@bm_count" class="dialogHeader">
-					<description value="Categories to export"/>
+					<et2-description  value="Categories to export"></et2-description>
 				</row>
 				<row>
-					<description value="(Selecting a category includes all sub-categories)"/>
+					<et2-description  value="(Selecting a category includes all sub-categories)"></et2-description>
 					<tree-cat id="category" multiple="true"/>
 				</row>
 				<row>
-					<description value="Export format"/>
-					<menulist>
-						<menupopup id="format"/>
-					</menulist>
+					<et2-description  value="Export format"></et2-description>
+					<et2-select  id="format"></et2-select>
 				</row>
 				<row class="dialogFooterToolbar">
-					<hbox span="all">
-						<button label="Export" id="export" onclick="widget.getInstanceManager().postSubmit();"/>
-						<button label="Cancel" id="cancel" onclick="window.close();"/>
-					</hbox>
+					<et2-hbox  span="all">
+						<et2-button  label="Export" id="export" onclick="widget.getInstanceManager().postSubmit();"></et2-button>
+						<et2-button  label="Cancel" id="cancel" onclick="window.close();"></et2-button>
+					</et2-hbox>
 				</row>
 			</rows>
 		</grid>

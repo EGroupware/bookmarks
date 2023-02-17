@@ -1,0 +1,123 @@
+%1 bookmarks have been deleted	bookmarks	km	ចំណាំ %1 ត្រូវ​បាន​លុប។
+%1 bookmarks imported from %2 successfully.	bookmarks	km	ចំណាំ %1 បាននាំចូលពី % 2 ដោយជោគជ័យ។
+%s bookmarks selected for export	bookmarks	km	ចំណាំ %s ត្រូវបានជ្រើសរើសសម្រាប់ការនាំចេញ។
+(comma separate multiple addresses)	bookmarks	km	សញ្ញាក្បៀសបំបែកអាសយដ្ឋានច្រើន
+(selecting a category includes all sub-categories)	bookmarks	km	ការជ្រើសរើសប្រភេទរួមមានប្រភេទរងទាំងអស់
+actions	bookmarks	km	សកម្មភាព
+add bookmark	bookmarks	km	បន្ថែមចំណាំ
+added	bookmarks	km	បន្ថែម
+all bookmarks	bookmarks	km	ចំណាំទាំងអស់
+and	bookmarks	km	និង
+append this message to mailed bookmarks	bookmarks	km	បន្ថែមសារនេះទៅចំណាំដែលបានផ្ញើ។
+apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	km	អនុវត្តសកម្មភាពលើសំណួរទាំងមូល មិនត្រឹមតែចំណាំដែលបានបង្ហាញប៉ុណ្ណោះទេ!
+ascending	bookmarks	km	ឡើង
+book marks	common	km	ចំណាំ
+bookmark - %1	bookmarks	km	ចំណាំ - %1
+bookmark changed sucessfully	bookmarks	km	ចំណាំបានផ្លាស់ប្តូរដោយជោគជ័យ។
+bookmark created successfully.	bookmarks	km	ចំណាំត្រូវបានបង្កើតដោយជោគជ័យ។
+bookmark deleted successfully	bookmarks	km	បានលុបចំណាំដោយជោគជ័យ។
+bookmark deleted successfully.	bookmarks	km	បានលុបចំណាំដោយជោគជ័យ។
+bookmark file	bookmarks	km	ឯកសារចំណាំ
+bookmark not editable	bookmarks	km	ចំណាំមិនអាចកែសម្រួលបានទេ។
+bookmark not readable	bookmarks	km	ចំណាំមិនអាចអានបានទេ។
+bookmarks	common	km	ចំណាំ
+bookmarks - export	bookmarks	km	ចំណាំ - នាំចេញ
+bookmarks - import	bookmarks	km	ចំណាំ - នាំចូល
+bookmarks - mail	bookmarks	km	ចំណាំ - សំបុត្រ
+bookmarks - tree	bookmarks	km	ចំណាំ - ដើមឈើ
+bookmarks settings	bookmarks	km	ការកំណត់ចំណាំ
+categories to export	bookmarks	km	ប្រភេទដែលត្រូវនាំចេញ
+change bookmark	bookmarks	km	ផ្លាស់ប្តូរចំណាំ
+check all	bookmarks	km	ពិនិត្យ​ទាំងអស់
+choose the categories to display	bookmarks	km	ជ្រើសរើសប្រភេទដែលត្រូវបង្ហាញ
+choose the categories to expand in the initial view	bookmarks	km	ជ្រើសរើសប្រភេទដើម្បីពង្រីកនៅក្នុងទិដ្ឋភាពដំបូង
+close this window to return	bookmarks	km	បិទបង្អួចនេះដើម្បីត្រឡប់
+create bookmark	bookmarks	km	បង្កើតចំណាំ
+create new bookmark	bookmarks	km	បង្កើតចំណាំថ្មី។
+create new links	bookmarks	km	បង្កើតតំណថ្មី។
+created	bookmarks	km	បានបង្កើត
+custom fields	bookmarks	km	វាលផ្ទាល់ខ្លួន
+date added	bookmarks	km	កាលបរិច្ឆេទ​ដែល​បាន​បន្ថែម
+date changed	bookmarks	km	កាលបរិច្ឆេទបានផ្លាស់ប្តូរ
+date last updated	bookmarks	km	កាលបរិច្ឆេទបានធ្វើបច្ចុប្បន្នភាពចុងក្រោយ
+date last visited	bookmarks	km	កាលបរិច្ឆេទដែលបានចូលមើលចុងក្រោយ
+default view for bookmarks	bookmarks	km	ទិដ្ឋភាពលំនាំដើមសម្រាប់ចំណាំ
+descending	bookmarks	km	ចុះ
+edit bookmark	bookmarks	km	កែសម្រួលចំណាំ
+edit bookmark - %1	bookmarks	km	កែសម្រួលចំណាំ - %1
+edit this bookmark	bookmarks	km	កែសម្រួលចំណាំនេះ
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	km	បញ្ចូលឈ្មោះឯកសារចំណាំ HTML<br>ដែលអ្នកចង់នាំចូលទៅក្នុងចំណាំខាងក្រោម។
+existing links	bookmarks	km	តំណភ្ជាប់ដែលមានស្រាប់
+export	bookmarks	km	នាំចេញ
+export bookmarks	common	km	នាំចេញចំណាំ
+export definition to use for nextmatch export	bookmarks	km	នាំចេញនិយមន័យដែលត្រូវប្រើសម្រាប់ការនាំចេញការប្រកួតបន្ទាប់
+export definitition to use for nextmatch export	bookmarks	km	នាំចេញនិយមន័យដែលត្រូវប្រើសម្រាប់ការនាំចេញការប្រកួតបន្ទាប់
+export format	bookmarks	km	ទម្រង់នាំចេញ
+fewer	bookmarks	km	តិច
+filter by	bookmarks	km	ត្រងដោយ
+found a link you might like	bookmarks	km	បានរកឃើញតំណដែលអ្នកប្រហែលជាចូលចិត្ត
+from	bookmarks	km	ពី
+from category %1	bookmarks	km	ពីប្រភេទ %1
+general	bookmarks	km	ទូទៅ
+global categories	bookmarks	km	ប្រភេទសកល
+highest	bookmarks	km	ខ្ពស់បំផុត
+history	bookmarks	km	ប្រវត្តិសាស្ត្រ
+i thought you would be interested in the following link(s):	bookmarks	km	ខ្ញុំគិតថាអ្នកនឹងចាប់អារម្មណ៍លើតំណភ្ជាប់ខាងក្រោម៖
+if you specify an export definition, it will be used when you export	bookmarks	km	ប្រសិនបើអ្នកបញ្ជាក់និយមន័យនាំចេញ វានឹងត្រូវបានប្រើនៅពេលអ្នកនាំចេញ។
+if you specify an export definition, it will be used when you export*	bookmarks	km	ប្រសិនបើអ្នកបញ្ជាក់និយមន័យនាំចេញ វានឹងត្រូវបានប្រើនៅពេលអ្នកនាំចេញ*
+import bookmarks	common	km	នាំចូលចំណាំ
+import under category	bookmarks	km	នាំចូលតាមប្រភេទ
+last modified	bookmarks	km	កែប្រែចុងក្រោយ
+last visited	bookmarks	km	បានទស្សនាចុងក្រោយ
+like	bookmarks	km	ចូលចិត្ត
+links	bookmarks	km	តំណភ្ជាប់
+list view	bookmarks	km	ទិដ្ឋភាពបញ្ជី
+lowest	bookmarks	km	ទាបបំផុត។
+mail	bookmarks	km	សំបុត្រ
+mail this bookmark	bookmarks	km	ផ្ញើចំណាំនេះ។
+mail-this-link message sent to %1.	bookmarks	km	ផ្ញើតាមតំណនេះ -message ផ្ញើទៅ %1
+mass update:	bookmarks	km	ការធ្វើបច្ចុប្បន្នភាពដ៏ធំ៖
+message from	bookmarks	km	សារពី
+more	bookmarks	km	ច្រើនទៀត
+name	bookmarks	km	ឈ្មោះ
+name is required	bookmarks	km	ទាមទារឈ្មោះ
+netscape / firefox	bookmarks	km	HTML
+netscape bookmark file	bookmarks	km	ឯកសារចំណាំ HTML
+netscape bookmark filename is required!	bookmarks	km	ឈ្មោះឯកសារចំណាំ HTML គឺចាំបាច់!
+netscape/mozilla	bookmarks	km	HTML
+new	bookmarks	km	ថ្មី
+note: you can use bookmark files exported as html	bookmarks	km	ចំណាំ៖ អ្នកអាចប្រើឯកសារចំណាំដែលបាននាំចេញជា HTML ។
+old fixed definition	bookmarks	km	និយមន័យចាស់ថេរ
+or	bookmarks	km	ឬ
+please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	km	បំពេញ <B>ទៅអាសយដ្ឋានអ៊ីមែល</B> <B>ប្រធានបទ</B> និង <B>សារ</B>!
+please select the categories to export	bookmarks	km	សូមជ្រើសរើសប្រភេទដែលត្រូវនាំចេញ។
+query condition	bookmarks	km	លក្ខខណ្ឌសំណួរ
+rating	bookmarks	km	ការវាយតម្លៃ
+rating of this site	bookmarks	km	ការវាយតម្លៃនៃគេហទំព័រនេះ។
+search for:	bookmarks	km	ស្វែងរក:
+select an action	bookmarks	km	ជ្រើសរើសសកម្មភាព
+select an action...	bookmarks	km	ជ្រើសរើសសកម្មភាព...
+select the format you would like to export to	bookmarks	km	ជ្រើសរើសទម្រង់ដែលអ្នកចង់នាំចេញ។
+send bookmark	bookmarks	km	ផ្ញើចំណាំ
+sub category	bookmarks	km	ប្រភេទរង
+sub-folders will create new categories	bookmarks	km	ថតរងនឹងបង្កើតប្រភេទថ្មី។
+this is the view bookmarks uses when you enter the application.	bookmarks	km	នេះជាទិដ្ឋភាពដែលចំណាំប្រើនៅពេលអ្នកបញ្ចូលកម្មវិធី។
+this module displays bookmarks in a javascript based tree	bookmarks	km	ម៉ូឌុលនេះបង្ហាញចំណាំនៅក្នុងមែកធាងដែលមានមូលដ្ឋានលើស្គ្រីប java ។
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	km	ដើម្បីដោះស្រាយ%1 មិនត្រឹមត្រូវ។ ទម្រង់ត្រូវតែជា <strong>user@domain</strong> ហើយដែនត្រូវតែមាន!
+to e-mail addresses	bookmarks	km	ទៅអាសយដ្ឋានអុីមែល
+to which category should the imported folder hierarchy be attached	bookmarks	km	តើ​ប្រភេទ​ណា​ដែល​ត្រូវ​ភ្ជាប់​ឋានានុក្រម​ថត​ដែល​បាន​នាំចូល។
+total visits	bookmarks	km	ការចូលមើលសរុប
+tree view	bookmarks	km	ទិដ្ឋភាពដើមឈើ
+unable to open temp file %1 for import.	bookmarks	km	មិន​អាច​បើក​ឯកសារ temp %1 សម្រាប់​ការ​នាំចូល
+unknown format	bookmarks	km	ទម្រង់មិនស្គាល់
+updated	bookmarks	km	បានធ្វើបច្ចុប្បន្នភាព។
+url is required.	bookmarks	km	ទាមទារ URL
+view bookmark	bookmarks	km	មើលចំណាំ
+view this bookmark	bookmarks	km	មើលចំណាំនេះ។
+visit	bookmarks	km	ទស្សនា
+warning	bookmarks	km	ការព្រមាន
+whole query	bookmarks	km	សំណួរទាំងមូល
+xbel	bookmarks	km	XBEL
+you are viewing this site outside of egroupware	bookmarks	km	អ្នកកំពុងមើលគេហទំព័រនេះនៅខាងក្រៅ EGroupware
+you must select a category	bookmarks	km	អ្នកត្រូវតែជ្រើសរើសប្រភេទមួយ។
+you need to select a category!	bookmarks	km	អ្នកត្រូវជ្រើសរើសប្រភេទ!

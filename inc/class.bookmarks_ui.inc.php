@@ -129,7 +129,6 @@ class bookmarks_ui
 		$this->bo->save_session_data($this->location_info);
 
 		if(!$bookmark['url']) $bookmark['url'] = 'http://';
-		if(!$bookmark['access']) $bookmark['access'] = 'public';
 
 		$bookmark['msg'] = $this->app_messages();
 		// Hide the URL link, show the editable text field

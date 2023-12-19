@@ -1,15 +1,15 @@
 %1 bookmarks have been deleted	bookmarks	de	%1 Lesezeichen wurden gelöscht
 %1 bookmarks imported from %2 successfully.	bookmarks	de	%1 Lesezeichen erfolgreich von %2 importiert.
 %s bookmarks selected for export	bookmarks	de	%1 Lesezeichen für den Export ausgewählt
-(comma separate multiple addresses)	bookmarks	de	(mehrere Adressen mit Komma getrennt)
+(comma separate multiple addresses)	bookmarks	de	Mehrere Adressen mit Komma getrennt
 (selecting a category includes all sub-categories)	bookmarks	de	(Wenn Sie eine Kategorie auswählen, werden auch alle dazugehörigen Unterkategorien mit ausgewählt)
 actions	bookmarks	de	Befehle
 add bookmark	bookmarks	de	Lesezeichen hinzufügen
 added	bookmarks	de	Hinzugefügt
 all bookmarks	bookmarks	de	Alle Lesezeichen
 and	bookmarks	de	Und
-append this message to mailed bookmarks	bookmarks	de	Diese Nachricht an zu verschickende Lesezeichen anhängen.
-apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	de	Wendet den Befehl auf die gesamte Abfrage an, NICHT nur auf die angezeigten Lesezeichen !!!?
+append this message to mailed bookmarks	bookmarks	de	Diese Nachricht an zu verschickende Lesezeichen anhängen:
+apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	de	Wendet den Befehl auf die gesamte Abfrage an, NICHT nur auf die angezeigten Lesezeichen!
 ascending	bookmarks	de	Absteigend
 book marks	common	de	Lesezeichen
 bookmark - %1	bookmarks	de	Lesezeichen - %1
@@ -50,14 +50,14 @@ enter the name of the netscape bookmark file<br>that you want imported into book
 existing links	bookmarks	de	Bestehende Verknüpfungen
 export	bookmarks	de	Export
 export bookmarks	common	de	Lesezeichen exportieren
-export definition to use for nextmatch export	bookmarks	de	Export Profil der Listenansicht (Disketten Symbol)
-export definitition to use for nextmatch export	bookmarks	de	Export Profil der Listenansicht (Disketten Symbol)
+export definition to use for nextmatch export	bookmarks	de	Export Profil der Listenansicht
+export definitition to use for nextmatch export	bookmarks	de	Export Profil der Listenansicht
 export format	bookmarks	de	Export Format
 fewer	bookmarks	de	Weniger
 filter by	bookmarks	de	Filtern nach
-found a link you might like	bookmarks	de	Habe einen interessanten Link gefunden
-from	bookmarks	de	von
-from category %1	bookmarks	de	von Kategorie %1
+found a link you might like	bookmarks	de	Interessante Link(s) für Sie
+from	bookmarks	de	Von
+from category %1	bookmarks	de	Von Kategorie %1
 general	bookmarks	de	Allgemein
 global categories	bookmarks	de	Globale Kategorien
 highest	bookmarks	de	Höchste
@@ -102,8 +102,8 @@ send bookmark	bookmarks	de	Lesezeichen versenden
 sub category	bookmarks	de	Unterkategorie
 sub-folders will create new categories	bookmarks	de	Unterordner werden eine neue Kategorie erstellen.
 this is the view bookmarks uses when you enter the application.	bookmarks	de	Dies ist die Ansicht, die den Benutzern angezeigt wird, wenn Sie diese Anwendung öffnen.
-this module displays bookmarks in a javascript based tree	bookmarks	de	Dieses Modul zeigt Lesezeichen in einer javascriptbasierenden Baumstruktur an.
-to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	de	An Adresse %1 ungültig. Das Format muss <strong>benutzer@domain</strong> sein und die Domain muss existieren.
+this module displays bookmarks in a javascript based tree	bookmarks	de	Dieses Modul zeigt Lesezeichen in einer JavaScript basierenden Baumstruktur an.
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	de	An Adresse %1 ungültig. Das Format muss <b>benutzer@domain</b> sein und die Domain muss existieren.
 to e-mail addresses	bookmarks	de	An E-Mail-Adressen
 to which category should the imported folder hierarchy be attached	bookmarks	de	Zu welcher Kategorie sollen die importierten Ordern hinzugefügt werden
 total visits	bookmarks	de	Gesamtbesuche
@@ -111,6 +111,7 @@ tree view	bookmarks	de	Baumansicht
 unable to open temp file %1 for import.	bookmarks	de	Kann temp. Datei %1 nicht importieren.
 unknown format	bookmarks	de	Unbekanntes Format
 updated	bookmarks	de	Aktualisiert
+url "%1" already exists!	bookmarks	de	URL "%1" existiert bereits!
 url is required.	bookmarks	de	Eine URL wird benötigt
 view bookmark	bookmarks	de	Lesezeichen anzeigen
 view this bookmark	bookmarks	de	Lesezeichen anzeigen

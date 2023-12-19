@@ -1,7 +1,12 @@
+%s bookmarks selected for export	bookmarks	id	Penanda %s yang dipilih untuk diekspor.
+(selecting a category includes all sub-categories)	bookmarks	id	Memilih kategori mencakup semua sub kategori
 actions	bookmarks	id	Tindakan
+add bookmark	bookmarks	id	Menambahkan penanda
 added	bookmarks	id	Ditambahkan
 all bookmarks	bookmarks	id	Semua tandabuku
 and	bookmarks	id	Dan
+append this message to mailed bookmarks	bookmarks	id	Menambahkan pesan ini ke penanda yang dikirim melalui email:
+apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	id	Menerapkan tindakan pada seluruh kueri, BUKAN hanya penanda yang ditampilkan!
 ascending	bookmarks	id	Menaik
 book marks	common	id	Tanda Buku
 bookmark file	bookmarks	id	Berkas Tandabuku
@@ -10,12 +15,14 @@ bookmarks settings	bookmarks	id	Pengaturan Tandabuku
 categories to export	bookmarks	id	Kategori untuk ekspor
 change bookmark	bookmarks	id	Ubah Tandabuku
 check all	bookmarks	id	Contreng semua
+choose the categories to expand in the initial view	bookmarks	id	Memilih kategori yang akan diperluas di tampilan awal
 create bookmark	bookmarks	id	Bikin tandabuku
 create new links	bookmarks	id	Bikin tautan baru
 created	bookmarks	id	Dibikin
 custom fields	bookmarks	id	Custom fields
 date added	bookmarks	id	Tanggal ditambahkan
 date changed	bookmarks	id	Tanggal Diubah
+default view for bookmarks	bookmarks	id	Tampilan default untuk penanda
 descending	bookmarks	id	Menurun
 edit bookmark	bookmarks	id	Edit tandabuku
 existing links	bookmarks	id	Tautan yang ada
@@ -24,18 +31,20 @@ export bookmarks	common	id	Ekspor Tandabuku
 export format	bookmarks	id	Format ekspor
 fewer	bookmarks	id	Sedikit
 filter by	bookmarks	id	Saring dengan
+found a link you might like	bookmarks	id	Tautan yang menarik untuk Anda
 from	bookmarks	id	Dari
-from category %1	bookmarks	id	dari kategori %1
+from category %1	bookmarks	id	Dari kategori %1
 general	bookmarks	id	Umum
 global categories	bookmarks	id	Kategori Global
 highest	bookmarks	id	Tertinggi
 history	bookmarks	id	Riwayat
+i thought you would be interested in the following link(s):	bookmarks	id	Saya pikir Anda akan tertarik dengan tautan berikut ini:
 import bookmarks	common	id	Impor tandabuku
 last modified	bookmarks	id	Pengubahan terakhir
 last visited	bookmarks	id	Kunjungan terakhir
-like	bookmarks	id	like
+like	bookmarks	id	Like
 links	bookmarks	id	Tautan
-list view	bookmarks	id	list view
+list view	bookmarks	id	List view
 lowest	bookmarks	id	Terendah
 mass update:	bookmarks	id	Pengkinian masal:
 message from	bookmarks	id	Pesan dari
@@ -47,6 +56,8 @@ netscape bookmark file	bookmarks	id	Berkas Tandabuku HTML
 netscape bookmark filename is required!	bookmarks	id	Nama berkas tandabuku HTML diperlukan
 netscape/mozilla	bookmarks	id	HTML
 new	bookmarks	id	Baru
+note: you can use bookmark files exported as html	bookmarks	id	Catatan: Anda dapat menggunakan file penanda yang diekspor sebagai HTML.
+old fixed definition	bookmarks	id	Definisi lama yang sudah diperbaiki
 or	bookmarks	id	or
 query condition	bookmarks	id	Query Condition
 rating	bookmarks	id	Rating
@@ -54,11 +65,14 @@ search for:	bookmarks	id	Mancarikan:
 select an action	bookmarks	id	Pilih tindakan
 send bookmark	bookmarks	id	Kirim tandabuku
 sub category	bookmarks	id	Sub Kategori
+sub-folders will create new categories	bookmarks	id	Sub folder akan membuat kategori baru
 to e-mail addresses	bookmarks	id	Ke Alamat E-Mail
-total visits	bookmarks	id	kunjungan total
+total visits	bookmarks	id	Kunjungan total
 tree view	bookmarks	id	Tree view
 updated	bookmarks	id	Updated
+url "%1" already exists!	bookmarks	id	URL "%1" sudah ada!
 view bookmark	bookmarks	id	Lihat tandabuku
+visit	bookmarks	id	Kunjungi
 warning	bookmarks	id	Peringatan
-whole query	bookmarks	id	whole query
+whole query	bookmarks	id	Whole query
 xbel	bookmarks	id	XBEL

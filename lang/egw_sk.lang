@@ -8,7 +8,7 @@ add bookmark	bookmarks	sk	Pridať záložku
 added	bookmarks	sk	Pridané
 all bookmarks	bookmarks	sk	Všetky záložky
 and	bookmarks	sk	A
-append this message to mailed bookmarks	bookmarks	sk	Túto správu pripojiť k záložkám odoslaným E-mailom
+append this message to mailed bookmarks	bookmarks	sk	Túto správu pripojiť k záložkám odoslaným E-mailom:
 apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	sk	Vykonať túto akciu pre celý dopyt, NIELEN pre zobrazené záložky!!!
 ascending	bookmarks	sk	Vzostupné
 book marks	common	sk	Záložky
@@ -31,7 +31,7 @@ change bookmark	bookmarks	sk	Zmeniť záložku
 check all	bookmarks	sk	Označiť všetko
 choose the categories to display	bookmarks	sk	Vyberte, ktoré kategórie zobraziť
 choose the categories to expand in the initial view	bookmarks	sk	Vyberte kategórie, ktoré sa majú otvoriť pri úvodnom zobrazení
-close this window to return	bookmarks	sk	pre návrat zavrite toto okno
+close this window to return	bookmarks	sk	Pre návrat zavrite toto okno
 create bookmark	bookmarks	sk	Vytvoriť záložku
 create new bookmark	bookmarks	sk	Vytvoriť novú záložku
 create new links	bookmarks	sk	Vytvoriť nové odkazy
@@ -55,27 +55,27 @@ export definitition to use for nextmatch export	bookmarks	sk	Exportná definíci
 export format	bookmarks	sk	Formát exportu
 fewer	bookmarks	sk	Menej
 filter by	bookmarks	sk	Filtrovať podľa
-found a link you might like	bookmarks	sk	Našiel sa odkaz, ktorý by vás mohol zaujímať
+found a link you might like	bookmarks	sk	Zaujímavý(é) odkaz(y) pre vás
 from	bookmarks	sk	Od
 from category %1	bookmarks	sk	z kategórie %1
 general	bookmarks	sk	Všeobecné
 global categories	bookmarks	sk	Globálne kategórie
 highest	bookmarks	sk	Najvyššie
 history	bookmarks	sk	História
-i thought you would be interested in the following link(s):	bookmarks	sk	Myslím, že by vás mohli zaujímať nasledujúce odkazy:
+i thought you would be interested in the following link(s):	bookmarks	sk	Myslel som si, že by vás mohol(-i) zaujímať nasledujúci(-e) odkaz(-y):
 if you specify an export definition, it will be used when you export	bookmarks	sk	Ak zadáte exportnú definíciu, bude sa používať pri exportoch.
 if you specify an export definition, it will be used when you export*	bookmarks	sk	Ak zadáte exportnú definíciu, bude sa používať pri exportoch
 import bookmarks	common	sk	Naimportovať záložky
 import under category	bookmarks	sk	Importovať pod kategóriou
 last modified	bookmarks	sk	Naposledy zmenené
 last visited	bookmarks	sk	Naposledy navštívené
-like	bookmarks	sk	ako
+like	bookmarks	sk	Ako
 links	bookmarks	sk	Odkazy
-list view	bookmarks	sk	zobraziť zoznam
+list view	bookmarks	sk	Zobraziť zoznam
 lowest	bookmarks	sk	Najnižšie
 mail	bookmarks	sk	E-mail
 mail this bookmark	bookmarks	sk	Poslať túto záložku E-mailom
-mail-this-link message sent to %1.	bookmarks	sk	správa s odkazom bola odoslaná pre %1.
+mail-this-link message sent to %1.	bookmarks	sk	Správa s odkazom bola odoslaná pre %1.
 mass update:	bookmarks	sk	Hromadná aktualizácia:
 message from	bookmarks	sk	Správa od
 more	bookmarks	sk	Viac
@@ -103,7 +103,7 @@ sub category	bookmarks	sk	Podkategória
 sub-folders will create new categories	bookmarks	sk	Podpriečinky vytvoria nové kategórie
 this is the view bookmarks uses when you enter the application.	bookmarks	sk	Toto je pohľad, ktorý Záložky použijú keď otvoríte aplikáciu.
 this module displays bookmarks in a javascript based tree	bookmarks	sk	Tento modul zobrazuje záložky v javaskriptovom strome
-to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	sk	Adresa Kmou %1 je chybná. Formát musí byť <strong>user@domain</strong> a doména musí byť spomedzi existujúcich!
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	sk	Adresa Kmou %1 je chybná. Formát musí byť <b>user@domain</b> a doména musí byť spomedzi existujúcich!
 to e-mail addresses	bookmarks	sk	Adresa Komu
 to which category should the imported folder hierarchy be attached	bookmarks	sk	Ku ktorej kategórii mám priradiť naimportovanú hierarchiu priečinkov
 total visits	bookmarks	sk	návštev celkovo
@@ -111,6 +111,7 @@ tree view	bookmarks	sk	Stromový pohľad
 unable to open temp file %1 for import.	bookmarks	sk	Súbor %1 sa nepodarilo otvoriť pre import.
 unknown format	bookmarks	sk	Neznámy formát
 updated	bookmarks	sk	Aktualizované
+url "%1" already exists!	bookmarks	sk	URL "%1" už existuje!
 url is required.	bookmarks	sk	Je potrebná URL adresa.
 view bookmark	bookmarks	sk	Zobraziť záložku
 view this bookmark	bookmarks	sk	Zobraziť túto záložku

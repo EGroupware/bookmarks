@@ -1,14 +1,14 @@
 %1 bookmarks have been deleted	bookmarks	cs	%1 záložek bylo smazáno
 %1 bookmarks imported from %2 successfully.	bookmarks	cs	%1 záložek bylo úspěšně importováno z %2
-%s bookmarks selected for export	bookmarks	cs	%1 záložek bylo vybráno pro export
-(comma separate multiple addresses)	bookmarks	cs	(více adres oddělených čárkami)
+%s bookmarks selected for export	bookmarks	cs	%s záložek bylo vybráno pro export
+(comma separate multiple addresses)	bookmarks	cs	Oddělení více adres čárkou
 (selecting a category includes all sub-categories)	bookmarks	cs	Výběrem kategorie se zahrnou i podkategorie
 actions	bookmarks	cs	Akce
 add bookmark	bookmarks	cs	Přidat záložku
-added	bookmarks	cs	přidáno
+added	bookmarks	cs	Přidáno
 all bookmarks	bookmarks	cs	Všechny záložky
 and	bookmarks	cs	A
-append this message to mailed bookmarks	bookmarks	cs	Tuto zprávu připojit k záložkám posílaným e-mailem
+append this message to mailed bookmarks	bookmarks	cs	Tuto zprávu připojit k záložkám posílaným e-mailem:
 apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	cs	Použít akci na celý výběr, ne jen na zobrazené záložky!
 ascending	bookmarks	cs	Vzestupně
 book marks	common	cs	Záložky
@@ -31,7 +31,7 @@ change bookmark	bookmarks	cs	Změnit záložku
 check all	bookmarks	cs	Označit všechny
 choose the categories to display	bookmarks	cs	Zvolte kategorie, které chcete zobrazit
 choose the categories to expand in the initial view	bookmarks	cs	Které kategorie se mají rozbalit po spuštění aplikace
-close this window to return	bookmarks	cs	pro návrat zavřete toto okno
+close this window to return	bookmarks	cs	Pro návrat zavřete toto okno
 create bookmark	bookmarks	cs	Vytvořit záložku
 create new bookmark	bookmarks	cs	Vytvořit novou záložku
 create new links	bookmarks	cs	Vytvořit nové odkazy
@@ -48,34 +48,34 @@ edit bookmark - %1	bookmarks	cs	Upravit záložku - %1
 edit this bookmark	bookmarks	cs	Editovat tuto záložku
 enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	cs	Vložte název souboru se záložkami HTML,<br>který chcete importovat do níže uvedeného pořadače.
 existing links	bookmarks	cs	Stávající odkazy
-export	bookmarks	cs	export
+export	bookmarks	cs	Export
 export bookmarks	common	cs	Expotovat záložky
 export definition to use for nextmatch export	bookmarks	cs	Definice exportu pro následující export
 export definitition to use for nextmatch export	bookmarks	cs	Definice exportu pro následující export
 export format	bookmarks	cs	Formát pro export
 fewer	bookmarks	cs	Méně
 filter by	bookmarks	cs	Filtrovat (čím)
-found a link you might like	bookmarks	cs	Nalezen odkaz, který by Vás mohl zajímat
+found a link you might like	bookmarks	cs	Zajímavý odkaz(y) pro vás
 from	bookmarks	cs	Od
-from category %1	bookmarks	cs	z kategorie %1
+from category %1	bookmarks	cs	Z kategorie %1
 general	bookmarks	cs	Obecné
 global categories	bookmarks	cs	Globální kategorie
 highest	bookmarks	cs	Nejvyšší
 history	bookmarks	cs	Historie
-i thought you would be interested in the following link(s):	bookmarks	cs	Myslím, že by Vás mohl(y) zajímat následující odkaz(y):
+i thought you would be interested in the following link(s):	bookmarks	cs	Myslel jsem, že by vás mohl zajímat následující odkaz(y):
 if you specify an export definition, it will be used when you export	bookmarks	cs	Pokud zadáte definici pro export, bude při exportu použita
 if you specify an export definition, it will be used when you export*	bookmarks	cs	Pokud zadáte definici pro export, bude při exportu použita*
 import bookmarks	common	cs	Importovat záložky
 import under category	bookmarks	cs	Importovat do kategorie
 last modified	bookmarks	cs	Poslední změna
 last visited	bookmarks	cs	Naposledy navštíveno
-like	bookmarks	cs	jako
+like	bookmarks	cs	Jako
 links	bookmarks	cs	Odkazy
 list view	bookmarks	cs	Zobrazit seznam
 lowest	bookmarks	cs	Nejnižší
 mail	bookmarks	cs	E-mail
 mail this bookmark	bookmarks	cs	Poslat záložky e-mailem
-mail-this-link message sent to %1.	bookmarks	cs	zpráva s odkazem odeslána na %1.
+mail-this-link message sent to %1.	bookmarks	cs	Zpráva s odkazem odeslána na %1.
 mass update:	bookmarks	cs	Hromadná aktualizace:
 message from	bookmarks	cs	Zpráva od
 more	bookmarks	cs	Více
@@ -106,18 +106,19 @@ this module displays bookmarks in a javascript based tree	bookmarks	cs	Tento mod
 to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	cs	Adresa příjemce %1 je neplatná. Formát musí být <strong>uživatel@doména</strong> a doména musí existovat!
 to e-mail addresses	bookmarks	cs	E-mailová adresa příjemce
 to which category should the imported folder hierarchy be attached	bookmarks	cs	Ke které kategorii má být importovaná hierarchie složek připojena
-total visits	bookmarks	cs	celkem návštěv
+total visits	bookmarks	cs	Celkem návštěv
 tree view	bookmarks	cs	Zobrazení do stromu
 unable to open temp file %1 for import.	bookmarks	cs	Nemohu otevřít dočasný soubor %1 k importu.
 unknown format	bookmarks	cs	Neznámý formát
 updated	bookmarks	cs	Aktualizováno
+url "%1" already exists!	bookmarks	cs	URL "%1" již existuje!
 url is required.	bookmarks	cs	URL je vyžadováno
 view bookmark	bookmarks	cs	Zobrazit záložku
 view this bookmark	bookmarks	cs	Zobrazit tuto záložku
 visit	bookmarks	cs	Navštivte
 warning	bookmarks	cs	Varování
-whole query	bookmarks	cs	celý dotaz
+whole query	bookmarks	cs	Celý dotaz
 xbel	bookmarks	cs	XBEL
 you are viewing this site outside of egroupware	bookmarks	cs	Prohlížíte tento web mimo EGroupware
 you must select a category	bookmarks	cs	Musíte vybrat kategorii
-you need to select a category!	bookmarks	cs	Musíte vybrat kategorii !
+you need to select a category!	bookmarks	cs	Musíte vybrat kategorii!

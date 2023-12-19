@@ -8,7 +8,7 @@ add bookmark	bookmarks	bg	Добавяне на отметка
 added	bookmarks	bg	Добавен(а)
 all bookmarks	bookmarks	bg	Всички отметки
 and	bookmarks	bg	И
-append this message to mailed bookmarks	bookmarks	bg	Добавяне на това съобщение към изпращаните по пощата отметки
+append this message to mailed bookmarks	bookmarks	bg	Добавете това съобщение към изпратените по пощата отметки:
 apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	bg	Приложете действието върху цялата заявка, НЕ само на показаните отметки!
 ascending	bookmarks	bg	Възходящо
 book marks	common	bg	Отметки
@@ -55,14 +55,14 @@ export definitition to use for nextmatch export	bookmarks	bg	Определен�
 export format	bookmarks	bg	Формат за експортиране
 fewer	bookmarks	bg	По-малко
 filter by	bookmarks	bg	Филтриране по
-found a link you might like	bookmarks	bg	Препратка, която може да ти е интересна
+found a link you might like	bookmarks	bg	Интересна(и) връзка(и) за вас
 from	bookmarks	bg	От
 from category %1	bookmarks	bg	От категория %1
 general	bookmarks	bg	Общи
 global categories	bookmarks	bg	Глобални категории
 highest	bookmarks	bg	Най-висока
 history	bookmarks	bg	История
-i thought you would be interested in the following link(s):	bookmarks	bg	Реших, че следните препратки може да са ти интересни:
+i thought you would be interested in the following link(s):	bookmarks	bg	Мислех, че ще ви бъде интересно следното(ите) свързване(я):
 if you specify an export definition, it will be used when you export	bookmarks	bg	Ако посочите дефиниция за "експортиране", тя ще се използва, когато експортирате.
 if you specify an export definition, it will be used when you export*	bookmarks	bg	Ако посочите дефиниция за "експортиране", тя ще се използва, когато експортирате*
 import bookmarks	common	bg	Внасяне на отметки
@@ -89,7 +89,7 @@ new	bookmarks	bg	Нова
 note: you can use bookmark files exported as html	bookmarks	bg	Забележка: Можете да използвате файлове с отметки, експортирани като HTML
 old fixed definition	bookmarks	bg	Стара фиксирана дефиниция
 or	bookmarks	bg	или
-please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	bg	Моля, попълнете <B>адрес на получателя</B>, <B>относно</B>, и <B>съдържанието на писмото</B>!
+please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	bg	Моля, попълнете <b>адрес на получателя</b>, <b>относно</b>, и <b>съдържанието на писмото</b>!
 please select the categories to export	bookmarks	bg	Моля изберете категориите за експортиране
 query condition	bookmarks	bg	Условие на търсенето
 rating	bookmarks	bg	Оценка
@@ -103,7 +103,7 @@ sub category	bookmarks	bg	Подкатегория
 sub-folders will create new categories	bookmarks	bg	Подпапките ще създадат нови категории
 this is the view bookmarks uses when you enter the application.	bookmarks	bg	Това е изгледът, който "Отметките" използват, когато влизате в приложението.
 this module displays bookmarks in a javascript based tree	bookmarks	bg	Този модул показва Дървото на отметките, базирано на JavaScript.
-to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	bg	Адресът на получателя, %1, не е валиден. Форматът трябва да е <strong>user@domain</strong> и domain-ът трябва да съществува!
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	bg	Адресът на получателя, %1, не е валиден. Форматът трябва да е <b>user@domain</b> и domain-ът трябва да съществува!
 to e-mail addresses	bookmarks	bg	До адрес на поща
 to which category should the imported folder hierarchy be attached	bookmarks	bg	Към коя категория да прикачат внасяните директории?
 total visits	bookmarks	bg	Общо посещения
@@ -111,6 +111,7 @@ tree view	bookmarks	bg	Дървовиден изглед
 unable to open temp file %1 for import.	bookmarks	bg	Не може да се отвори временният файл %1 за внасяне.
 unknown format	bookmarks	bg	Неизвестен формат
 updated	bookmarks	bg	Актуализиран
+url "%1" already exists!	bookmarks	bg	URL "%1" вече съществува!
 url is required.	bookmarks	bg	Изисква се URL.
 view bookmark	bookmarks	bg	Преглед на отметка
 view this bookmark	bookmarks	bg	Преглед на тази отметка

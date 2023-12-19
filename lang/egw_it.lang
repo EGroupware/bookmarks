@@ -1,14 +1,14 @@
 %1 bookmarks have been deleted	bookmarks	it	%1 segnalibri sono stati cancellati
 %1 bookmarks imported from %2 successfully.	bookmarks	it	%1 segnalibri importati da %2 con successo.
 %s bookmarks selected for export	bookmarks	it	% segnalibri selezionati per l'esportazione
-(comma separate multiple addresses)	bookmarks	it	(indirizzi multipli separati da virgole)
+(comma separate multiple addresses)	bookmarks	it	Separare con una virgola gli indirizzi multipli
 (selecting a category includes all sub-categories)	bookmarks	it	La selezione di una categoria comprende le sottocategorie
 actions	bookmarks	it	Azioni
 add bookmark	bookmarks	it	Aggiungi segnalibro
 added	bookmarks	it	Aggiunto
 all bookmarks	bookmarks	it	Tutti i segnalibri
 and	bookmarks	it	E
-append this message to mailed bookmarks	bookmarks	it	Appendi questo messaggio ai segnalibri inviati
+append this message to mailed bookmarks	bookmarks	it	Appendi questo messaggio ai segnalibri inviati:
 apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	it	Applica l'azione a tutta la query, NON solo ai segnalibri mostrati!
 ascending	bookmarks	it	Ascendente
 book marks	common	it	Segnalibri
@@ -31,7 +31,7 @@ change bookmark	bookmarks	it	Cambia segnalibro
 check all	bookmarks	it	Seleziona tutto
 choose the categories to display	bookmarks	it	Scegli le categorie da mostrare
 choose the categories to expand in the initial view	bookmarks	it	Seleziona le categorie da espandere nella vista iniziale
-close this window to return	bookmarks	it	chiudi questa finestra per ritornare
+close this window to return	bookmarks	it	Chiudi questa finestra per ritornare
 create bookmark	bookmarks	it	Crea segnalibro
 create new bookmark	bookmarks	it	Crea nuovo segnalibro
 create new links	bookmarks	it	Crea nuovi collegamenti
@@ -48,16 +48,16 @@ edit bookmark - %1	bookmarks	it	Modifica segnalibro - %1
 edit this bookmark	bookmarks	it	Modifica questo segnalibro
 enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	it	Inserisci il nome del file HTML <br> che vuoi importare qui sotto.
 existing links	bookmarks	it	Collegamenti esistenti
-export	bookmarks	it	esporta
+export	bookmarks	it	Esporta
 export bookmarks	common	it	Esporta Segnalibri
 export definition to use for nextmatch export	bookmarks	it	Definizione di esportazione da utilizzare per l'esportazione "nextmatch" (corrispondenza successiva)
 export definitition to use for nextmatch export	bookmarks	it	Esporta la definizione da utilizzare per la esportazione
 export format	bookmarks	it	Formato esportazione
 fewer	bookmarks	it	Di meno
 filter by	bookmarks	it	Filtra per
-found a link you might like	bookmarks	it	Trovato un link che ti potrebbe piacere
+found a link you might like	bookmarks	it	Link interessanti per voi
 from	bookmarks	it	Da
-from category %1	bookmarks	it	dalla categoria %1
+from category %1	bookmarks	it	Dalla categoria %1
 general	bookmarks	it	Generale
 global categories	bookmarks	it	Categorie Globali
 highest	bookmarks	it	Più alto
@@ -69,13 +69,13 @@ import bookmarks	common	it	Importa segnalibri
 import under category	bookmarks	it	Importa sotto la categoria
 last modified	bookmarks	it	Ultima modifica
 last visited	bookmarks	it	Ultima visita
-like	bookmarks	it	come
+like	bookmarks	it	Come
 links	bookmarks	it	Collegamenti
-list view	bookmarks	it	elenco
+list view	bookmarks	it	Elenco
 lowest	bookmarks	it	Più basso
-mail	bookmarks	it	mail
+mail	bookmarks	it	Mail
 mail this bookmark	bookmarks	it	Invia questo segnalibro
-mail-this-link message sent to %1.	bookmarks	it	messaggio invia-questo-link inviato a %1.
+mail-this-link message sent to %1.	bookmarks	it	Messaggio invia-questo-link inviato a %1.
 mass update:	bookmarks	it	Aggiornamento cumulativo:
 message from	bookmarks	it	Messaggio da
 more	bookmarks	it	Altro
@@ -106,11 +106,12 @@ this module displays bookmarks in a javascript based tree	bookmarks	it	Questo mo
 to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	it	L'indirizzo %1 non è valido. Il formato deve essere <strong>utente@dominio</strong> e il dominio deve esistere!
 to e-mail addresses	bookmarks	it	Indirizzi email A
 to which category should the imported folder hierarchy be attached	bookmarks	it	A quale categoria deve appartenere la gerarchia delle cartelle importate
-total visits	bookmarks	it	visite totali
+total visits	bookmarks	it	Visite totali
 tree view	bookmarks	it	Vista ad albero
 unable to open temp file %1 for import.	bookmarks	it	Impossibile aprire il file temporaneo %1 per importazione.
 unknown format	bookmarks	it	Formato sconosciuto
 updated	bookmarks	it	Aggiornato
+url "%1" already exists!	bookmarks	it	L'URL "%1" esiste già!
 url is required.	bookmarks	it	URL richiesto
 view bookmark	bookmarks	it	Visualizza segnalibro
 view this bookmark	bookmarks	it	Visualizza questo segnalibro

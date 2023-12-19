@@ -1,6 +1,6 @@
 %1 bookmarks have been deleted	bookmarks	ru	%1 закладок удалено
 %1 bookmarks imported from %2 successfully.	bookmarks	ru	%1 закладок импортировано из %2 успешно
-%s bookmarks selected for export	bookmarks	ru	%1 закладок выбрано для экспорта
+%s bookmarks selected for export	bookmarks	ru	%s закладок выбрано для экспорта
 (comma separate multiple addresses)	bookmarks	ru	(множественные адреса, разделенные запятыми)
 (selecting a category includes all sub-categories)	bookmarks	ru	Выбор категорий, включая все подкатегории
 actions	bookmarks	ru	Действия
@@ -8,7 +8,7 @@ add bookmark	bookmarks	ru	Добавить закладку
 added	bookmarks	ru	Добавлено
 all bookmarks	bookmarks	ru	Все закладки
 and	bookmarks	ru	И
-append this message to mailed bookmarks	bookmarks	ru	Добавить это сообщение к закладкам, пересылаемым почтовым сообщением
+append this message to mailed bookmarks	bookmarks	ru	Добавьте это сообщение в закладки, отправленные по почте:
 apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	ru	Применить действие к целому запросу, НЕ только для видимых закладок!
 ascending	bookmarks	ru	По возростанию
 book marks	common	ru	Закладки
@@ -55,14 +55,14 @@ export definitition to use for nextmatch export	bookmarks	ru	Определен�
 export format	bookmarks	ru	Формат экспорта
 fewer	bookmarks	ru	Убрать
 filter by	bookmarks	ru	Сортировать по
-found a link you might like	bookmarks	ru	Найдена ссылка которая может Вам понравиться
+found a link you might like	bookmarks	ru	Интересная ссылка(и) для вас
 from	bookmarks	ru	От
 from category %1	bookmarks	ru	из категории %1
 general	bookmarks	ru	Общие
 global categories	bookmarks	ru	Общие Категории
 highest	bookmarks	ru	Наивысший
 history	bookmarks	ru	История
-i thought you would be interested in the following link(s):	bookmarks	ru	Мне кажется, Вы заинтересуетесь следующими ссылками:
+i thought you would be interested in the following link(s):	bookmarks	ru	Я подумал, что вас заинтересует следующая ссылка(и):
 if you specify an export definition, it will be used when you export	bookmarks	ru	Если указать определение экспорта, оно будет использовано при последующем экспорте
 if you specify an export definition, it will be used when you export*	bookmarks	ru	Если указать определение экспорта, оно будет использовано при последующем экспорте
 import bookmarks	common	ru	Импортировать закладки
@@ -89,7 +89,7 @@ new	bookmarks	ru	Новая
 note: you can use bookmark files exported as html	bookmarks	ru	Примечание: можете использовать файлы закладок как HTML
 old fixed definition	bookmarks	ru	Ранее исправленное опрделение
 or	bookmarks	ru	или
-please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	ru	Пожалуйста, заполните поля <B>E-Mail Кому</B>, <B>Тема</B>, и <B>Сообщение</B>!
+please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	ru	Пожалуйста, заполните поля <b>E-Mail Кому</b>, <b>Тема</b>, и <b>Сообщение</b>!
 please select the categories to export	bookmarks	ru	Выбирите категории для экспорта
 query condition	bookmarks	ru	Условия запроса
 rating	bookmarks	ru	Рейтинг
@@ -103,7 +103,7 @@ sub category	bookmarks	ru	Под-категория
 sub-folders will create new categories	bookmarks	ru	Подпапки создадут новые категории
 this is the view bookmarks uses when you enter the application.	bookmarks	ru	Этот обзор Закладок будет использоваться при входе в приложение.
 this module displays bookmarks in a javascript based tree	bookmarks	ru	Этот модуль показывает закладки деревом на основе javascript
-to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	ru	Адрес %1 неверен. Он  должен быть в виде <strong>пользователь@домен</strong> и этот домен должен существовать!
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	ru	Адрес %1 неверен. Он  должен быть в виде <b>пользователь@домен</b> и этот домен должен существовать!
 to e-mail addresses	bookmarks	ru	Отправить на E-Mail
 to which category should the imported folder hierarchy be attached	bookmarks	ru	В какую категорию должна быть импортирована вложенная папка
 total visits	bookmarks	ru	всего посещений
@@ -111,6 +111,7 @@ tree view	bookmarks	ru	Дерево закладок
 unable to open temp file %1 for import.	bookmarks	ru	Невозможно открыть временный файл %1 для импорта.
 unknown format	bookmarks	ru	Неизвестный формат
 updated	bookmarks	ru	Обновлено.
+url "%1" already exists!	bookmarks	ru	URL "%1" уже существует!
 url is required.	bookmarks	ru	Необходим URL
 view bookmark	bookmarks	ru	Просмотр закладки
 view this bookmark	bookmarks	ru	Просмотреть эту закладку

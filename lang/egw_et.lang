@@ -1,27 +1,34 @@
+%s bookmarks selected for export	bookmarks	et	%s eksportimiseks valitud järjehoidjad.
+(selecting a category includes all sub-categories)	bookmarks	et	Kategooria valimine hõlmab kõiki alamkategooriaid
 actions	bookmarks	et	Tegevused
+add bookmark	bookmarks	et	Lisa järjehoidja
 added	bookmarks	et	Lisatud
 all bookmarks	bookmarks	et	Kõik järjehoidjad
 and	bookmarks	et	Ja
+append this message to mailed bookmarks	bookmarks	et	Lisage see sõnum postitatud järjehoidjatele:
+apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	et	Rakendage toimingut kogu päringule, MITTE ainult näidatud järjehoidjatele!
 ascending	bookmarks	et	Kasvav
 bookmark changed sucessfully	bookmarks	et	JärJärjehoidja on täielikult muudetud.
 bookmark created successfully.	bookmarks	et	JärJärjehoidja on täielikult tehtud.
-bookmark deleted successfully	bookmarks	et	järjehoidja on täielikult kustutatud.
-bookmark deleted successfully.	bookmarks	et	järjehoidja täielikult kustutatud.
+bookmark deleted successfully	bookmarks	et	Järjehoidja on täielikult kustutatud.
+bookmark deleted successfully.	bookmarks	et	Järjehoidja täielikult kustutatud.
 bookmark not editable	bookmarks	et	Järjehoidja pole muudetav
 bookmark not readable	bookmarks	et	Järjehoidja pole loetav
 bookmarks	common	et	Järjehoidjad
 bookmarks settings	bookmarks	et	Järjehoidjate setingud
 change bookmark	bookmarks	et	Muuda järjehoidjat
 check all	bookmarks	et	Kontrolli kõik
-close this window to return	bookmarks	et	sule see agen tagasiminekuks
+choose the categories to expand in the initial view	bookmarks	et	Valige kategooriad, mida laiendada esialgses vaates
+close this window to return	bookmarks	et	Sule see agen tagasiminekuks
 create bookmark	bookmarks	et	Tee järjehoidja
 create new bookmark	bookmarks	et	Tee uus järjehoidja
 create new links	bookmarks	et	Tee uued lingid
-created	bookmarks	et	Tehtud
+created	bookmarks	et	Loodud
 date added	bookmarks	et	Kuupäev lisatud
 date changed	bookmarks	et	Kuupäev muudetud
 date last updated	bookmarks	et	Kuupäev viimati uuendatud
 date last visited	bookmarks	et	Kuupäev viimati külastatud
+default view for bookmarks	bookmarks	et	Raamatumärkide vaikivaade
 descending	bookmarks	et	Kahanev
 edit bookmark	bookmarks	et	Muuda järjehoidjat
 edit this bookmark	bookmarks	et	Muuda seda järjehoidjat
@@ -30,16 +37,17 @@ export	bookmarks	et	Eksport
 export bookmarks	common	et	Ekspordi järjehoidjad
 fewer	bookmarks	et	Vähem
 filter by	bookmarks	et	Filtreeri
-found a link you might like	bookmarks	et	Leidsin järjehoida mis võibolla meeldib
+found a link you might like	bookmarks	et	Huvitav(ad) link(id) teile
 general	bookmarks	et	Üldine
 global categories	bookmarks	et	Globaalsed Kategooriad
 highest	bookmarks	et	Kõrgeim
 history	bookmarks	et	Ajalugu
+i thought you would be interested in the following link(s):	bookmarks	et	Arvasin, et sind huvitab järgmine(d) link(id):
 import bookmarks	common	et	Impordi järjehoidjad
 last modified	bookmarks	et	Viimati muudetud
-like	bookmarks	et	nagu
+like	bookmarks	et	Nagu
 links	bookmarks	et	Lingid
-list view	bookmarks	et	nimekirjavaade
+list view	bookmarks	et	Nimekirjavaade
 lowest	bookmarks	et	Madalaim
 mail this bookmark	bookmarks	et	Maili see järjehoidja
 mass update:	bookmarks	et	Massiline uuendamine:
@@ -51,6 +59,8 @@ netscape bookmark file	bookmarks	et	HTML järjehoidja fail
 netscape bookmark filename is required!	bookmarks	et	HTML järjehoidja failinimi on nõutav!
 netscape/mozilla	bookmarks	et	HTML
 new	bookmarks	et	Uus
+note: you can use bookmark files exported as html	bookmarks	et	Märkus: Saate kasutada HTML-vormingus eksporditud järjehoidjate faile.
+old fixed definition	bookmarks	et	Vana fikseeritud määratlus
 or	bookmarks	et	või
 please select the categories to export	bookmarks	et	Palun vali kategooriad mida eksportida
 rating	bookmarks	et	Reiting
@@ -58,13 +68,16 @@ search for:	bookmarks	et	Otsi:
 select the format you would like to export to	bookmarks	et	Vali formaat millesse soovid eksportida
 send bookmark	bookmarks	et	Saada järjehoidja
 sub category	bookmarks	et	Alam-kategooria
-total visits	bookmarks	et	kokku külastusi
+sub-folders will create new categories	bookmarks	et	Alamkaustad loovad uusi kategooriaid
+total visits	bookmarks	et	Kokku külastusi
 tree view	bookmarks	et	Puuvaade
 unable to open temp file %1 for import.	bookmarks	et	Ei saa avada temp faili %1 impordijaoks.
-updated	bookmarks	et	uuendatud
+updated	bookmarks	et	Uuendatud
+url "%1" already exists!	bookmarks	et	URL "%1" on juba olemas!
 url is required.	bookmarks	et	URL on nõutav.
 view bookmark	bookmarks	et	Vaata järjehoidjat
 view this bookmark	bookmarks	et	Vaata seda järjehoidjat
+visit	bookmarks	et	Külasta
 warning	bookmarks	et	Ettevaatust
 xbel	bookmarks	et	XBEL
 you are viewing this site outside of egroupware	bookmarks	et	Sa vaatad seda lehte väljaspool EGroupware

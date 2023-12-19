@@ -1,16 +1,20 @@
 %1 bookmarks have been deleted	bookmarks	es-es	Se han suprimido %1 marcadores
 %1 bookmarks imported from %2 successfully.	bookmarks	es-es	Se han importado correctamente %1 marcadores de %2
+%s bookmarks selected for export	bookmarks	es-es	%s segnalibri selezionati per l'esportazione.
 (comma separate multiple addresses)	bookmarks	es-es	(la coma separa varias direcciones)
+(selecting a category includes all sub-categories)	bookmarks	es-es	La selezione di una categoria include tutte le sottocategorie
 actions	bookmarks	es-es	Acciones
+add bookmark	bookmarks	es-es	Aggiungi segnalibro
 added	bookmarks	es-es	Añadido
 all bookmarks	bookmarks	es-es	Todos los marcadores
 and	bookmarks	es-es	Y
-append this message to mailed bookmarks	bookmarks	es-es	Añadir este mensaje a los marcadores enviados
+append this message to mailed bookmarks	bookmarks	es-es	Añadir este mensaje a los marcadores enviados:
+apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	es-es	Applicare l'azione all'intera query, NON solo ai segnalibri mostrati!
 ascending	bookmarks	es-es	Ascendente
 book marks	common	es-es	Marcadores
 bookmark - %1	bookmarks	es-es	Marcador - %1
-bookmark changed sucessfully	bookmarks	es-es	El marcador se ha cambiado correctamente
-bookmark created successfully.	bookmarks	es-es	El marcador se ha creado correctamente
+bookmark changed sucessfully	bookmarks	es-es	El marcador se ha cambiado correctamente.
+bookmark created successfully.	bookmarks	es-es	El marcador se ha creado correctamente.
 bookmark deleted successfully	bookmarks	es-es	El marcador se ha borrado correctamente.
 bookmark deleted successfully.	bookmarks	es-es	El marcador se ha borrado correctamente.
 bookmark file	bookmarks	es-es	Archivo de marcador
@@ -26,7 +30,8 @@ categories to export	bookmarks	es-es	Categorías a exportar
 change bookmark	bookmarks	es-es	Cambiar marcador
 check all	bookmarks	es-es	Marcar todo
 choose the categories to display	bookmarks	es-es	Elija las categorías a mostrar
-close this window to return	bookmarks	es-es	cerrar esta ventana para volver
+choose the categories to expand in the initial view	bookmarks	es-es	Scegliere le categorie da espandere nella vista iniziale
+close this window to return	bookmarks	es-es	Cerrar esta ventana para volver
 create bookmark	bookmarks	es-es	Crear marcador
 create new bookmark	bookmarks	es-es	Crear nuevo marcador
 create new links	bookmarks	es-es	Crear enlaces nuevos
@@ -36,36 +41,37 @@ date added	bookmarks	es-es	Fecha añadida
 date changed	bookmarks	es-es	Fecha cambiada
 date last updated	bookmarks	es-es	Fecha de la última actualización
 date last visited	bookmarks	es-es	Fecha de la última visita
+default view for bookmarks	bookmarks	es-es	Vista predefinita per i segnalibri
 descending	bookmarks	es-es	Descendente
 edit bookmark	bookmarks	es-es	Editar marcador
 edit bookmark - %1	bookmarks	es-es	Editar marcador - %1
 edit this bookmark	bookmarks	es-es	Editar este marcador
 enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	es-es	Introduzca el nombre del fichero de marcadores de HTML<br>que quiera ver importado debajo.
 existing links	bookmarks	es-es	Enlaces existentes
-export	bookmarks	es-es	exportar
+export	bookmarks	es-es	Exportar
 export bookmarks	common	es-es	Exportar marcadores
 export definition to use for nextmatch export	bookmarks	es-es	Exportar la definición a usar para exportar nextmatch
 export definitition to use for nextmatch export	bookmarks	es-es	Exportar la definición a usar para exportar nextmatch
 export format	bookmarks	es-es	Formato de exportación
 fewer	bookmarks	es-es	Menos
 filter by	bookmarks	es-es	Filtrar por
-found a link you might like	bookmarks	es-es	Se encontró un enlace que le puede gustar
+found a link you might like	bookmarks	es-es	Enlace(s) interesante(s) para usted
 from	bookmarks	es-es	De
-from category %1	bookmarks	es-es	de la categoría %º
+from category %1	bookmarks	es-es	De la categoría %1
 general	bookmarks	es-es	General
 global categories	bookmarks	es-es	Categorías globales
 highest	bookmarks	es-es	La más alta
 history	bookmarks	es-es	Historial
-i thought you would be interested in the following link(s):	bookmarks	es-es	Pensé que le interesarían los siguientes enlaces:
+i thought you would be interested in the following link(s):	bookmarks	es-es	He pensado que te interesaría(n) el(los) siguiente(s) enlace(s):
 if you specify an export definition, it will be used when you export	bookmarks	es-es	Si especifica una definición de exportación, se usará al exportar
 if you specify an export definition, it will be used when you export*	bookmarks	es-es	Si especifica una definición de exportación, se usará al exportar
 import bookmarks	common	es-es	Importar marcadores
 import under category	bookmarks	es-es	Importar bajo categoría
 last modified	bookmarks	es-es	Última modificación
 last visited	bookmarks	es-es	Última visita
-like	bookmarks	es-es	como
+like	bookmarks	es-es	Como
 links	bookmarks	es-es	Enlaces
-list view	bookmarks	es-es	ver lista
+list view	bookmarks	es-es	Ver lista
 lowest	bookmarks	es-es	La más baja
 mail	bookmarks	es-es	Correo
 mail this bookmark	bookmarks	es-es	Mandar por este marcador por correo
@@ -80,6 +86,8 @@ netscape bookmark file	bookmarks	es-es	Fichero de marcadores de HTML
 netscape bookmark filename is required!	bookmarks	es-es	El nombre del fichero de marcadores de HTML es obligatorio
 netscape/mozilla	bookmarks	es-es	HTML
 new	bookmarks	es-es	Nuevo
+note: you can use bookmark files exported as html	bookmarks	es-es	Nota: è possibile utilizzare file di segnalibri esportati come HTML.
+old fixed definition	bookmarks	es-es	Vecchia definizione fissa
 or	bookmarks	es-es	o
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	es-es	Por favor, rellene <b>Dirección destino</b>, <b>Asunto</b> y <b>Mensaje</b>
 please select the categories to export	bookmarks	es-es	Por favor, seleccione las categorías a exportar
@@ -92,8 +100,10 @@ select an action...	bookmarks	es-es	Seleccionar una acción...
 select the format you would like to export to	bookmarks	es-es	Seleccione el formato al que le gustaría exportar
 send bookmark	bookmarks	es-es	Enviar marcador
 sub category	bookmarks	es-es	Subcategoría
+sub-folders will create new categories	bookmarks	es-es	Le sottocartelle creeranno nuove categorie
+this is the view bookmarks uses when you enter the application.	bookmarks	es-es	Le sottocartelle creeranno nuove categorie
 this module displays bookmarks in a javascript based tree	bookmarks	es-es	Este módulo muestra los marcadores en un árbol basado en javascript
-to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	es-es	La dirección Para: %1 no es válida. El formato debe ser <strong>usuario@dominio</strong> y el dominio debe existir.
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	es-es	La dirección Para: %1 no es válida. El formato debe ser <b>usuario@dominio</b> y el dominio debe existir.
 to e-mail addresses	bookmarks	es-es	Direcciones de correo de los destinatarios
 to which category should the imported folder hierarchy be attached	bookmarks	es-es	A qué categoría hay que adjuntar la jerarquía de la carpeta importada
 total visits	bookmarks	es-es	Visitas totales
@@ -101,12 +111,13 @@ tree view	bookmarks	es-es	Vista de árbol
 unable to open temp file %1 for import.	bookmarks	es-es	No se pudo abrir el fichero temporal %1 para importar
 unknown format	bookmarks	es-es	Formato desconocido
 updated	bookmarks	es-es	Actualizado
+url "%1" already exists!	bookmarks	es-es	URL "%1" ¡ya existe!
 url is required.	bookmarks	es-es	Hace falta una URL
 view bookmark	bookmarks	es-es	Ver marcador
 view this bookmark	bookmarks	es-es	Ver este marcador
 visit	bookmarks	es-es	Visitar
 warning	bookmarks	es-es	Aviso
-whole query	bookmarks	es-es	la consulta completa
+whole query	bookmarks	es-es	La consulta completa
 xbel	bookmarks	es-es	XBEL
 you are viewing this site outside of egroupware	bookmarks	es-es	Está viendo este sito desde fuera de EGroupware
 you must select a category	bookmarks	es-es	Debe seleccionar una categoría

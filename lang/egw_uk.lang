@@ -1,15 +1,35 @@
+%s bookmarks selected for export	bookmarks	uk	%s закладок, вибраних для експорту.
+(selecting a category includes all sub-categories)	bookmarks	uk	Вибір категорії включає всі підкатегорії
 actions	bookmarks	uk	Дії
+add bookmark	bookmarks	uk	Додати закладку
 added	bookmarks	uk	Добавлено
+append this message to mailed bookmarks	bookmarks	uk	Додати це повідомлення до надісланих закладок:
+apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	uk	Застосувати дію до всього запиту, а не лише до показаних закладок!
+choose the categories to display	bookmarks	uk	Виберіть категорії для відображення
+choose the categories to expand in the initial view	bookmarks	uk	Виберіть категорії для розгортання в початковому поданні
+create bookmark	bookmarks	uk	Створити закладку
 create new links	bookmarks	uk	Створити нові посилання
+created	bookmarks	uk	Створено
 custom fields	bookmarks	uk	Власні поля
+default view for bookmarks	bookmarks	uk	Подання за замовчуванням для закладок
 existing links	bookmarks	uk	Існуючі посилання
 export	bookmarks	uk	Експортувати
+found a link you might like	bookmarks	uk	Цікаві посилання для вас
 from	bookmarks	uk	Від
 global categories	bookmarks	uk	Глобальні категорії
+i thought you would be interested in the following link(s):	bookmarks	uk	Я думаю, що вас можуть зацікавити наступні посилання:
 last modified	bookmarks	uk	Востаннє змінено
 links	bookmarks	uk	Посилання
 netscape / firefox	bookmarks	uk	HTML
+netscape bookmark file	bookmarks	uk	Файл HTML-закладки
+netscape bookmark filename is required!	bookmarks	uk	Ім'я файлу закладки у форматі HTML є обов'язковим!
 netscape/mozilla	bookmarks	uk	HTML
+note: you can use bookmark files exported as html	bookmarks	uk	Примітка: Ви можете використовувати файли закладок, експортовані у форматі HTML.
+old fixed definition	bookmarks	uk	Старе фіксоване визначення
 search for:	bookmarks	uk	Шукати:
+sub-folders will create new categories	bookmarks	uk	Підтеки створюють нові категорії
 updated	bookmarks	uk	Змінено
+url "%1" already exists!	bookmarks	uk	URL "%1" вже існує!
+visit	bookmarks	uk	Відвідати
 xbel	bookmarks	uk	XBEL
+you are viewing this site outside of egroupware	bookmarks	uk	Ви переглядаєте цей сайт за межами EGroupware

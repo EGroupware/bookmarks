@@ -1,0 +1,23 @@
+%s bookmarks selected for export	bookmarks	ro	%s marcaje selectate pentru export.
+(selecting a category includes all sub-categories)	bookmarks	ro	Selectarea unei categorii include toate subcategoriile
+add bookmark	bookmarks	ro	Adaugă marcaj
+append this message to mailed bookmarks	bookmarks	ro	Adăugați acest mesaj la marcajele trimise prin poștă:
+apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	ro	Aplicați acțiunea asupra întregii interogări, NU numai asupra marcajelor afișate!
+choose the categories to display	bookmarks	ro	Alegeți categoriile care urmează să fie afișate
+choose the categories to expand in the initial view	bookmarks	ro	Alegeți categoriile care urmează să se extindă în vizualizarea inițială
+create bookmark	bookmarks	ro	Creați un marcaj
+created	bookmarks	ro	Create
+default view for bookmarks	bookmarks	ro	Vizualizare implicită pentru marcaje
+found a link you might like	bookmarks	ro	Link(uri) interesant(e) pentru dumneavoastră
+i thought you would be interested in the following link(s):	bookmarks	ro	M-am gândit că te-ar interesa următorul(e) link(uri):
+last modified	bookmarks	ro	Ultima modificare
+mail	bookmarks	ro	Email
+netscape bookmark file	bookmarks	ro	Fișier de marcaj HTML
+netscape bookmark filename is required!	bookmarks	ro	Numele fișierului de marcaj HTML este obligatoriu!
+note: you can use bookmark files exported as html	bookmarks	ro	Notă: Puteți utiliza fișiere de marcaje exportate ca HTML.
+old fixed definition	bookmarks	ro	Vechea definiție fixă
+search for:	bookmarks	ro	Căutați pentru:
+sub-folders will create new categories	bookmarks	ro	Subfolderele vor crea noi categorii
+url "%1" already exists!	bookmarks	ro	URL "%1" există deja!
+visit	bookmarks	ro	Vizitați
+you are viewing this site outside of egroupware	bookmarks	ro	Vizualizați acest site în afara EGroupware

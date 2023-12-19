@@ -1,11 +1,15 @@
 %1 bookmarks have been deleted	bookmarks	ko	%1 북마크는 삭제되었습니다.
-%1 bookmarks imported from %2 successfully.	bookmarks	ko	** %2의 북마크를 %1로 가져오기 성공.
+%1 bookmarks imported from %2 successfully.	bookmarks	ko	%2의 북마크를 %1로 가져오기 성공.
+%s bookmarks selected for export	bookmarks	ko	내보내기를 위해 %s 북마크를 선택했습니다.
 (comma separate multiple addresses)	bookmarks	ko	(컴마로 분리된 여러개의 주소)
+(selecting a category includes all sub-categories)	bookmarks	ko	카테고리를 선택하면 모든 하위 카테고리가 포함됩니다.
 actions	bookmarks	ko	액션
+add bookmark	bookmarks	ko	북마크 추가
 added	bookmarks	ko	추가됨
 all bookmarks	bookmarks	ko	모든 북마크
 and	bookmarks	ko	그리고(AND 연산)
-append this message to mailed bookmarks	bookmarks	ko	메일로 발송된 북마크로 이 메세지를 확장
+append this message to mailed bookmarks	bookmarks	ko	메일로 보낸 북마크에 이 메시지를 추가합니다:
+apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	ko	표시된 북마크뿐만 아니라 전체 쿼리에 작업을 적용하세요!
 ascending	bookmarks	ko	올림차순
 book marks	common	ko	북마크
 bookmark changed sucessfully	bookmarks	ko	성공적으로 북마크를 변경했습니다
@@ -15,6 +19,8 @@ bookmark not readable	bookmarks	ko	북마크를 읽을수 없습니다
 bookmarks	common	ko	북마크
 bookmarks settings	bookmarks	ko	북마크 설정
 change bookmark	bookmarks	ko	북마크 바꾸기
+choose the categories to display	bookmarks	ko	표시할 카테고리 선택
+choose the categories to expand in the initial view	bookmarks	ko	초기 보기에서 확장할 카테고리를 선택하세요
 close this window to return	bookmarks	ko	이 창을 닫고 돌아가기
 create bookmark	bookmarks	ko	북마크 생성
 create new bookmark	bookmarks	ko	새 북마크 생성
@@ -25,6 +31,7 @@ date added	bookmarks	ko	추가된 날짜
 date changed	bookmarks	ko	변경된 날짜
 date last updated	bookmarks	ko	최종갱신 날짜
 date last visited	bookmarks	ko	최종방문 날짜
+default view for bookmarks	bookmarks	ko	북마크의 기본 보기
 descending	bookmarks	ko	내림차순
 edit bookmark	bookmarks	ko	북마크 편집
 edit this bookmark	bookmarks	ko	이 북마크 편집
@@ -34,20 +41,20 @@ export	bookmarks	ko	내보내기
 export bookmarks	common	ko	북마크 내보내기
 fewer	bookmarks	ko	검색조건 감소
 filter by	bookmarks	ko	걸러짐 :
-found a link you might like	bookmarks	ko	좋아하실 링크를 발견했습니다.
+found a link you might like	bookmarks	ko	흥미로운 링크
 from	bookmarks	ko	부터
 from category %1	bookmarks	ko	카테고리 %1 부터
 general	bookmarks	ko	일반
 global categories	bookmarks	ko	전역 카테고리
 highest	bookmarks	ko	가장높은 (highest)
 history	bookmarks	ko	내역
-i thought you would be interested in the following link(s):	bookmarks	ko	다음의 링크가 관심있으실 겁니다:
+i thought you would be interested in the following link(s):	bookmarks	ko	다음 링크에 관심이 있으실 것 같습니다:
 import bookmarks	common	ko	북마크 가져오기
 last modified	bookmarks	ko	마지막 수정
 like	bookmarks	ko	비슷한
 links	bookmarks	ko	링크
 list view	bookmarks	ko	목록
-lowest	bookmarks	ko	가장낮은 (lowest)
+lowest	bookmarks	ko	가장낮은
 mail this bookmark	bookmarks	ko	이 북마크를 메일로 보냄
 mail-this-link message sent to %1.	bookmarks	ko	'현재링크를메일로' 메세지를 %1 으로 보냄
 mass update:	bookmarks	ko	대량 갱신:
@@ -56,10 +63,12 @@ more	bookmarks	ko	검색조건 추가
 name	bookmarks	ko	이름
 name is required	bookmarks	ko	이름이 필요합니다
 netscape / firefox	bookmarks	ko	HTML
-netscape bookmark file	bookmarks	ko	넷스케입 북마크 파일
-netscape bookmark filename is required!	bookmarks	ko	넷스케입 북마크 파일이름이 필요합니다!
+netscape bookmark file	bookmarks	ko	HTML 북마크 파일
+netscape bookmark filename is required!	bookmarks	ko	HTML 북마크 파일명은 필수입니다!
 netscape/mozilla	bookmarks	ko	HTML
 new	bookmarks	ko	새로만들기
+note: you can use bookmark files exported as html	bookmarks	ko	참고: HTML로 내보낸 북마크 파일을 사용할 수 있습니다.
+old fixed definition	bookmarks	ko	기존 고정 정의
 or	bookmarks	ko	이거나(OR연산)
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	ko	<b>보낼 이메일 주소</b>,<B>제목</b>, 그리고 <B>메세지</b>를 작성해주세요!
 please select the categories to export	bookmarks	ko	내보낼 카테고리를 선택해주세요
@@ -69,16 +78,19 @@ search for:	bookmarks	ko	찾기 :
 select the format you would like to export to	bookmarks	ko	내보낼 형식 선택
 send bookmark	bookmarks	ko	북마크 보내기
 sub category	bookmarks	ko	하위 카테고리
-to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	ko	보낼주소 %1 가 부적절합니다. 형식은 <strong> 사용자@도메인</strong>이며 도메인이 반드시 있어야 합니다!
+sub-folders will create new categories	bookmarks	ko	하위 폴더는 새 카테고리를 만듭니다.
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	ko	보낼주소 %1 가 부적절합니다. 형식은 <b> 사용자@도메인</b>이며 도메인이 반드시 있어야 합니다!
 to e-mail addresses	bookmarks	ko	보낼 이-메일 주소들
 to which category should the imported folder hierarchy be attached	bookmarks	ko	가져온 폴더의 계층구조가 더해질 카테고리는 어떤 것입니까
 total visits	bookmarks	ko	총 방문자
 tree view	bookmarks	ko	트리 뷰
 unable to open temp file %1 for import.	bookmarks	ko	가져오기: 임시파일 %1을 열수없습니다
 updated	bookmarks	ko	갱신됨
+url "%1" already exists!	bookmarks	ko	URL "%1"이 이미 존재합니다!
 url is required.	bookmarks	ko	URL이 필요합니다.
 view bookmark	bookmarks	ko	북마크 보기
 view this bookmark	bookmarks	ko	이 북마크 보기
+visit	bookmarks	ko	방문
 warning	bookmarks	ko	경고
 xbel	bookmarks	ko	XBEL
 you are viewing this site outside of egroupware	bookmarks	ko	귀하는 EGroupware 외부에서 이 사이트를 보고 있습니다

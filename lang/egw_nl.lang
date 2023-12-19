@@ -1,11 +1,15 @@
 %1 bookmarks have been deleted	bookmarks	nl	%1 favorieten zijn verwijderd
 %1 bookmarks imported from %2 successfully.	bookmarks	nl	Met succes %1 favorieten geïmporteerd van %2.
+%s bookmarks selected for export	bookmarks	nl	%s bladwijzers geselecteerd voor export.
 (comma separate multiple addresses)	bookmarks	nl	(komma gescheiden, meerdere adressen)
+(selecting a category includes all sub-categories)	bookmarks	nl	Het selecteren van een categorie omvat alle subcategorieën
 actions	bookmarks	nl	Acties
-added	bookmarks	nl	toegevoegd
+add bookmark	bookmarks	nl	Favoriet toevoegen
+added	bookmarks	nl	Toegevoegd
 all bookmarks	bookmarks	nl	Alle Favorieten
 and	bookmarks	nl	En
-append this message to mailed bookmarks	bookmarks	nl	Dit bericht toevoegen ge-mailde favorieten
+append this message to mailed bookmarks	bookmarks	nl	Voeg dit bericht toe aan gemailde bladwijzers:
+apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	nl	Pas de actie toe op de hele query, NIET alleen op de getoonde bladwijzers!
 ascending	bookmarks	nl	Oplopend
 book marks	common	nl	Favorieten
 bookmark changed sucessfully	bookmarks	nl	Favoriet met succes gewijzigd
@@ -19,6 +23,7 @@ bookmarks settings	bookmarks	nl	Favorieteninstellingen
 change bookmark	bookmarks	nl	Wijzig favoriet
 check all	bookmarks	nl	Markeer alles
 choose the categories to display	bookmarks	nl	Kies de categorieën om weer te geven
+choose the categories to expand in the initial view	bookmarks	nl	Kies de categorieën die moeten worden uitgebreid in de beginweergave
 close this window to return	bookmarks	nl	Sluit dit venster om terug te keren
 create bookmark	bookmarks	nl	Maak favoriet
 create new bookmark	bookmarks	nl	Maak een nieuwe favoriet
@@ -29,36 +34,37 @@ date added	bookmarks	nl	Datum toegevoegd
 date changed	bookmarks	nl	Datum gewijzigd
 date last updated	bookmarks	nl	Datum laatste keer bijgewerkt
 date last visited	bookmarks	nl	Datum laatste keer bezocht
+default view for bookmarks	bookmarks	nl	Standaard weergave voor bladwijzers
 descending	bookmarks	nl	Aflopend
 edit bookmark	bookmarks	nl	Wijzig favoriet
 edit this bookmark	bookmarks	nl	Deze favoriet wijzigen
 enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	nl	Geef de naam van het HTML favorietenbestand dat u wilt importeren in uw favorieten hieronder.
 existing links	bookmarks	nl	Bestaande links
-export	bookmarks	nl	exporteren
+export	bookmarks	nl	Exporteren
 export bookmarks	common	nl	Exporteer favorieten
 export definition to use for nextmatch export	bookmarks	nl	Export definitie om te gebruiken bij nextmatch export
 export definitition to use for nextmatch export	bookmarks	nl	Export definitie om te gebruiken bij nextmatch export
 fewer	bookmarks	nl	Minder
 filter by	bookmarks	nl	Filteren op
-found a link you might like	bookmarks	nl	Link gevonden die u wellicht interesseert
+found a link you might like	bookmarks	nl	Interessante link(s) voor jou
 from	bookmarks	nl	Van
-from category %1	bookmarks	nl	uit categorie %1
+from category %1	bookmarks	nl	Uit categorie %1
 general	bookmarks	nl	Algemeen
 global categories	bookmarks	nl	Globale categoriën
 highest	bookmarks	nl	Hoogste
 history	bookmarks	nl	Historie
-i thought you would be interested in the following link(s):	bookmarks	nl	I dacht dat u geïntereseerd zou zijn in de volgende link(s):
+i thought you would be interested in the following link(s):	bookmarks	nl	Ik dacht dat je wel geïnteresseerd zou zijn in de volgende link(s):
 if you specify an export definition, it will be used when you export	bookmarks	nl	Als u een export definitie kiest, zal deze worden gebruikt bij de export
 if you specify an export definition, it will be used when you export*	bookmarks	nl	Als u een export definitie kiest, zal deze worden gebruikt bij de export*
 import bookmarks	common	nl	Importeer favorieten
-last modified	bookmarks	nl	laatste wijziging
-like	bookmarks	nl	zoals
+last modified	bookmarks	nl	Laatste wijziging
+like	bookmarks	nl	Zoals
 links	bookmarks	nl	Links
-list view	bookmarks	nl	lijst weergave
+list view	bookmarks	nl	Lijst weergave
 lowest	bookmarks	nl	Laagste
 mail	bookmarks	nl	Berichten
 mail this bookmark	bookmarks	nl	Email deze favoriet
-mail-this-link message sent to %1.	bookmarks	nl	favoriet-emailbericht gestuurd naar %1.
+mail-this-link message sent to %1.	bookmarks	nl	Favoriet-emailbericht gestuurd naar %1.
 mass update:	bookmarks	nl	Update meerder tegelijk:
 message from	bookmarks	nl	Bericht van
 more	bookmarks	nl	Meer
@@ -69,8 +75,10 @@ netscape bookmark file	bookmarks	nl	HTML-favorietenbestand
 netscape bookmark filename is required!	bookmarks	nl	HTML-favorietenbestand is noodzakelijk!
 netscape/mozilla	bookmarks	nl	HTML
 new	bookmarks	nl	Nieuw
+note: you can use bookmark files exported as html	bookmarks	nl	Opmerking: je kunt bladwijzerbestanden gebruiken die als HTML zijn geëxporteerd.
+old fixed definition	bookmarks	nl	Oude vaste definitie
 or	bookmarks	nl	of
-please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	nl	Geef a.u.b. het <B>Aan E-Mailadres</B>, <B>Onderwerp</B>, en <B>Bericht</B>!
+please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	nl	Geef a.u.b. het <b>Aan E-Mailadres</b>, <b>Onderwerp</b>, en <b>Bericht</b>!
 please select the categories to export	bookmarks	nl	Selecteer a.u.b. de categorieën
 query condition	bookmarks	nl	Zoekcriterium
 rating	bookmarks	nl	Waardering
@@ -78,17 +86,20 @@ search for:	bookmarks	nl	Zoeken op:
 select the format you would like to export to	bookmarks	nl	Selecteer het formaat waarnaar u wilt exporteren
 send bookmark	bookmarks	nl	Verzend favoriet
 sub category	bookmarks	nl	Subcategorie
+sub-folders will create new categories	bookmarks	nl	Submappen maken nieuwe categorieën aan
 this module displays bookmarks in a javascript based tree	bookmarks	nl	Deze module toont bladwijzers in een javascript boom
-to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	nl	Het <B>Aan E-Mailadres</B> %1 is ongeldig. Het adres moet als volgt eruit zien <strong>gebruiker@domein</strong>
-to e-mail addresses	bookmarks	nl	Het <B>Aan E-Mailadres</B>
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	nl	Het <b>Aan E-Mailadres</b> %1 is ongeldig. Het adres moet als volgt eruit zien <b>gebruiker@domein</b>
+to e-mail addresses	bookmarks	nl	Naar e-mailadressen
 to which category should the imported folder hierarchy be attached	bookmarks	nl	Aan welke categorie moet de geïmporteerde maphiërarchie worden toegevoegd
-total visits	bookmarks	nl	totaal aantal bezoekers
+total visits	bookmarks	nl	Totaal aantal bezoekers
 tree view	bookmarks	nl	Boomweergave
 unable to open temp file %1 for import.	bookmarks	nl	Tijdelijk bestand %1 kan niet worden geopend om te importeren.
 updated	bookmarks	nl	Bijgewerkt
+url "%1" already exists!	bookmarks	nl	URL "%1" bestaat al!
 url is required.	bookmarks	nl	URL is vereist.
 view bookmark	bookmarks	nl	Favoriet weergeven
 view this bookmark	bookmarks	nl	Deze favoriet weergeven
+visit	bookmarks	nl	Bezoek
 warning	bookmarks	nl	Waarschuwing
 whole query	bookmarks	nl	gehele query
 xbel	bookmarks	nl	XBEL

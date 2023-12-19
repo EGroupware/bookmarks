@@ -1,11 +1,15 @@
 %1 bookmarks have been deleted	bookmarks	no	%1 bokmerker ble slettet
 %1 bookmarks imported from %2 successfully.	bookmarks	no	%1 bokmerker ble importert fra %2.
+%s bookmarks selected for export	bookmarks	no	%s bokmerker valgt for eksport.
 (comma separate multiple addresses)	bookmarks	no	(komma skiller flere adresser)
+(selecting a category includes all sub-categories)	bookmarks	no	Valg av en kategori inkluderer alle underkategorier
 actions	bookmarks	no	Funksjoner
+add bookmark	bookmarks	no	Legg til bokmerke
 added	bookmarks	no	Lagt til
 all bookmarks	bookmarks	no	Alle bokmerker
 and	bookmarks	no	Og
-append this message to mailed bookmarks	bookmarks	no	Legg denne meldingen til bokmerker som sendes pr. e-post
+append this message to mailed bookmarks	bookmarks	no	Legg til denne meldingen i bokmerker som er sendt via e-post:
+apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	no	Bruk handlingen på hele spørringen, IKKE bare de viste bokmerkene!
 ascending	bookmarks	no	Stigende
 book marks	common	no	Favoritter
 bookmark changed sucessfully	bookmarks	no	Endringen av bokmerket var vellykket
@@ -18,7 +22,8 @@ bookmarks settings	bookmarks	no	Bokmerkeinnstillinger
 change bookmark	bookmarks	no	Endre bokmerke
 check all	bookmarks	no	Kontroller alle
 choose the categories to display	bookmarks	no	Velg kategoriene som skal vises
-close this window to return	bookmarks	no	lukk dette vinduet for å returnere
+choose the categories to expand in the initial view	bookmarks	no	Velg hvilke kategorier som skal utvides i den første visningen
+close this window to return	bookmarks	no	Lukk dette vinduet for å returnere
 create bookmark	bookmarks	no	Opprett bokmerke
 create new bookmark	bookmarks	no	Opprett nytt bokmerke
 create new links	bookmarks	no	Opprette nye lenker
@@ -28,6 +33,7 @@ date added	bookmarks	no	Opprettet dato
 date changed	bookmarks	no	Endret dato
 date last updated	bookmarks	no	Sist oppdatert dato
 date last visited	bookmarks	no	Sist besøkte dato
+default view for bookmarks	bookmarks	no	Standardvisning for bokmerker
 descending	bookmarks	no	Synkede
 edit bookmark	bookmarks	no	Endre bokmerket
 edit this bookmark	bookmarks	no	Endre dette bokmerket
@@ -37,22 +43,22 @@ export	bookmarks	no	Eksporter
 export bookmarks	common	no	Eksporter bokmerker
 fewer	bookmarks	no	Færre
 filter by	bookmarks	no	Filtrer ved
-found a link you might like	bookmarks	no	Fant en lenke du kanskje vil like
+found a link you might like	bookmarks	no	Interessant(e) lenke(r) for deg
 from	bookmarks	no	Fra
-from category %1	bookmarks	no	fra %1 kategorien
+from category %1	bookmarks	no	Fra %1 kategorien
 general	bookmarks	no	Generell
 global categories	bookmarks	no	Globale Kategorier
 highest	bookmarks	no	Høyeste
 history	bookmarks	no	Historikk
-i thought you would be interested in the following link(s):	bookmarks	no	Jeg tror du ville være interessert i denne lenken(e):
+i thought you would be interested in the following link(s):	bookmarks	no	Jeg tenkte du ville være interessert i følgende lenke(r):
 import bookmarks	common	no	Importer bokmerker
 last modified	bookmarks	no	Sist endret
-like	bookmarks	no	lignende
+like	bookmarks	no	Lignende
 links	bookmarks	no	Lenker
 list view	bookmarks	no	Vis som liste
 lowest	bookmarks	no	Laveste
 mail this bookmark	bookmarks	no	Send dette bokmerket som e-post
-mail-this-link message sent to %1.	bookmarks	no	'send denne lenken som e-post' melding sendt til %1.
+mail-this-link message sent to %1.	bookmarks	no	Send denne lenken - melding sendt til %1
 mass update:	bookmarks	no	Oppdater alle:
 message from	bookmarks	no	Melding fra
 more	bookmarks	no	Mer
@@ -63,8 +69,10 @@ netscape bookmark file	bookmarks	no	HTML Favoritt Fil
 netscape bookmark filename is required!	bookmarks	no	HTML favoritt filnavn er påkrevd!
 netscape/mozilla	bookmarks	no	HTML
 new	bookmarks	no	Opprett
+note: you can use bookmark files exported as html	bookmarks	no	Merk: Du kan bruke bokmerkefiler eksportert som HTML.
+old fixed definition	bookmarks	no	Gammel fast definisjon
 or	bookmarks	no	eller
-please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	no	Vennligst fyll inn <B>Til epost adresse</B>, <B>Emne</B>, og <B>Melding</B>!
+please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	no	Vennligst fyll inn <b>Til epost adresse</b>, <b>Emne</b>, og <b>Melding</b>!
 please select the categories to export	bookmarks	no	Vennligst velg kategorier å eksportere
 query condition	bookmarks	no	Vilkår for spørring
 rating	bookmarks	no	Ranking
@@ -72,18 +80,21 @@ search for:	bookmarks	no	Søk etter:
 select the format you would like to export to	bookmarks	no	Velg format du vil eksportere til
 send bookmark	bookmarks	no	Send bokmerke
 sub category	bookmarks	no	Underkategori
-this module displays bookmarks in a javascript based tree	bookmarks	no	Denne modulen viser bokmerkene i et javabasert tre
-to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	no	Til adresse %1 ugyldig. Formatet må være <strong>bruker@domene</strong> og domenet må finnes!
-to e-mail addresses	bookmarks	no	Til E-Post Adressene
+sub-folders will create new categories	bookmarks	no	Undermapper oppretter nye kategorier
+this module displays bookmarks in a javascript based tree	bookmarks	no	Denne modulen viser bokmerker i et JavaScript-basert tre.
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	no	Til adresse %1 ugyldig. Formatet må være <b>bruker@domene</b> og domenet må finnes!
+to e-mail addresses	bookmarks	no	Til e-postadresser
 to which category should the imported folder hierarchy be attached	bookmarks	no	Til hvilken kategori skal de importerte katalogene bli knyttes til
 total visits	bookmarks	no	Totalt besøkte
 tree view	bookmarks	no	Trevisning
 unable to open temp file %1 for import.	bookmarks	no	Kan ikke åpne midlertidig fil %1 for import.
 updated	bookmarks	no	Oppdatert
+url "%1" already exists!	bookmarks	no	URL-adressen "%1" finnes allerede!
 url is required.	bookmarks	no	En URL er nødvendig.
 view bookmark	bookmarks	no	Vis bokmerke
 view this bookmark	bookmarks	no	Vis dette bokmerket
+visit	bookmarks	no	Besøk
 warning	bookmarks	no	Advarsel
 xbel	bookmarks	no	XBEL
-you are viewing this site outside of egroupware	bookmarks	no	Du ser denne siden på utsiden av EGroupware
+you are viewing this site outside of egroupware	bookmarks	no	Du ser på dette nettstedet utenfor EGroupware.
 you must select a category	bookmarks	no	Du må velge en kategori

@@ -1,13 +1,29 @@
+%s bookmarks selected for export	bookmarks	ja	エクスポート用に選択されたブックマークが %s あります。
+(selecting a category includes all sub-categories)	bookmarks	ja	カテゴリを選択すると、すべてのサブカテゴリが含まれます。
 actions	bookmarks	ja	動作
+add bookmark	bookmarks	ja	ブックマークを追加
+append this message to mailed bookmarks	bookmarks	ja	このメッセージをブックマークに追加します：
+apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	ja	表示されているブックマークのみではなく、クエリ全体にアクションを適用します！
 book marks	common	ja	ブックマーク
 bookmarks	common	ja	ブックマーク
+choose the categories to expand in the initial view	bookmarks	ja	初期表示で展開するカテゴリを選択
 created	bookmarks	ja	作成
 custom fields	bookmarks	ja	カスタム項目
+default view for bookmarks	bookmarks	ja	ブックマークのデフォルトビュー
 export	bookmarks	ja	エクスポート
+found a link you might like	bookmarks	ja	興味深いリンク
 from	bookmarks	ja	差出人
 global categories	bookmarks	ja	グローバルカテゴリ
+i thought you would be interested in the following link(s):	bookmarks	ja	以下のリンクに興味があると思います：
 message from	bookmarks	ja	送信者
 netscape / firefox	bookmarks	ja	HTML
 netscape/mozilla	bookmarks	ja	HTML
 new	bookmarks	ja	新規作成
+note: you can use bookmark files exported as html	bookmarks	ja	注：HTMLとしてエクスポートされたブックマークファイルを使用することができます。
+old fixed definition	bookmarks	ja	古い固定定義
+search for:	bookmarks	ja	を検索：
+sub-folders will create new categories	bookmarks	ja	サブフォルダは新しいカテゴリを作成します
+url "%1" already exists!	bookmarks	ja	URL "%1 "は既に存在します！
+visit	bookmarks	ja	訪問
 xbel	bookmarks	ja	XBEL
+you are viewing this site outside of egroupware	bookmarks	ja	このサイトはEGroupware以外でご覧になっています。

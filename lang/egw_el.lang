@@ -8,7 +8,7 @@ add bookmark	bookmarks	el	Προσθήκη σελιδοδείκτη
 added	bookmarks	el	Προστέθηκε
 all bookmarks	bookmarks	el	Όλοι οι σελιδοδείκτες
 and	bookmarks	el	και
-append this message to mailed bookmarks	bookmarks	el	Αυτό το μήνυμα να προσαρτηθεί στους ταχυδρομημένους σελιδοδείκτες.
+append this message to mailed bookmarks	bookmarks	el	Προσθέστε αυτό το μήνυμα στους αποστελλόμενους σελιδοδείκτες:
 apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	el	Η ενέργεια να εφαρμοστεί σε ολόκληρη την αναζήτηση και ΟΧΙ μόνο στους σελιδοδείκτες που εμφανίζονται!
 ascending	bookmarks	el	Κατά ανιούσα τάξη
 book marks	common	el	Σελιδοδείκτες
@@ -37,19 +37,26 @@ create new bookmark	bookmarks	el	Δημιουργία νέου σελιδοδε�
 create new links	bookmarks	el	Δημιουργία νέων συνδέσμων
 created	bookmarks	el	Δημιουργήθηκε
 custom fields	bookmarks	el	Προσαρμοσμένα πεδία
+default view for bookmarks	bookmarks	el	Προεπιλεγμένη προβολή για σελιδοδείκτες
 existing links	bookmarks	el	Υπάρχοντες σύνδεσμοι
 export	bookmarks	el	εξαγωγή
+found a link you might like	bookmarks	el	Ενδιαφέρων σύνδεσμος(-οι) για εσάς
 from	bookmarks	el	Από
 general	bookmarks	el	Γενικά
 global categories	bookmarks	el	Παγκόσμιες κατηγορίες
 history	bookmarks	el	Ιστορικό
+i thought you would be interested in the following link(s):	bookmarks	el	Σκέφτηκα ότι θα σας ενδιέφερε(-αν) ο(οι) ακόλουθος(-οι) σύνδεσμος(-οι):
 last modified	bookmarks	el	Τελευταία τροποποίηση
 links	bookmarks	el	Σύνδεσμοι
 netscape / firefox	bookmarks	el	HTML
 netscape/mozilla	bookmarks	el	HTML
 new	bookmarks	el	Νέο
+note: you can use bookmark files exported as html	bookmarks	el	Σημείωση: Μπορείτε να χρησιμοποιήσετε αρχεία σελιδοδεικτών που έχουν εξαχθεί ως HTML.
+old fixed definition	bookmarks	el	Παλαιός σταθερός ορισμός
 or	bookmarks	el	ή
 search for:	bookmarks	el	Αναζήτηση για:
+sub-folders will create new categories	bookmarks	el	Οι υποφάκελοι θα δημιουργήσουν νέες κατηγορίες
 updated	bookmarks	el	Ενημερώθηκε
+url "%1" already exists!	bookmarks	el	Η διεύθυνση URL "%1" υπάρχει ήδη!
 whole query	bookmarks	el	ολόκληρη απορία
 xbel	bookmarks	el	XBEL

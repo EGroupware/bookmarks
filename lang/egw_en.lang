@@ -8,7 +8,7 @@ add bookmark	bookmarks	en	Add bookmark
 added	bookmarks	en	Added
 all bookmarks	bookmarks	en	All bookmarks
 and	bookmarks	en	And
-append this message to mailed bookmarks	bookmarks	en	Append this message to mailed bookmarks.
+append this message to mailed bookmarks	bookmarks	en	Append this message to mailed bookmarks:
 apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	en	Apply the action on the whole query, NOT only the shown bookmarks!
 ascending	bookmarks	en	Ascending
 book marks	common	en	Bookmarks
@@ -55,7 +55,7 @@ export definitition to use for nextmatch export	bookmarks	en	Export definition t
 export format	bookmarks	en	Export format
 fewer	bookmarks	en	Fewer
 filter by	bookmarks	en	Filter by
-found a link you might like	bookmarks	en	Found a link you might like
+found a link you might like	bookmarks	en	Interesting link(s) for you
 from	bookmarks	en	From
 from category %1	bookmarks	en	From category %1
 general	bookmarks	en	General
@@ -89,7 +89,7 @@ new	bookmarks	en	New
 note: you can use bookmark files exported as html	bookmarks	en	Note: You can use bookmark files exported as HTML.
 old fixed definition	bookmarks	en	Old fixed definition
 or	bookmarks	en	or
-please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	en	Fill out <B>To email address</B>, <B>Subject</B>, and <B>Message</B>!
+please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	en	Fill out <b>To email address</b>, <b>Subject</b>, and <b>Message</b>!
 please select the categories to export	bookmarks	en	Please select the categories to export.
 query condition	bookmarks	en	Query condition
 rating	bookmarks	en	Rating
@@ -102,8 +102,8 @@ send bookmark	bookmarks	en	Send bookmark
 sub category	bookmarks	en	Sub category
 sub-folders will create new categories	bookmarks	en	Sub folders will create new categories
 this is the view bookmarks uses when you enter the application.	bookmarks	en	This is the view Bookmarks uses when you enter the application.
-this module displays bookmarks in a javascript based tree	bookmarks	en	This module displays bookmarks in a java script based tree.
-to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	en	To address %1 invalid. Format must be <strong>user@domain</strong> and domain must exist!
+this module displays bookmarks in a javascript based tree	bookmarks	en	This module displays bookmarks in a JavaScript based tree.
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	en	To address %1 invalid. Format must be <b>user@domain</b> and domain must exist!
 to e-mail addresses	bookmarks	en	To email addresses
 to which category should the imported folder hierarchy be attached	bookmarks	en	To which category should the imported folder hierarchy be attached.
 total visits	bookmarks	en	Total visits
@@ -111,6 +111,7 @@ tree view	bookmarks	en	Tree view
 unable to open temp file %1 for import.	bookmarks	en	Unable to open temp file %1 for import
 unknown format	bookmarks	en	Unknown format
 updated	bookmarks	en	Updated.
+url "%1" already exists!	bookmarks	en	URL "%1" already exists!
 url is required.	bookmarks	en	URL is required
 view bookmark	bookmarks	en	View bookmark
 view this bookmark	bookmarks	en	View this bookmark

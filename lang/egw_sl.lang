@@ -1,11 +1,15 @@
 %1 bookmarks have been deleted	bookmarks	sl	%1 zaznamkov je bilo izbrisanih
 %1 bookmarks imported from %2 successfully.	bookmarks	sl	%1 od %2 uspešno vnešenih zaznamkov
+%s bookmarks selected for export	bookmarks	sl	%s zaznamkov, izbranih za izvoz.
 (comma separate multiple addresses)	bookmarks	sl	(vejica loči posamezne naslove)
+(selecting a category includes all sub-categories)	bookmarks	sl	Izbira kategorije vključuje vse podkategorije
 actions	bookmarks	sl	Dejanja
+add bookmark	bookmarks	sl	Dodaj zaznamek
 added	bookmarks	sl	Dodano
 all bookmarks	bookmarks	sl	Vsi zaznamki
-and	bookmarks	sl	in
-append this message to mailed bookmarks	bookmarks	sl	Pripni to sporočilo k zaznamkom poslanimi po E-pošti
+and	bookmarks	sl	In
+append this message to mailed bookmarks	bookmarks	sl	To sporočilo dodajte poslanim zaznamkom po pošti:
+apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	sl	Ukrep uporabite za celotno poizvedbo, NE le za prikazane zaznamke!
 ascending	bookmarks	sl	Naraščajoče
 book marks	common	sl	Zaznamki
 bookmark changed sucessfully	bookmarks	sl	Zaznamek je bil uspešno spremenjen.
@@ -19,6 +23,7 @@ bookmarks settings	bookmarks	sl	Nastavitve zaznamkov
 change bookmark	bookmarks	sl	Spremeni zaznamek
 check all	bookmarks	sl	Preveri vse
 choose the categories to display	bookmarks	sl	Izberite kategorijo za prikaz
+choose the categories to expand in the initial view	bookmarks	sl	Izberite kategorije, ki se bodo razširile v začetnem pogledu
 close this window to return	bookmarks	sl	zapri to okno za vrnitev
 create bookmark	bookmarks	sl	Ustvari zaznamek
 create new bookmark	bookmarks	sl	Ustvari nov zaznamek
@@ -29,6 +34,7 @@ date added	bookmarks	sl	Datum dodajanja
 date changed	bookmarks	sl	Datum spreminjanja
 date last updated	bookmarks	sl	Datum zadnje posodobitve
 date last visited	bookmarks	sl	Datum zadnjega obiska
+default view for bookmarks	bookmarks	sl	Privzet pogled za zaznamke
 descending	bookmarks	sl	Padajoče
 edit bookmark	bookmarks	sl	Uredi zaznamek
 edit this bookmark	bookmarks	sl	Uredi ta zaznamek
@@ -38,14 +44,14 @@ export	bookmarks	sl	Izvozi
 export bookmarks	common	sl	Izvozi zaznamke
 fewer	bookmarks	sl	Manj
 filter by	bookmarks	sl	Izloči po
-found a link you might like	bookmarks	sl	Najdena je bila povezava, ki vam bo morda všeč
+found a link you might like	bookmarks	sl	Pošljite to sporočilo za zaznamke: Zanimiva(-e) povezava(-e) za vas
 from	bookmarks	sl	Od
 from category %1	bookmarks	sl	Od kategorije %1
 general	bookmarks	sl	Splošno
 global categories	bookmarks	sl	Globalne kategorije
 highest	bookmarks	sl	Najvišja
 history	bookmarks	sl	Zgodovina
-i thought you would be interested in the following link(s):	bookmarks	sl	Menim, da bi vas zanimale naslednje povezave:
+i thought you would be interested in the following link(s):	bookmarks	sl	Mislil sem, da vas bodo zanimale naslednje povezave:
 import bookmarks	common	sl	Uvozi zaznamke
 last modified	bookmarks	sl	Nazadnje spremenjeno
 like	bookmarks	sl	Podobno
@@ -64,6 +70,8 @@ netscape bookmark file	bookmarks	sl	HTML datoteka z zaznamki
 netscape bookmark filename is required!	bookmarks	sl	Zahtevana datoteka z zaznamki mora biti v HTML formatu!
 netscape/mozilla	bookmarks	sl	HTML
 new	bookmarks	sl	Novo
+note: you can use bookmark files exported as html	bookmarks	sl	Opomba: Uporabite lahko datoteke zaznamkov, izvožene kot HTML.
+old fixed definition	bookmarks	sl	Stara fiksna opredelitev
 or	bookmarks	sl	ali
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	sl	Izpolnite <B>E-poštni naslov</B>, <B>Predmet</B>, in <B>Sporočilo</B>
 please select the categories to export	bookmarks	sl	Izberite kategorije za izvoz
@@ -75,11 +83,12 @@ select an action...	bookmarks	sl	Izberite dejanje ...
 select the format you would like to export to	bookmarks	sl	Izberite izvozni format
 send bookmark	bookmarks	sl	Pošlji zaznamek
 sub category	bookmarks	sl	Podkategorija
+sub-folders will create new categories	bookmarks	sl	Podpogoji bodo ustvarili nove kategorije
 this module displays bookmarks in a javascript based tree	bookmarks	sl	Ta modul prikaže zaznamke v drevesu
-to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	sl	Naslovnik %1 je nepravilen. Oblika mora biti <strong>uporabnik@domena</strong> in domena mora obstajati!
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	sl	Naslovnik %1 je nepravilen. Oblika mora biti </b>uporabnik@domena</b> in domena mora obstajati!
 to e-mail addresses	bookmarks	sl	Prejemnikov E-naslov
 to which category should the imported folder hierarchy be attached	bookmarks	sl	Na katero kategorijo naj bi bila pripeta hierarhija map
-total visits	bookmarks	sl	vsi obiski
+total visits	bookmarks	sl	Vsi obiski
 tree view	bookmarks	sl	Drevesni prikaz
 unable to open temp file %1 for import.	bookmarks	sl	Ne morem odpreti temp datoteke %1 za uvoz.
 updated	bookmarks	sl	Podosodobljeno
@@ -90,6 +99,6 @@ visit	bookmarks	sl	Obiščite
 warning	bookmarks	sl	Opozorilo
 whole query	bookmarks	sl	Celotno povpraševanje
 xbel	bookmarks	sl	XBEL
-you are viewing this site outside of egroupware	bookmarks	sl	Ta stran je prikazana izven EGW
+you are viewing this site outside of egroupware	bookmarks	sl	Ta stran je prikazana izven EGroupware
 you must select a category	bookmarks	sl	Kategorijo morate izbrati
 you need to select a category!	bookmarks	sl	Izbrati morate kategorijo!

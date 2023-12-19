@@ -1,11 +1,15 @@
 %1 bookmarks have been deleted	bookmarks	tr	%1 favori silindi
 %1 bookmarks imported from %2 successfully.	bookmarks	tr	%2'den %1 favori başarıyla ithal edildi.
+%s bookmarks selected for export	bookmarks	tr	Dışa aktarma için %s yer imi seçildi.
 (comma separate multiple addresses)	bookmarks	tr	(virgülle ayrılmış çoklu adres)
+(selecting a category includes all sub-categories)	bookmarks	tr	Bir kategori seçmek tüm alt kategorileri içerir
 actions	bookmarks	tr	Eylemler
+add bookmark	bookmarks	tr	Yer imi ekle
 added	bookmarks	tr	Eklendi
 all bookmarks	bookmarks	tr	Bütün favoriler
 and	bookmarks	tr	Ve
-append this message to mailed bookmarks	bookmarks	tr	Bu mesajı maillenmiş favorilere ekle
+append this message to mailed bookmarks	bookmarks	tr	Bu mesajı postayla gönderilen yer imlerine ekleyin:
+apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	tr	Eylemi yalnızca gösterilen yer imlerine DEĞİL, tüm sorguya uygulayın!
 ascending	bookmarks	tr	Artan
 book marks	common	tr	Favoriler
 bookmark changed sucessfully	bookmarks	tr	Favori başarı ile değiştirildi
@@ -16,14 +20,18 @@ bookmark not readable	bookmarks	tr	Favori okunabilir değil
 bookmarks	common	tr	Favoriler
 bookmarks settings	bookmarks	tr	Favori Ayarları
 change bookmark	bookmarks	tr	Favori Değiştir
+choose the categories to display	bookmarks	tr	Görüntülenecek kategorileri seçin
+choose the categories to expand in the initial view	bookmarks	tr	İlk görünümde genişletilecek kategorileri seçin
 close this window to return	bookmarks	tr	Geri dönmek için bu pencereyi kapatınız
 create bookmark	bookmarks	tr	Favori oluştur
 create new bookmark	bookmarks	tr	Yeni favori oluştur
+created	bookmarks	tr	Oluşturuldu
 custom fields	bookmarks	tr	Özel Alanlar
 date added	bookmarks	tr	Eklenme tarihi
 date changed	bookmarks	tr	Değiştirilme tarihi
 date last updated	bookmarks	tr	Son güncelleme tarihi
 date last visited	bookmarks	tr	Son ziyaret tarihi
+default view for bookmarks	bookmarks	tr	Yer imleri için varsayılan görünüm
 descending	bookmarks	tr	Azalan
 edit bookmark	bookmarks	tr	Favori düzenle
 edit this bookmark	bookmarks	tr	Favoriyi düzenle
@@ -32,16 +40,18 @@ export	bookmarks	tr	İhraç Et
 export bookmarks	common	tr	Favorileri İhraç Et
 fewer	bookmarks	tr	Daha Az
 filter by	bookmarks	tr	Süzgeç Tipi
-found a link you might like	bookmarks	tr	Sevebileceğiniz bir link bulundu
+found a link you might like	bookmarks	tr	Sizin için ilginç bağlantı(lar)
 from	bookmarks	tr	Nereden
 from category %1	bookmarks	tr	%1 kategorisinden
 global categories	bookmarks	tr	Genel kategoriler
 highest	bookmarks	tr	En yüksek
-i thought you would be interested in the following link(s):	bookmarks	tr	Aşağıdaki linklerle ilgilenebileceğinizi düşündüm:
+i thought you would be interested in the following link(s):	bookmarks	tr	Aşağıdaki bağlantı(lar) ile ilgileneceğinizi düşündüm:
 import bookmarks	common	tr	Favorileri İhraç Et
-like	bookmarks	tr	benzer
-list view	bookmarks	tr	liste görünümü
+last modified	bookmarks	tr	Son değişiklik
+like	bookmarks	tr	Benzer
+list view	bookmarks	tr	Liste görünümü
 lowest	bookmarks	tr	En düşük
+mail	bookmarks	tr	E-posta
 mail this bookmark	bookmarks	tr	Bu favoriyi maille
 mail-this-link message sent to %1.	bookmarks	tr	Mesaj %1'e gönderildi.
 mass update:	bookmarks	tr	Yığın güncelleme:
@@ -50,10 +60,12 @@ more	bookmarks	tr	Daha fazla
 name	bookmarks	tr	İsim
 name is required	bookmarks	tr	İsim gereklidir
 netscape / firefox	bookmarks	tr	HTML
-netscape bookmark file	bookmarks	tr	Netscape favori dosyası
-netscape bookmark filename is required!	bookmarks	tr	Netscape favori dosyası gereklidir!
+netscape bookmark file	bookmarks	tr	HTML yer imi dosyası
+netscape bookmark filename is required!	bookmarks	tr	HTML yer imi dosya adı gereklidir!
 netscape/mozilla	bookmarks	tr	HTML
 new	bookmarks	tr	Yeni
+note: you can use bookmark files exported as html	bookmarks	tr	Not: HTML olarak dışa aktarılan yer imi dosyalarını kullanabilirsiniz.
+old fixed definition	bookmarks	tr	Eski sabit tanım
 or	bookmarks	tr	ya da
 please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	tr	Lütfen <b>Alıcı E-mail Adresi</b>, <b>Konu</b> ve <b>Mesaj</b> alanlarını doldurunuz!
 please select the categories to export	bookmarks	tr	İhraç edilecek kategorileri seçiniz
@@ -63,17 +75,20 @@ search for:	bookmarks	tr	Arama yap:
 select the format you would like to export to	bookmarks	tr	İhraç etmek istediğiniz formatı seçiniz
 send bookmark	bookmarks	tr	Favori gönder
 sub category	bookmarks	tr	Alt kategori
-to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	tr	Alıcı adresi %1 geçerli bi adres değildir. Format <strong>user@domain</strong> şeklinde olmalıdır ve domain mutlaka bulunmalıdır!
+sub-folders will create new categories	bookmarks	tr	Alt klasörler yeni kategoriler oluşturacaktır
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	tr	Alıcı adresi %1 geçerli bi adres değildir. Format <b>user@domain</b> şeklinde olmalıdır ve domain mutlaka bulunmalıdır!
 to e-mail addresses	bookmarks	tr	Alıcı Adresler
 to which category should the imported folder hierarchy be attached	bookmarks	tr	İthal edilen klasör hangi kategoriye iliştirilecek
-total visits	bookmarks	tr	toplam ziyaret
+total visits	bookmarks	tr	Toplam ziyaret
 tree view	bookmarks	tr	Ağaç görünümü
 unable to open temp file %1 for import.	bookmarks	tr	Geçici dosya %1 ithal etmek için açılamıyor.
 updated	bookmarks	tr	Güncelle
+url "%1" already exists!	bookmarks	tr	URL "%1" zaten mevcut!
 url is required.	bookmarks	tr	URL gereklidir.
 view bookmark	bookmarks	tr	Favori görüntüle
 view this bookmark	bookmarks	tr	Bu favoriyi görüntüle
+visit	bookmarks	tr	Ziyaret etmek
 warning	bookmarks	tr	Uyarı
 xbel	bookmarks	tr	XBEL
-you are viewing this site outside of egroupware	bookmarks	tr	Bu siteyi eGroupWare dışında görüntülüyorsunuz
+you are viewing this site outside of egroupware	bookmarks	tr	Bu siteyi EGroupware dışında görüntülüyorsunuz
 you must select a category	bookmarks	tr	Bir kategori seçmelisiniz

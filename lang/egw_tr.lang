@@ -25,6 +25,7 @@ choose the categories to expand in the initial view	bookmarks	tr	İlk görünüm
 close this window to return	bookmarks	tr	Geri dönmek için bu pencereyi kapatınız
 create bookmark	bookmarks	tr	Favori oluştur
 create new bookmark	bookmarks	tr	Yeni favori oluştur
+create new links	bookmarks	tr	Yeni bağlantılar oluşturun
 created	bookmarks	tr	Oluşturuldu
 custom fields	bookmarks	tr	Özel Alanlar
 date added	bookmarks	tr	Eklenme tarihi
@@ -45,6 +46,7 @@ from	bookmarks	tr	Nereden
 from category %1	bookmarks	tr	%1 kategorisinden
 global categories	bookmarks	tr	Genel kategoriler
 highest	bookmarks	tr	En yüksek
+history	bookmarks	tr	Tarih
 i thought you would be interested in the following link(s):	bookmarks	tr	Aşağıdaki bağlantı(lar) ile ilgileneceğinizi düşündüm:
 import bookmarks	common	tr	Favorileri İhraç Et
 last modified	bookmarks	tr	Son değişiklik
@@ -53,9 +55,9 @@ list view	bookmarks	tr	Liste görünümü
 lowest	bookmarks	tr	En düşük
 mail	bookmarks	tr	E-posta
 mail this bookmark	bookmarks	tr	Bu favoriyi maille
-mail-this-link message sent to %1.	bookmarks	tr	Mesaj %1'e gönderildi.
+mail-this-link message sent to %1.	bookmarks	tr	Mesaj %1'e gönderildi
 mass update:	bookmarks	tr	Yığın güncelleme:
-message from	bookmarks	tr	Mesaj sahibi:
+message from	bookmarks	tr	Mesaj sahibi
 more	bookmarks	tr	Daha fazla
 name	bookmarks	tr	İsim
 name is required	bookmarks	tr	İsim gereklidir
@@ -72,6 +74,8 @@ please select the categories to export	bookmarks	tr	İhraç edilecek kategoriler
 query condition	bookmarks	tr	Sorgu Durumu
 rating	bookmarks	tr	Derece
 search for:	bookmarks	tr	Arama yap:
+select an action	bookmarks	tr	Bir eylem seçin
+select an action...	bookmarks	tr	Bir eylem seçin ...
 select the format you would like to export to	bookmarks	tr	İhraç etmek istediğiniz formatı seçiniz
 send bookmark	bookmarks	tr	Favori gönder
 sub category	bookmarks	tr	Alt kategori
@@ -82,9 +86,10 @@ to which category should the imported folder hierarchy be attached	bookmarks	tr	
 total visits	bookmarks	tr	Toplam ziyaret
 tree view	bookmarks	tr	Ağaç görünümü
 unable to open temp file %1 for import.	bookmarks	tr	Geçici dosya %1 ithal etmek için açılamıyor.
-updated	bookmarks	tr	Güncelle
+unknown format	bookmarks	tr	Bilinmeyen format
+updated	bookmarks	tr	Güncelle.
 url "%1" already exists!	bookmarks	tr	URL "%1" zaten mevcut!
-url is required.	bookmarks	tr	URL gereklidir.
+url is required.	bookmarks	tr	URL gereklidir
 view bookmark	bookmarks	tr	Favori görüntüle
 view this bookmark	bookmarks	tr	Bu favoriyi görüntüle
 visit	bookmarks	tr	Ziyaret etmek
@@ -92,3 +97,4 @@ warning	bookmarks	tr	Uyarı
 xbel	bookmarks	tr	XBEL
 you are viewing this site outside of egroupware	bookmarks	tr	Bu siteyi EGroupware dışında görüntülüyorsunuz
 you must select a category	bookmarks	tr	Bir kategori seçmelisiniz
+you need to select a category!	bookmarks	tr	Bir kategori seçmeniz gerekiyor!

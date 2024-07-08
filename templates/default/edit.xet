@@ -116,18 +116,6 @@
 			</rows>
 		</grid>
 	</template>
-	<template id="bookmarks.edit.custom" template="" lang="" group="0" version="">
-		<grid>
-			<columns>
-				<column/>
-			</columns>
-			<rows>
-				<row>
-					<customfields/>
-				</row>
-			</rows>
-		</grid>
-	</template>
 	<template id="bookmarks.edit.history" template="" lang="" group="0" version="">
 		<historylog id="history"/>
 	</template>
@@ -144,14 +132,12 @@
 							<tab id="general" label="General"/>
 							<tab id="details" label="Details"/>
 							<tab id="links" label="Links"/>
-							<tab id="custom" label="Custom fields"/>
 							<tab id="history" label="History"/>
 						</tabs>
 						<tabpanels>
 							<template id="bookmarks.edit.general"/>
 							<template id="bookmarks.edit.details"/>
 							<template id="bookmarks.edit.links"/>
-							<template id="bookmarks.edit.custom"/>
 							<template id="bookmarks.edit.history"/>
 						</tabpanels>
 					</et2-tabbox>

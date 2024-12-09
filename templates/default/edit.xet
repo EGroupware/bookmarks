@@ -149,7 +149,7 @@
 						<et2-button  label="Apply" id="apply"></et2-button>
 						<et2-button  label="Cancel" id="cancel" onclick="window.close();"></et2-button>
 					</et2-hbox>
-					<et2-button  align="right" label="Delete" id="delete" onclick="et2_dialog.confirm(widget,'Delete this entry','Delete')"></et2-button>
+                    <et2-button align="right" label="Delete" id="delete" onclick="Et2Dialog.confirm(widget,'Delete this entry','Delete')"></et2-button>
 				</row>
 			</rows>
 		</grid>

@@ -61,10 +61,14 @@
 			</rows>
 		</grid>
 	</template>
-	<template id="bookmarks.list.add" template="" lang="" group="0" version="1.7.001">
+	<template id="bookmarks.list.header" template="" lang="" group="0" version="1.7.001">
 		<et2-button  label="Add" id="add" onclick="egw.open('','bookmarks','add');" noSubmit="true"></et2-button>
+		<et2-template template="api.search-button"></et2-template>
+		<et2-select-cat id="cat_id" ariaLabel="Category" onchange="app.timesheet.changeNmFilter"/>
+		<et2-button image="tree" label="Treeview" onclick="egw.open_link('bookmarks.bookmarks_ui.tree&amp;ajax=true')" noSubmit="true"></et2-button>
 	</template>
 	<template id="bookmarks.list" template="" lang="" group="0" version="1.9.001">
-		<nextmatch id="nm" options="bookmarks.list.row" header_left="bookmarks.list.add"/>
+		<et2-template template="bookmarks.list.header" slot="main-header"></et2-template>
+		<nextmatch id="nm" options="bookmarks.list.row"/>
 	</template>
 </overlay>

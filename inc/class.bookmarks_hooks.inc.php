@@ -60,21 +60,18 @@ class bookmarks_hooks
 			// Magic etemplate2 favorites menu (from nextmatch widget)
 			display_sidebox($appname, lang('Favorites'), Framework\Favorites::list_favorites('bookmarks'));
 
-			$file = Array(
-				'Tree view'        => $GLOBALS['egw']->link('/index.php','menuaction=bookmarks.bookmarks_ui.tree&ajax=true'),
-				'List view'        => $GLOBALS['egw']->link('/index.php','menuaction=bookmarks.bookmarks_ui._list&ajax=true'),
-				'Add bookmark'     => "javascript:egw_openWindowCentered2('".Egw::link('/index.php',array(
-						'menuaction' => 'bookmarks.bookmarks_ui.create'
-					),false)."','_blank',750,300,'yes');",
-				['text'=>'--'],
-				'Import Bookmarks' => "javascript:egw.openPopup('".Egw::link('/index.php',array(
-						'menuaction'=>'bookmarks.bookmarks_ui.import'
-					),false)."',500,150,'_blank',false,false,'yes');",
-				'Export Bookmarks' => "javascript:egw.openPopup('".Egw::link('/index.php',array(
-						'menuaction'=>'bookmarks.bookmarks_ui.export'
-					),false)."',500,150,'_blank',false,false,'yes');"
-			);
-			display_sidebox($appname,$GLOBALS['egw_info']['apps']['bookmarks']['title'].' '.lang('Menu'),$file);
+			display_sidebox($appname, lang('Import Bookmarks'), [
+				[
+					'link' => "javascript:egw.openPopup('" .
+						Egw::link('/index.php', array('menuaction' => 'bookmarks.bookmarks_ui.import'), false) .
+						"',500,150,'_blank',false,false,'yes');"
+				]]);
+			display_sidebox($appname, lang('Export Bookmarks'), [
+				[
+					'link' => "javascript:egw.openPopup('" .
+						Egw::link('/index.php', array('menuaction' => 'bookmarks.bookmarks_ui.export'), false) .
+						"',500,150,'_blank',false,false,'yes');"
+				]]);
 		}
 
 		if ($GLOBALS['egw_info']['user']['apps']['admin'] && $location != 'preferences')

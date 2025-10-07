@@ -90,7 +90,7 @@ class bookmarks_hooks
 			}
 			else
 			{
-				$GLOBALS['egw']->framework->sidebox($appname,lang('Admin'),$file,'admin');
+				//$GLOBALS['egw']->framework->sidebox($appname,lang('Admin'),$file,'admin');
 			}
 		}
 	}

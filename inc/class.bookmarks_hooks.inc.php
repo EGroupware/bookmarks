@@ -58,15 +58,15 @@ class bookmarks_hooks
 		if ($location == 'sidebox_menu')
 		{
 			// Magic etemplate2 favorites menu (from nextmatch widget)
-			display_sidebox($appname, lang('Favorites'), Framework\Favorites::list_favorites('bookmarks'));
+			$GLOBALS['egw']->framework->sidebox($appname, lang('Favorites'), Framework\Favorites::list_favorites('bookmarks'));
 
-			display_sidebox($appname, lang('Import Bookmarks'), [
+			$GLOBALS['egw']->framework->sidebox($appname, lang('Import Bookmarks'), [
 				[
 					'link' => "javascript:egw.openPopup('" .
 						Egw::link('/index.php', array('menuaction' => 'bookmarks.bookmarks_ui.import'), false) .
 						"',500,150,'_blank',false,false,'yes');"
 				]]);
-			display_sidebox($appname, lang('Export Bookmarks'), [
+			$GLOBALS['egw']->framework->sidebox($appname, lang('Export Bookmarks'), [
 				[
 					'link' => "javascript:egw.openPopup('" .
 						Egw::link('/index.php', array('menuaction' => 'bookmarks.bookmarks_ui.export'), false) .

@@ -62,12 +62,14 @@ class bookmarks_hooks
 
 			$GLOBALS['egw']->framework->sidebox($appname, lang('Import Bookmarks'), [
 				[
+					'icon' => 'import',
 					'link' => "javascript:egw.openPopup('" .
 						Egw::link('/index.php', array('menuaction' => 'bookmarks.bookmarks_ui.import'), false) .
 						"',500,150,'_blank',false,false,'yes');"
 				]]);
 			$GLOBALS['egw']->framework->sidebox($appname, lang('Export Bookmarks'), [
 				[
+					'icon' => 'export',
 					'link' => "javascript:egw.openPopup('" .
 						Egw::link('/index.php', array('menuaction' => 'bookmarks.bookmarks_ui.export'), false) .
 						"',500,150,'_blank',false,false,'yes');"

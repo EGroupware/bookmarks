@@ -41,6 +41,7 @@ class bookmarks_hooks
 			'add_app'    => 'bookmarks',
 			'add_id'     => 'bm_id',
 			'add_popup'  => '750x440',
+			'file_access'=> 'bookmarks.bookmarks_bo.check_perms',
 		);
 	}
 

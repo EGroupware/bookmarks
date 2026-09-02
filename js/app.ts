@@ -38,7 +38,7 @@ class BookmarksApp extends EgwApp
 	constructor()
 	{
 		// call parent
-		super();
+		super('bookmarks');
 	}
 
 	/**
@@ -93,10 +93,10 @@ class BookmarksApp extends EgwApp
 	 */
 	observer(_msg, _app, _id, _type, _msg_type, _links)
 	{
-		var tree = this.et2.getWidgetById('tree');
+		const tree = this.et2.getWidgetById('tree');
 		if (tree)
 		{
-			var itemId = _id != 'undefined'?_app+"::"+_id:0;
+			const itemId = _id != 'undefined'?_app+"::"+_id:0;
 			switch (_type)
 			{
 				case 'update':
@@ -115,10 +115,10 @@ class BookmarksApp extends EgwApp
 	tree_onclick(_id, _widget)
 	{
 		// Get the bookmark id
-		var id = _id.split('/bookmarks-');
-		if (id) id = id[id.length-1];
-		
-		var url = _widget.getUserData(_id,'url');
+		const idParts = _id.split('/bookmarks-');
+		const id = idParts[idParts.length-1];
+
+		const url = _widget.getUserData(_id,'url');
 
 		if (url) this.egw.open_link(this.egw.link('/index.php','menuaction=bookmarks.bookmarks_ui.redirect&bm_id='+id),'_blank');
 	}
@@ -130,17 +130,10 @@ class BookmarksApp extends EgwApp
 	 */
 	tree_action(_action, _selected)
 	{
-		var id = '';
-		if (_selected[0].id.match(/\/bookmarks-/ig))
-		{
-			// Get the bookmark id
-			id = _selected[0].id.split('/bookmarks-');
-		}
-		else
-		{
-			id = _selected[0].id.split('/');
-		}
-		if (id) id = id[id.length-1];
+		// Get the bookmark id
+		const idParts = _selected[0].id.match(/\/bookmarks-/ig) ?
+			_selected[0].id.split('/bookmarks-') : _selected[0].id.split('/');
+		const id = idParts[idParts.length-1];
 
 		switch (_action.id)
 		{
@@ -156,7 +149,7 @@ class BookmarksApp extends EgwApp
 					750,300,'_blank');
 				break;
 			case 'mailto':
-				var selected = [];
+				const selected = [];
 				selected.push({id:_selected[0].id,source:'tree'});
 				this.mail(_action,selected);
 				break;
@@ -191,21 +184,21 @@ class BookmarksApp extends EgwApp
 	 */
 	mail(action, selected)
 	{
-		var settings = {
+		const settings = {
 			"preset[mimeType]": 'html',
 			"preset[subject]": this.egw.lang('Found a link you might like'),
 			"preset[body]": this.egw.lang('I thought you would be interested in the following link(s):')+"<br />\n"
 		};
-		
+
 		// Get bookmark information from data store
-		for(var i = 0; i < selected.length; i++)
+		for(let i = 0; i < selected.length; i++)
 		{
-			var data = egw.dataGetUIDdata(selected[i].id);
+			let data = egw.dataGetUIDdata(selected[i].id);
 			if (typeof data == 'undefined' && typeof selected[i].source != 'undefined'&& selected[i].source=='tree')
 			{
-				var tree = this.et2.getWidgetById('tree');
-				var _url = tree.getUserData(selected[i].id,'url');
-				var _desc = tree.getLabel(selected[i].id);
+				const tree = this.et2.getWidgetById('tree');
+				const _url = tree.getUserData(selected[i].id,'url');
+				const _desc = tree.getLabel(selected[i].id);
 				data = {data:{url:_url,name:_desc,desc:''}};
 			}
 			if(data && data.data)

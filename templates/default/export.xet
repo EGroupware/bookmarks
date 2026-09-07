@@ -16,7 +16,7 @@
 				</row>
 				<row>
 					<et2-description  value="(Selecting a category includes all sub-categories)"></et2-description>
-					<et2-tree-cat  id="category" multiple="true"></et2-tree-cat>
+					<et2-select-cat  id="category" multiple="true"></et2-select-cat>
 				</row>
 				<row>
 					<et2-description  value="Export format"></et2-description>

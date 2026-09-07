@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2.0//EN" "https://www.egroupware.org/etemplate2.0.dtd">
 <overlay>
-	<template id="bookmarks.edit.general" template="" lang="" group="0" version="1.9.001">
+	<et2-template  id="bookmarks.edit.general" template="" lang="" group="0" version="1.9.001">
 		<grid width="100%">
 			<columns>
 				<column width="200px"/>
@@ -27,8 +27,7 @@
 					<et2-textbox  id="name" maxlength="255" span="all" required="1"></et2-textbox>
 				</row>
 				<row valign="top">
-					<et2-description  value="Description"></et2-description>
-					<et2-textarea  id="desc" span="all"></et2-textarea>
+					<et2-description  value="Description"></et2-description><et2-ai  span="all"><et2-textarea  id="desc"></et2-textarea></et2-ai>
 				</row>
 				<row>
 					<et2-description  value="Keywords"></et2-description>
@@ -63,8 +62,8 @@
 				</row>
 			</rows>
 		</grid>
-	</template>
-	<template id="bookmarks.edit.details" template="" lang="" group="0" version="">
+	</et2-template>
+	<et2-template  id="bookmarks.edit.details" template="" lang="" group="0" version="">
 		<grid border="0">
 			<columns>
 				<column width="200px"/>
@@ -93,8 +92,8 @@
 				</row>
 			</rows>
 		</grid>
-	</template>
-	<template id="bookmarks.edit.links" template="" lang="" group="0" version="">
+	</et2-template>
+	<et2-template  id="bookmarks.edit.links" template="" lang="" group="0" version="">
 		<grid width="100%">
 			<columns>
 				<column width="100"/>
@@ -115,11 +114,11 @@
 				</row>
 			</rows>
 		</grid>
-	</template>
-	<template id="bookmarks.edit.history" template="" lang="" group="0" version="">
+	</et2-template>
+	<et2-template  id="bookmarks.edit.history" template="" lang="" group="0" version="">
 		<historylog id="history"/>
-	</template>
-	<template id="bookmarks.edit" template="" lang="" group="0" version="1.9.001">
+	</et2-template>
+	<et2-template  id="bookmarks.edit" template="" lang="" group="0" version="1.9.001">
 		<grid width="100%">
 			<columns>
 				<column/>
@@ -135,10 +134,10 @@
 							<tab id="history" label="History"/>
 						</tabs>
 						<tabpanels>
-							<template id="bookmarks.edit.general"/>
-							<template id="bookmarks.edit.details"/>
-							<template id="bookmarks.edit.links"/>
-							<template id="bookmarks.edit.history"/>
+							<et2-template  id="bookmarks.edit.general"></et2-template>
+							<et2-template  id="bookmarks.edit.details"></et2-template>
+							<et2-template  id="bookmarks.edit.links"></et2-template>
+							<et2-template  id="bookmarks.edit.history"></et2-template>
 						</tabpanels>
 					</et2-tabbox>
 				</row>
@@ -149,9 +148,9 @@
 						<et2-button  label="Apply" id="apply"></et2-button>
 						<et2-button  label="Cancel" id="cancel" onclick="window.close();"></et2-button>
 					</et2-hbox>
-                    <et2-button align="right" label="Delete" id="delete" onclick="Et2Dialog.confirm(widget,'Delete this entry','Delete')"></et2-button>
+                    <et2-button  align="right" label="Delete" id="delete" onclick="Et2Dialog.confirm(widget,'Delete this entry','Delete')"></et2-button>
 				</row>
 			</rows>
 		</grid>
-	</template>
+	</et2-template>
 </overlay>

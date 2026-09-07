@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2.0//EN" "https://www.egroupware.org/etemplate2.0.dtd">
 <overlay>
-	<template id="bookmarks.config" template="" lang="" group="0" version="16.1">
+	<et2-template  id="bookmarks.config" template="" lang="" group="0" version="16.1">
 		<grid width="100%" class="admin-config egwGridView_grid">
 			<columns>
 				<column width="60%"/>
@@ -11,10 +11,9 @@
 				<row>
 					<et2-description  value="Append this message to mailed bookmarks" span="all"></et2-description>
 				</row>
-				<row>
-					<et2-textarea  id="newsettings[mail_footer]" rows="7" cols="50" wrap="hard"></et2-textarea>
+				<row><et2-ai><et2-textarea  id="newsettings[mail_footer]" rows="7" cols="50" wrap="hard"></et2-textarea></et2-ai>
 				</row>
 			</rows>
 		</grid>
-	</template>
+	</et2-template>
 </overlay>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2.0//EN" "https://www.egroupware.org/etemplate2.0.dtd">
 <overlay>
-	<template id="bookmarks.import" template="" lang="" group="0" version="1.7.001">
+	<et2-template  id="bookmarks.import" template="" lang="" group="0" version="1.7.001">
 		<grid>
 			<columns>
 				<column/>
@@ -10,7 +10,7 @@
 			<rows>
 				<row class="dialogHeader">
 					<et2-description  value="Bookmark file"></et2-description>
-					<file id="file"/>
+					<et2-file  id="file"></et2-file>
 				</row>
 				<row class="th">
 					<et2-description  value="Note: You can use bookmark files exported as HTML" span="all" class="help"></et2-description>
@@ -36,5 +36,5 @@
 				</row>
 			</rows>
 		</grid>
-	</template>
+	</et2-template>
 </overlay>

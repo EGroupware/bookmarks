@@ -6,3 +6,8 @@
 #bookmarks-tree_add {
 	float: right;
 }
+
+/* the tree view is taller than the window once a few categories are open, let it scroll */
+form#bookmarks-tree {
+	overflow-y: auto;
+}

@@ -502,7 +502,8 @@ class bookmarks_ui
 			$sub_cats = (array)$this->bo->categories->return_array( 'all' , 0, false, '', 'ASC', 'cat_name', true, $cat_id );
 
 			$query = array(
-				'cat_id' =>	$cat_id
+				'cat_id' =>	$cat_id,
+				'num_rows' => -1,	// all bookmarks, 0 would limit them to the user's max matches preference
 			);
 			$bookmarks = array();
 			// query the database to get the parent's bookmarks

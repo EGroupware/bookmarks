@@ -110,7 +110,7 @@ class bookmarks_so extends Api\Storage
 		parent::update(array(
 			'bm_id'=> $id,
 			'visited'=> $timestamp ? $timestamp : time(),
-			'bm_visits=bm_visits+1'
+			Api\Db\SqlFragment::raw('bm_visits=bm_visits+1')
 		), true);
 	}
 
@@ -229,8 +229,8 @@ class bookmarks_so extends Api\Storage
 		}
 
 		// Permissions
-		$filter[] = "(bm_access = 'public' OR bm_owner = " . (int)$GLOBALS['egw_info']['user']['account_id'] .
-			($grants ? ' OR bm_owner IN (' . implode(',', $grants) . ')' : '') . ')';
+		$filter[] = Api\Db\SqlFragment::raw("(bm_access = 'public' OR bm_owner = " . (int)$GLOBALS['egw_info']['user']['account_id'] .
+			($grants ? ' OR bm_owner IN (' . implode(',', $grants) . ')' : '') . ')');
 
 		return parent::search($criteria,$only_keys,$order_by,$extra_cols,$wildcard,$empty,$op,$start,$filter,$join,$need_full_no_count);
 	}

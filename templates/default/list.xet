@@ -17,25 +17,25 @@
 				<row class="th" valign="bottom">
 					<et2-description></et2-description>
 					<et2-vbox>
-						<nextmatch-sortheader label="Name" id="bm_name"/>
-						<nextmatch-sortheader label="Description" id="bm_desc"/>
+						<et2-nextmatch-sortheader  label="Name" id="bm_name"></et2-nextmatch-sortheader>
+						<et2-nextmatch-sortheader  label="Description" id="bm_desc"></et2-nextmatch-sortheader>
 					</et2-vbox>
 					<et2-vbox>
 						<et2-nextmatch-header  label="Category" id="category"></et2-nextmatch-header>
-						<nextmatch-sortheader label="Rating" id="bm_rating"/>
+						<et2-nextmatch-sortheader  label="Rating" id="bm_rating"></et2-nextmatch-sortheader>
 					</et2-vbox>
 					<et2-nextmatch-header  label="Keywords" id="bm_keywords"></et2-nextmatch-header>
-					<nextmatch-customfields id="customfields"/>
+					<et2-nextmatch-header-customfields  id="customfields" app="bookmarks"></et2-nextmatch-header-customfields>
 					<et2-vbox>
-						<nextmatch-sortheader label="Last visited" id="visited"/>
-						<nextmatch-sortheader label="Total visits" id="bm_visits"/>
+						<et2-nextmatch-sortheader  label="Last visited" id="visited"></et2-nextmatch-sortheader>
+						<et2-nextmatch-sortheader  label="Total visits" id="bm_visits"></et2-nextmatch-sortheader>
 					</et2-vbox>
 					<et2-vbox>
-						<nextmatch-sortheader label="Created" id="added"/>
-						<nextmatch-sortheader label="Last modified" id="updated"/>
+						<et2-nextmatch-sortheader  label="Created" id="added"></et2-nextmatch-sortheader>
+						<et2-nextmatch-sortheader  label="Last modified" id="updated"></et2-nextmatch-sortheader>
 					</et2-vbox>
 				</row>
-				<row class="row">
+				<row class="row $row_cont[category]">
 					<et2-image  align="center" label="$row_cont[name]" src="${row}[favicon]" href="$row_cont[url]" class="favicon"></et2-image>
 					<et2-vbox>
 						<et2-hbox>
@@ -48,7 +48,7 @@
 						<et2-image  statustext="Rating of this site" src="bar-$row_cont[rating]"></et2-image>
 					</et2-vbox>
 					<et2-description  id="${row}[keywords]"></et2-description>
-					<customfields-list id="$row" class="customfields"/>
+					<et2-customfields-list  id="$row" class="customfields" app="bookmarks"></et2-customfields-list>
 					<et2-vbox>
 						<et2-date-time  id="${row}[visited]" readonly="true"></et2-date-time>
 						<et2-description  id="${row}[visits]" noLang="1"></et2-description>
@@ -61,15 +61,16 @@
 				</row>
 			</rows>
 		</grid>
+		<et2-styles src="rows.css"></et2-styles>
 	</et2-template>
 	<et2-template  id="bookmarks.list.header" template="" lang="" group="0" version="1.7.001">
-		<et2-button  label="Add" id="add" onclick="egw.open('','bookmarks','add');" noSubmit="true"></et2-button>
+		<et2-button-icon  statustext="Add" image="add" id="add" onclick="egw.open('','bookmarks','add');" noSubmit="true"></et2-button-icon>
 		<et2-template  template="api.search-button"></et2-template>
-		<et2-select-cat  id="cat_id" ariaLabel="Category" onchange="app.timesheet.changeNmFilter"/>
+		<et2-select-cat  id="cat_id" ariaLabel="Category" onchange="app.bookmarks.changeNmFilter"/>
 		<et2-button  image="tree" label="Treeview" onclick="egw.open_link('bookmarks.bookmarks_ui.tree&amp;ajax=true')" noSubmit="true"></et2-button>
 	</et2-template>
 	<et2-template  id="bookmarks.list" template="" lang="" group="0" version="1.9.001">
 		<et2-template  template="bookmarks.list.header" slot="main-header"></et2-template>
-		<nextmatch id="nm" options="bookmarks.list.row"/>
+		<et2-nextmatch  id="nm" template="bookmarks.list.row"></et2-nextmatch>
 	</et2-template>
 </overlay>

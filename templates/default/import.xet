@@ -2,40 +2,18 @@
 <?xml-model href="../../../doc/etemplate2/etemplate2.0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2.0//EN" "https://www.egroupware.org/etemplate2.0.dtd">
 <overlay>
-	<et2-template  id="bookmarks.import" template="" lang="" group="0" version="1.7.001">
-		<grid>
-			<columns>
-				<column/>
-				<column/>
-			</columns>
-			<rows>
-				<row class="dialogHeader">
-					<et2-description  value="Bookmark file"></et2-description>
-					<et2-file  id="file"></et2-file>
-				</row>
-				<row class="th">
-					<et2-description  value="Note: You can use bookmark files exported as HTML" span="all" class="help"></et2-description>
-					<et2-select  id="type" emptyLabel="Netscape / Firefox"></et2-select>
-				</row>
-				<row>
-					<et2-description  value="Import under category"></et2-description>
-					<et2-select-cat  id="category"></et2-select-cat>
-				</row>
-				<row class="th">
-					<et2-description  value="Sub-folders will create new categories" span="all" class="help"></et2-description>
-					<et2-description></et2-description>
-				</row>
-				<row>
-					<et2-description></et2-description>
-					<et2-description></et2-description>
-				</row>
-				<row class="dialogFooterToolbar">
-					<et2-hbox  span="all">
-						<et2-button  label="Import" id="import" span="all"></et2-button>
-						<et2-button  label="Cancel" id="cancel" onclick="window.close();"></et2-button>
-					</et2-hbox>
-				</row>
-			</rows>
-		</grid>
+	<et2-template  id="bookmarks.import" template="" lang="" group="0" version="1.7.001" layout="edit" style="--label-width:12em; --column-min-width:14em">
+		<et2-hbox  class="dialogHeader">
+			<et2-file  label="Bookmark file" class="et2-label-fixed" id="file"></et2-file>
+		</et2-hbox>
+		<et2-hbox  span="all">
+			<et2-description  value="Note: You can use bookmark files exported as HTML" class="help"></et2-description>
+		</et2-hbox>
+		<et2-select  id="type" emptyLabel="Netscape / Firefox" span="all"></et2-select>
+		<et2-select-cat  label="Import under category" id="category" span="all" style="margin-bottom:1.5em" helpText="Sub-folders will create new categories"></et2-select-cat>
+		<et2-hbox  class="dialogFooterToolbar">
+			<et2-button  label="Import" id="import"></et2-button>
+			<et2-button  label="Cancel" id="cancel" onclick="window.close();"></et2-button>
+		</et2-hbox>
 	</et2-template>
 </overlay>

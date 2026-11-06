@@ -252,18 +252,7 @@ class bookmarks_ui
 
 
 		if ($content['nm']['action']) {
-			switch ($content['nm']['action']) {
-				case 'delete':
-					$i = 0;
-					foreach($content['nm']['selected'] as $id) {
-						if ($this->bo->delete($id))
-						{
-							$i++;
-						}
-					}
-					Framework::message(lang('%1 bookmarks have been deleted',$i));
-					break;
-			}
+			Framework::message($this->action($content['nm']['action'], (array)$content['nm']['selected']));
 		}
 
 		$values['nm'] = Api\Cache::getSession('bookmarks', '_list');
@@ -341,6 +330,61 @@ class bookmarks_ui
 	*
 	* @return array see nextmatch_widget::egw_actions()
 	*/
+	/**
+	 * Apply an action to the selected bookmarks
+	 *
+	 * @param string $action
+	 * @param array $selected bm_ids
+	 * @return string message to show the user
+	 */
+	protected function action($action, array $selected)
+	{
+		switch ($action)
+		{
+			case 'delete':
+				$i = 0;
+				foreach($selected as $id)
+				{
+					// delete() returns false for a bookmark the user may not delete
+					if ($this->bo->delete($id))
+					{
+						$i++;
+					}
+				}
+				return lang('%1 bookmarks have been deleted', $i);
+		}
+		return lang("Unknown action '%1'!", $action);
+	}
+
+	/**
+	 * Run the bookmark list's Delete over ajax, so the list keeps its scroll position and
+	 * selection instead of being rebuilt
+	 *
+	 * $all_selected is accepted but not expanded: the loop above acts on exactly the ids it is
+	 * handed, which is what the submit it replaces did too.
+	 *
+	 * @param string $exec_id eTemplate request this came from - the only thing saying the caller
+	 *	had one of our pages open, see Api\Etemplate\Widget\Nextmatch::validateExecId()
+	 * @param string $action 'delete'
+	 * @param string[] $selected bm_ids
+	 * @param bool $all_selected
+	 */
+	public function ajax_action($exec_id, $action, array $selected, $all_selected=false)
+	{
+		if (!Api\Etemplate\Widget\Nextmatch::validateExecId($exec_id))
+		{
+			return;
+		}
+		$msg = $this->action($action, $selected);
+		// Naming the app in the 2nd argument makes egw.refresh() update the list itself: the
+		// "message only, a push will carry the change" sentinel needs something to send that
+		// push, and bookmarks never calls Link::notify_update().  Only one id fits in the 3rd
+		// argument, so the single-row update is only on when exactly one row changed.
+		$single = !$all_selected && count($selected) === 1;
+		Api\Json\Response::get()->call('egw.refresh', $msg, 'bookmarks',
+			$single ? $selected[0] : null, $single ? 'delete' : null, 'bookmarks');
+	}
+
 	protected function get_actions($type='user')
 	{
 		$actions = array(
@@ -381,6 +425,9 @@ class bookmarks_ui
 				'confirm_multiple' => 'Delete these entries',
 				'group' => ++$group,
 				'disableClass' => 'rowNoDelete',
+				// no 'menuaction' needed: bookmarks.bookmarks_ui.ajax_action is exactly the
+				// "<app>.<app>_ui.ajax_action" convention the client falls back to
+				'onExecute' => 'javaScript:app.bookmarks.ajax_action',
 			),
 		);
 

@@ -12,7 +12,7 @@
 	/api/js/jsapi/egw_app.js
  */
 
-import { EgwApp } from '../../api/js/jsapi/egw_app';
+import {EgwApp} from '../../api/js/jsapi/egw_app';
 
 /**
  * UI for bookmarks
@@ -159,19 +159,7 @@ class BookmarksApp extends EgwApp
 		}
 	}
 
-	/**
-	 * Set a state previously returned by getState
-	 *
-	 * Called by favorites to set a state saved as favorite.
-	 *
-	 * @param {object} state containing "name" attribute to be used as "favorite" GET parameter to a nextmatch
-	 */
-	setState(state, template? :string) : string|false
-	{
-		super.observer.apply(this,arguments);
-		return false;
-	}
-	
+
 	/**
 	 * Action handler to mail bookmarks
 	 * 

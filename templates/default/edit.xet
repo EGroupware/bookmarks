@@ -8,7 +8,7 @@
 			<et2-description  id="url" href="bookmarks.bookmarks_ui.redirect&amp;bm_id=$cont[id]" extraLinkTarget="_blank" style="flex:1"></et2-description>
 			<et2-image  src="@favicon" class="favicon"></et2-image>
 		</et2-hbox>
-		<et2-hbox  class="dialogHeader" hidden="!@edit">
+		<et2-hbox  class="dialogHeader" hidden="!@edit" disabled="!@edit">
 			<et2-textbox  label="URL" class="et2-label-fixed" style="flex:1" id="url" maxlength="255" required="1"></et2-textbox>
 			<et2-image  src="@favicon" class="favicon"></et2-image>
 		</et2-hbox>
